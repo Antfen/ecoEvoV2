@@ -1,0 +1,94 @@
+/* No files to import found in abstractions/**\/* */
+/* line 1, ../../../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/* line 11, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+.l-region--sidebar-first {
+  /* background: #ccc; */
+  background-color: green; }
+  /* line 15, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-region--sidebar-first h2.pane-title {
+    display: block;
+    margin-left: 1%;
+    font-size: 1.75em; }
+
+/* line 22, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+.l-header {
+  min-height: 100px; }
+
+/* line 26, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+.sidebar-intro {
+  height: 100px;
+  background-color: #000; }
+  /* line 31, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .sidebar-intro h2.htesty {
+    color: white;
+    font-weight: normal; }
+
+/* line 37, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+.l-page {
+  background: #fff;
+  color: #999; }
+  /* line 41, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-page a {
+    color: #666;
+    text-decoration: underline; }
+  /* line 46, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-page a:hover {
+    text-decoration: none; }
+  /* line 50, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-page h2 {
+    color: #000; }
+  /* line 54, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-page h3 {
+    color: #333; }
+  /* line 58, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-page h4 {
+    color: #333; }
+  /* line 62, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-page p, .l-page ul, .l-page ul li {
+    color: #666;
+    font-size: 18px; }
+  /* line 68, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-page .specification {
+    text-align: left; }
+    /* line 71, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+    .l-page .specification .image-max-width {
+      max-width: 600px;
+      margin: 0 auto; }
+  /* line 78, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-page .field--name-field-project-type {
+    font-size: 1.75em;
+    padding-bottom: 20px; }
+
+@media (min-width: 768px) {
+  /* line 91, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-page .field--name-field-project-type {
+    font-size: 2.0em; } }
+/* line 99, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+.l-content {
+  padding: 0 2.5%; }
+
+/* line 103, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+.l-footer {
+  background-color: #000; }
+  /* line 106, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-footer h2.pane-title {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: none 0; }
+  /* line 113, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-footer ul.menu li a {
+    color: #fff; }
+  /* line 119, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-footer .copyright p {
+    color: #fff; }
+
+@media (min-width: 768px) {
+  /* line 130, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  .l-footer h2.pane-title {
+    border-bottom: #fff 1px solid; } }
+
+/*# sourceMappingURL=eco-sidebar.layout.css.map */
