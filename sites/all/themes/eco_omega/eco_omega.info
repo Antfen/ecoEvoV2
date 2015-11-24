@@ -32,6 +32,12 @@ regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
 
 ; ========================================
+; Layouts
+; ========================================
+layout[sidebar][stylesheets][all][] = css/layouts/sidebar/eco-sidebar.layout.css
+layout[sidebar][stylesheets][all][] = css/layouts/home/eco-home.layout.css
+
+; ========================================
 ; Settings
 ; ========================================
 settings[toggle_logo] = 1
