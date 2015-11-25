@@ -24,12 +24,11 @@
     <?php print render($page['navigation']); ?>
   </header>
 
-  <div class="hp-intro">xxx</div>
-
-  <div class="hp-box">
-    <div class="hp-info-holder">
-        <h2>Marine migration coastal tracker</h2></div>
-    </div>
+  <div class="contact-intro">
+  <div class="contact-intro-wrapper">
+    <p>don't be coy</p>
+    <h2>LET'S CHAT!</h2></div>
+  </div>
 
   <div class="l-main">
     <div class="l-content" role="main">
