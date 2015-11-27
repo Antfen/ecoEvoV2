@@ -24,8 +24,6 @@
     <?php print render($page['navigation']); ?>
   </header>
 
-  <div class="hp-intro">xxx</div>
-
   <div class="hp-box">
     <div class="hp-info-holder">
         <h2>Marine migration coastal tracker</h2></div>
