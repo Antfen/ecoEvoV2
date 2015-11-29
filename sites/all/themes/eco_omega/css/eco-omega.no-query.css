@@ -167,7 +167,7 @@ img {
     width: 96%;
     margin: 0 2%;
     padding: 1%;
-    background-image: url("../../../images/hd-bg.png"); }
+    background-image: url("../../../images/img_site_structure/hd-bg.png"); }
     /* line 41, ../sass/base/_slider.scss */
     .l-page .flexslider .slider-inner .button_site {
       line-height: 1.0em;
@@ -273,7 +273,7 @@ body {
 /* line 10, ../sass/components/_navigation.scss */
 .mean-container .mean-nav {
   background: none;
-  background-image: url("../../../images/hd-bg.png") !important; }
+  background-image: url("../../../images/img_site_structure/hd-bg.png") !important; }
   /* line 14, ../sass/components/_navigation.scss */
   .mean-container .mean-nav ul li a {
     text-align: right;
@@ -411,7 +411,7 @@ body {
   height: 49px;
   position: fixed;
   width: 100%;
-  background-image: url("../../../images/hd-bg.png");
+  background-image: url("../../../images/img_site_structure/hd-bg.png");
   z-index: 200; }
   /* line 13, ../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
   .l-header:after {

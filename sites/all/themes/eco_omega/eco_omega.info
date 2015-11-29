@@ -32,7 +32,7 @@ regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
 
 ; ========================================
-; Layouts
+; Layout
 ; ========================================
 layout[home][stylesheets][all][] = css/layouts/home/eco-home.layout.css
 layout[contact][stylesheets][all][] = css/layouts/contact/eco-contact.layout.css
@@ -59,7 +59,7 @@ settings[favicon_path] = ""
 settings[favicon_upload] = ""
 settings[omega_enable_warning] = 1
 settings[omega_toggle_extension_layouts] = 0
-settings[omega_layout] = ""
+settings[omega_layout] = sidebar
 settings[omega_toggle_extension_development] = 1
 settings[omega_enable_export_reminder] = 1
 settings[omega_rebuild_theme_registry] = 0
@@ -101,3 +101,12 @@ settings[omega_libraries][pie][status] = 0
 settings[omega_libraries][pie][variant] = _default
 settings[omega_libraries][html5shiv][status] = 0
 settings[omega_libraries][html5shiv][variant] = _default
+
+; ========================================
+; Break points
+; ========================================
+
+breakpoints[small] = all and (min-width: 0px) and (max-width: 799px)
+breakpoints[narrow] = all and (min-width: 800px) and (max-width: 979px)
+breakpoints[medium] = all and (min-width: 980px) and (max-width: 1199px)
+breakpoints[wide] = all and (min-width: 1200px)
