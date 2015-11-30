@@ -36,6 +36,7 @@ regions[footer] = Footer
 ; ========================================
 layout[home][stylesheets][all][] = css/layouts/home/eco-home.layout.css
 layout[contact][stylesheets][all][] = css/layouts/contact/eco-contact.layout.css
+layout[video][stylesheets][all][] = css/layouts/video/eco-video.layout.css
 layout[sidebar][stylesheets][all][] = css/layouts/sidebar/eco-sidebar.layout.css
 
 ; ========================================
