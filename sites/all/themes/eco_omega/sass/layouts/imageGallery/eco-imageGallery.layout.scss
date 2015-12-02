@@ -1,0 +1,78 @@
+@import "eco-omega.styles"; 
+//the following resources are already called in the eco-omega.styles.css
+//@import "compass";
+//@import "breakpoint";
+//@import "singularitygs";
+//@import "toolkit";
+
+// Globbing from within sub-folders only works with relative paths.
+//@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
+
+.image-gallery-intro {
+	padding-top: 60px;
+	text-align: center;
+
+	.image-gallery-wrapper {
+		padding: 30px 0;
+		border-top: 1px solid #999;
+		border-bottom: 1px solid #999;
+		margin: 0 5% 20px;
+
+
+		h1 {
+			color: #f1f1f1;
+			font-weight: normal;
+		}
+
+		p {
+			color: red;
+			font-weight: normal;
+		}
+	}
+}
+
+
+@include breakpoint($tab) {
+
+		.image-gallery-intro  {
+		padding-top: 100px;
+
+			.image-gallery-wrapper {
+				padding: 20px 0;
+				margin: 0 15% 50px 15%;
+
+
+				h1 {
+					font-size: 3em;
+				}
+
+				p {
+					font-size: 1.75em;
+				}
+			}
+		}
+
+
+		.view-filters {
+			border: 1px solid red;
+		}
+
+
+
+.l-content {
+		@include grid-span(12, 1);
+	
+			.view-filters {
+				@include grid-span(4, 1); //sets it to 4 columns wide, that starts with the 1st column
+			}
+
+			.view-content {
+				@include grid-span(8, 5); //sets it to 8 columns wide, that starts with the 5th column
+			}
+
+		}
+	
+
+
+
+}
