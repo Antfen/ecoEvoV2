@@ -30,6 +30,13 @@
 		}
 	}
 }
+// Image Gallery thumbs
+.views-row {
+		    margin: 10px 1.5% 0 1.5%;
+			border: 1px solid #CCC;
+			background-color: #F1F1F1;
+			padding: 10px;
+		}
 
 
 @include breakpoint($tab) {
@@ -52,27 +59,89 @@
 			}
 		}
 
+		.view-filters {
+			border: 1px solid red;
+		}
 
 		.view-filters {
 			border: 1px solid red;
 		}
 
+		.views-row {
+		    margin-top: 10px;
+		    margin-bottom: 0px;
+			border: 1px solid #CCC;
+			background-color: #F1F1F1;
+			padding: 10px;
+			@include float-span(4); //mixin applies right gutter to the element.
+			&:nth-child(3n+3) {		//Explicitly tell Singularity that the last item in each row should have no gutter:
+    			@include float-span(4, last);
+  			}
+		}
 
 
 .l-content {
 		@include grid-span(12, 1);
+
+		//Image Gallery view exposted filters
 	
 			.view-filters {
-				@include grid-span(4, 1); //sets it to 4 columns wide, that starts with the 1st column
+				@include grid-span(3, 1); //sets it to 4 columns wide, that starts with the 1st column
 			}
+
+		//Image gallery container which hols the view thumbs
 
 			.view-content {
-				@include grid-span(8, 5); //sets it to 8 columns wide, that starts with the 5th column
+				@include grid-span(9, 4); //sets it to 8 columns wide, that starts with the 5th column
+			
+				
 			}
 
+		
 		}
-	
-
 
 
 }
+
+@include breakpoint($desk) {
+
+		.view-content {
+			border: 1px solid green;
+		}
+
+		.view-content .views-row {
+		    margin-top: 10px;
+		    margin-bottom: 0px;
+			border: 1px solid #CCC;
+			background-color: #F1F1F1;
+			padding: 10px;
+			@include float-span(3); //mixin applies right gutter to the element.
+			&:nth-child(4n+4) {		//Explicitly tell Singularity that the last item in each row should have no gutter:
+    			@include float-span(3, last);
+  			}
+		}
+
+
+.l-content {
+		@include grid-span(12, 1);
+
+		//Image Gallery view exposted filters
+	
+			.view-filters {
+				@include grid-span(2, 1); //sets it to 2 columns wide, that starts with the 1st column
+			}
+
+		//Image gallery container which hols the view thumbs
+
+			.view-content {
+				@include grid-span(10, 3); //sets it to 10 columns wide, that starts with the 3rd column
+			
+				
+			}
+
+		
+		}
+
+
+}
+

@@ -656,42 +656,117 @@ body {
       color: red;
       font-weight: normal; }
 
+/* line 34, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+.views-row {
+  margin: 10px 1.5% 0 1.5%;
+  border: 1px solid #CCC;
+  background-color: #F1F1F1;
+  padding: 10px; }
+
 @media (min-width: 768px) {
-  /* line 37, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  /* line 44, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
   .image-gallery-intro {
     padding-top: 100px; }
-    /* line 40, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 47, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .image-gallery-intro .image-gallery-wrapper {
       padding: 20px 0;
       margin: 0 15% 50px 15%; }
-      /* line 45, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+      /* line 52, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
       .image-gallery-intro .image-gallery-wrapper h1 {
         font-size: 3em; }
-      /* line 49, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+      /* line 56, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
       .image-gallery-intro .image-gallery-wrapper p {
         font-size: 1.75em; }
 
-  /* line 56, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  /* line 62, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
   .view-filters {
     border: 1px solid red; }
 
-  /* line 62, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  /* line 66, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  .view-filters {
+    border: 1px solid red; }
+
+  /* line 70, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  .views-row {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #CCC;
+    background-color: #F1F1F1;
+    padding: 10px;
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%; }
+    /* line 77, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    .views-row:nth-child(3n+3) {
+      width: 32.20339%;
+      clear: right;
+      float: right;
+      margin-right: 0; }
+
+  /* line 83, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
   .l-content {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-    /* line 65, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 88, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .l-content .view-filters {
-      width: 32.20339%;
+      width: 23.72881%;
       float: left;
       margin-right: -100%;
       margin-left: 0;
       clear: none; }
-    /* line 69, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 94, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .l-content .view-content {
-      width: 66.10169%;
+      width: 74.57627%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; } }
+@media (min-width: 1120px) {
+  /* line 108, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  .view-content {
+    border: 1px solid green; }
+
+  /* line 112, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  .view-content .views-row {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #CCC;
+    background-color: #F1F1F1;
+    padding: 10px;
+    width: 23.72881%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%; }
+    /* line 119, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    .view-content .views-row:nth-child(4n+4) {
+      width: 23.72881%;
+      clear: right;
+      float: right;
+      margin-right: 0; }
+
+  /* line 125, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  .l-content {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+    /* line 130, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    .l-content .view-filters {
+      width: 15.25424%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none; }
+    /* line 136, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    .l-content .view-content {
+      width: 83.05085%;
       float: right;
       margin-left: 0;
       margin-right: 0;
