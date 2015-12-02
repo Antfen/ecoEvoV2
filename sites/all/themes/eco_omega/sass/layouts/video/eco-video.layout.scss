@@ -71,29 +71,21 @@
 			}
 	}
 
+	.view-filters {
+			border: 1px solid red;
+		}
 
-	.l-content .webform-component--email {
-		clear: left;
-	}
+	.l-content {
+		@include grid-span(12, 1);
+	
+			.view-filters {
+				@include grid-span(4, 1); //sets it to 4 columns wide, that starts with the 1st column
+			}
 
-	.l-content .webform-component--notes {
-		clear: left;
-	}
-
-	#clientsidevalidation-webform-client-form-3-errors {
-		margin: 20px 12.5%;
-		float: none;
-		width: auto;
-
-			ul {
-			margin-left: 0;
-
-			.error {
-				font-size: 20px;
+			.view-content {
+				@include grid-span(8, 5); //sets it to 8 columns wide, that starts with the 5th column
 			}
 
 		}
-
-	}
 
 }

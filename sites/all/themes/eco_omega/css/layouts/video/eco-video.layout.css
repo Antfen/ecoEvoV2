@@ -684,24 +684,30 @@ body {
       .contact-intro .contact-intro-wrapper p {
         font-size: 1.75em; }
 
-  /* line 75, ../../../sass/layouts/video/eco-video.layout.scss */
-  .l-content .webform-component--email {
-    clear: left; }
+  /* line 74, ../../../sass/layouts/video/eco-video.layout.scss */
+  .view-filters {
+    border: 1px solid red; }
 
-  /* line 79, ../../../sass/layouts/video/eco-video.layout.scss */
-  .l-content .webform-component--notes {
-    clear: left; }
-
-  /* line 83, ../../../sass/layouts/video/eco-video.layout.scss */
-  #clientsidevalidation-webform-client-form-3-errors {
-    margin: 20px 12.5%;
-    float: none;
-    width: auto; }
-    /* line 88, ../../../sass/layouts/video/eco-video.layout.scss */
-    #clientsidevalidation-webform-client-form-3-errors ul {
-      margin-left: 0; }
-      /* line 91, ../../../sass/layouts/video/eco-video.layout.scss */
-      #clientsidevalidation-webform-client-form-3-errors ul .error {
-        font-size: 20px; } }
+  /* line 78, ../../../sass/layouts/video/eco-video.layout.scss */
+  .l-content {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+    /* line 81, ../../../sass/layouts/video/eco-video.layout.scss */
+    .l-content .view-filters {
+      width: 32.20339%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none; }
+    /* line 85, ../../../sass/layouts/video/eco-video.layout.scss */
+    .l-content .view-content {
+      width: 66.10169%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; } }
 
 /*# sourceMappingURL=eco-video.layout.css.map */

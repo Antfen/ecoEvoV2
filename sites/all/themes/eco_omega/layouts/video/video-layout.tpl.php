@@ -26,7 +26,7 @@
 
  <div class="video-intro">
   <div class="video-intro-wrapper">
-    <p>lets see some action</p>
+    <p>lets see some action XXX</p>
     <h2>Video</h2></div>
   </div>
 
