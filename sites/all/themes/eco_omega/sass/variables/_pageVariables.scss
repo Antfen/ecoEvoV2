@@ -5,8 +5,13 @@
 
 ***********************************************************/
 
-$bodyBG: #000;
-$textColour: #fff;
+$bodyBG: #fff;
+$bodyBGalt: #000;
+$textColour: #000;
+$textColourAlt: #fff;
+$footerBG: #000;
+$footerBGalt: #fff;
+
 
 /***********************************************************
 
@@ -14,7 +19,7 @@ $textColour: #fff;
 
 ***********************************************************/
 
-$font-stack: "Trebuchet MS", Helvetica, sans-serif;
+$font-stack: "Courier New","Courier","monospace";
 
 /***********************************************************
 
@@ -24,5 +29,5 @@ $font-stack: "Trebuchet MS", Helvetica, sans-serif;
 
 //heading colours
 $h1Colour: #fff;
-$h2Colour: #fff;
-$h3Colour: #fff;
+$h2Colour: #000;
+$h3Colour: #000;

@@ -15,7 +15,7 @@
 ***********************************************************/
 /* line 3, ../sass/variables/_colors.scss */
 body {
-  background-color: #000; }
+  background-color: #fff; }
 
 /***********************************************************
 
@@ -53,11 +53,11 @@ h1 {
 
 /* line 4, ../sass/variables/_typography.scss */
 h2 {
-  color: #fff; }
+  color: #000; }
 
 /* line 5, ../sass/variables/_typography.scss */
 h3 {
-  color: #fff; }
+  color: #000; }
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */

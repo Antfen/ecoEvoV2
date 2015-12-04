@@ -22,7 +22,11 @@
 	.l-content {
 		@include grid-span(9, 1); //sets it to 9 columns wide, that starts with the 1st column
 	}
+
+
 }
+
+
 @include breakpoint($desk) {
 
 .l-region--sidebar-first {
@@ -32,4 +36,6 @@
 	.l-content {
 		@include grid-span(9, 1);
 	}
+
+
 }

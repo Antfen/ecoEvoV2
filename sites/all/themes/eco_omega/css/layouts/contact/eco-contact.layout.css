@@ -15,7 +15,7 @@
 ***********************************************************/
 /* line 3, ../../../sass/variables/_colors.scss */
 body {
-  background-color: #000; }
+  background-color: #fff; }
 
 /***********************************************************
 
@@ -53,11 +53,11 @@ h1 {
 
 /* line 4, ../../../sass/variables/_typography.scss */
 h2 {
-  color: #fff; }
+  color: #000; }
 
 /* line 5, ../../../sass/variables/_typography.scss */
 h3 {
-  color: #fff; }
+  color: #000; }
 
 /* No files to import found in abstractions/**\/* */
 /* Webforms */
@@ -236,13 +236,13 @@ img {
 ***********************************************************/
 /* line 3, ../../../sass/base/_typography.scss */
 body {
-  font-family: "Trebuchet MS", Helvetica, sans-serif; }
+  font-family: "Courier New", "Courier", "monospace"; }
   /* line 7, ../../../sass/base/_typography.scss */
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-weight: normal; }
   /* line 11, ../../../sass/base/_typography.scss */
   body p, body ol, body ul, body ul li {
-    color: #fff; }
+    color: #000; }
   /* line 15, ../../../sass/base/_typography.scss */
   body h2 {
     font-size: 2.0em; }
@@ -254,7 +254,7 @@ body {
     font-size: 1.50em; }
   /* line 27, ../../../sass/base/_typography.scss */
   body p {
-    font-size: 1.25em; }
+    font-size: 1.0em; }
   @media (min-width: 768px) {
     /* line 35, ../../../sass/base/_typography.scss */
     body h2 {
@@ -264,10 +264,7 @@ body {
       font-size: 2.0em; }
     /* line 43, ../../../sass/base/_typography.scss */
     body h4 {
-      font-size: 1.75em; }
-    /* line 47, ../../../sass/base/_typography.scss */
-    body p {
-      font-size: 1.50em; } }
+      font-size: 1.75em; } }
   @media (min-width: 1120px) {
     /* line 56, ../../../sass/base/_typography.scss */
     body h2 {
@@ -277,10 +274,7 @@ body {
       font-size: 2.25em; }
     /* line 64, ../../../sass/base/_typography.scss */
     body h4 {
-      font-size: 2.0em; }
-    /* line 68, ../../../sass/base/_typography.scss */
-    body p {
-      font-size: 1.75em; } }
+      font-size: 2.0em; } }
 
 /* line 2, ../../../sass/components/_buttons.scss */
 .button_site {
@@ -439,7 +433,7 @@ body {
 /* line 112, ../../../sass/components/_navigation.scss */
 .l-footer h2.pane-title {
   display: block;
-  color: #000;
+  color: #fff;
   font-size: 20px;
   border-bottom: none 0; }
 /* line 121, ../../../sass/components/_navigation.scss */
@@ -476,43 +470,50 @@ body {
 @media (min-width: 768px) {
   /* line 159, ../../../sass/components/_navigation.scss */
   .l-footer h2.pane-title {
-    color: #000;
-    font-size: 20px;
-    border-bottom: #000 1px solid; }
-  /* line 167, ../../../sass/components/_navigation.scss */
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold; }
+  /* line 168, ../../../sass/components/_navigation.scss */
   .l-footer ul.menu li {
     text-align: left;
     background: none; }
-  /* line 172, ../../../sass/components/_navigation.scss */
+  /* line 173, ../../../sass/components/_navigation.scss */
   .l-footer ul.menu li a {
     display: block;
     text-decoration: none;
-    font-size: 18px;
-    color: #666;
+    font-size: 14px;
+    color: #fff;
     padding-bottom: 0; }
-  /* line 180, ../../../sass/components/_navigation.scss */
+  /* line 181, ../../../sass/components/_navigation.scss */
   .l-footer ul.menu li a:hover {
     color: #999; }
-  /* line 185, ../../../sass/components/_navigation.scss */
+  /* line 186, ../../../sass/components/_navigation.scss */
   .l-footer .pane-menu-menu-footer {
     width: 23.72881%;
     float: left;
     margin-right: -100%;
-    margin-left: 0;
+    margin-left: 8.47458%;
     clear: none; }
-  /* line 189, ../../../sass/components/_navigation.scss */
-  .l-footer .pane-menu-menu-other-projects {
+  /* line 190, ../../../sass/components/_navigation.scss */
+  .l-footer .pane-menu-menu-footer-development {
     width: 23.72881%;
     float: left;
     margin-right: -100%;
-    margin-left: 25.42373%;
+    margin-left: 33.89831%;
+    clear: none; }
+  /* line 194, ../../../sass/components/_navigation.scss */
+  .l-footer .pane-menu-menu-footer-fine-print {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 59.32203%;
     clear: none; } }
 
 /* line 24, ../../../sass/eco-omega.styles.scss */
 .pane-title {
-  display: none;
+  /* display: none;
   padding: 0;
-  margin: 0; }
+  margin: 0; */ }
 
 /* line 30, ../../../sass/eco-omega.styles.scss */
 .l-page {
@@ -557,7 +558,7 @@ body {
 .l-footer {
   width: 100%;
   padding: 2.5% 2.5%;
-  background: #fff; }
+  background: #000; }
   /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
   .l-footer:after {
     content: "";
@@ -578,50 +579,53 @@ body {
       color: #666;
       font-size: 12px; }
 
+/* line 87, ../../../sass/eco-omega.styles.scss */
+.field--name-field-text-introduction-pod, .field--name-field-text-main-pod {
+  padding-right: 2%;
+  padding-left: 2%; }
+
 @media (min-width: 768px) {
-  /* line 91, ../../../sass/eco-omega.styles.scss */
+  /* line 95, ../../../sass/eco-omega.styles.scss */
   #logo img {
     top: 20px;
     left: 20px; }
 
-  /* line 96, ../../../sass/eco-omega.styles.scss */
+  /* line 100, ../../../sass/eco-omega.styles.scss */
   .l-header {
     min-height: 100px; }
-
-  /* line 100, ../../../sass/eco-omega.styles.scss */
-  .l-main {
-    margin-top: 0; }
 
   /* line 104, ../../../sass/eco-omega.styles.scss */
-  .l-footer {
-    padding: 7px 2.5%;
-    background: #fff; } }
-@media (min-width: 1120px) {
-  /* line 111, ../../../sass/eco-omega.styles.scss */
-  .l-header {
-    min-height: 100px; }
-
-  /* line 115, ../../../sass/eco-omega.styles.scss */
   .l-main {
     margin-top: 0; }
 
-  /* line 119, ../../../sass/eco-omega.styles.scss */
+  /* line 108, ../../../sass/eco-omega.styles.scss */
   .l-footer {
-    padding: 7px 2.5%;
-    background: #fff; } }
-/* line 127, ../../../sass/eco-omega.styles.scss */
+    padding: 7px 2.5%; } }
+@media (min-width: 1120px) {
+  /* line 115, ../../../sass/eco-omega.styles.scss */
+  .l-header {
+    min-height: 100px; }
+
+  /* line 119, ../../../sass/eco-omega.styles.scss */
+  .l-main {
+    margin-top: 0; }
+
+  /* line 123, ../../../sass/eco-omega.styles.scss */
+  .l-footer {
+    padding: 7px 2.5%; } }
+/* line 131, ../../../sass/eco-omega.styles.scss */
 .l-page .pod-panel {
   text-align: center;
   padding: 0px 0px; }
 @media (min-width: 768px) {
-  /* line 133, ../../../sass/eco-omega.styles.scss */
+  /* line 137, ../../../sass/eco-omega.styles.scss */
   .l-page .pod-panel {
     padding: 0px; } }
 
 /* Site Layouts */
 /* Layouts for the Footer */
 @media (min-width: 768px) {
-  /* line 151, ../../../sass/eco-omega.styles.scss */
+  /* line 155, ../../../sass/eco-omega.styles.scss */
   .l-footer .copyright {
     width: 23.72881%;
     float: right;
@@ -630,77 +634,85 @@ body {
     clear: none; } }
 
 /* Site fixes */
-/* line 165, ../../../sass/eco-omega.styles.scss */
+/* line 169, ../../../sass/eco-omega.styles.scss */
 .l-page .more-pad-top {
   margin-top: 40px; }
-/* line 169, ../../../sass/eco-omega.styles.scss */
+/* line 173, ../../../sass/eco-omega.styles.scss */
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
-/* line 12, ../../../sass/layouts/contact/eco-contact.layout.scss */
+/* line 11, ../../../sass/layouts/contact/eco-contact.layout.scss */
+body {
+  background-color: #000; }
+
+/* line 15, ../../../sass/layouts/contact/eco-contact.layout.scss */
+.l-footer {
+  background-color: #fff; }
+
+/* line 19, ../../../sass/layouts/contact/eco-contact.layout.scss */
 .contact-intro {
   padding-top: 60px;
   text-align: center; }
-  /* line 16, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  /* line 23, ../../../sass/layouts/contact/eco-contact.layout.scss */
   .contact-intro .contact-intro-wrapper {
     padding: 30px 0;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
     margin: 0 5% 20px; }
-    /* line 23, ../../../sass/layouts/contact/eco-contact.layout.scss */
+    /* line 30, ../../../sass/layouts/contact/eco-contact.layout.scss */
     .contact-intro .contact-intro-wrapper h1 {
       color: #f1f1f1;
       font-weight: normal; }
-    /* line 28, ../../../sass/layouts/contact/eco-contact.layout.scss */
+    /* line 35, ../../../sass/layouts/contact/eco-contact.layout.scss */
     .contact-intro .contact-intro-wrapper p {
       color: red;
       font-weight: normal; }
 
-/* line 35, ../../../sass/layouts/contact/eco-contact.layout.scss */
+/* line 42, ../../../sass/layouts/contact/eco-contact.layout.scss */
 #clientsidevalidation-webform-client-form-3-errors {
   padding: 0;
   float: none;
   width: auto;
   border: 0 none; }
-  /* line 41, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  /* line 48, ../../../sass/layouts/contact/eco-contact.layout.scss */
   #clientsidevalidation-webform-client-form-3-errors ul {
     margin-left: 5%; }
-    /* line 44, ../../../sass/layouts/contact/eco-contact.layout.scss */
+    /* line 51, ../../../sass/layouts/contact/eco-contact.layout.scss */
     #clientsidevalidation-webform-client-form-3-errors ul .error {
       color: #ff0000; }
 
 @media (min-width: 768px) {
-  /* line 56, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  /* line 63, ../../../sass/layouts/contact/eco-contact.layout.scss */
   .contact-intro {
     padding-top: 100px; }
-    /* line 59, ../../../sass/layouts/contact/eco-contact.layout.scss */
+    /* line 66, ../../../sass/layouts/contact/eco-contact.layout.scss */
     .contact-intro .contact-intro-wrapper {
       padding: 20px 0;
       margin: 0 15% 50px 15%; }
-      /* line 64, ../../../sass/layouts/contact/eco-contact.layout.scss */
+      /* line 71, ../../../sass/layouts/contact/eco-contact.layout.scss */
       .contact-intro .contact-intro-wrapper h1 {
         font-size: 3em; }
-      /* line 68, ../../../sass/layouts/contact/eco-contact.layout.scss */
+      /* line 75, ../../../sass/layouts/contact/eco-contact.layout.scss */
       .contact-intro .contact-intro-wrapper p {
         font-size: 1.75em; }
 
-  /* line 75, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  /* line 82, ../../../sass/layouts/contact/eco-contact.layout.scss */
   .l-content .webform-component--email {
     clear: left; }
 
-  /* line 79, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  /* line 86, ../../../sass/layouts/contact/eco-contact.layout.scss */
   .l-content .webform-component--notes {
     clear: left; }
 
-  /* line 83, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  /* line 90, ../../../sass/layouts/contact/eco-contact.layout.scss */
   #clientsidevalidation-webform-client-form-3-errors {
     margin: 20px 12.5%;
     float: none;
     width: auto; }
-    /* line 88, ../../../sass/layouts/contact/eco-contact.layout.scss */
+    /* line 95, ../../../sass/layouts/contact/eco-contact.layout.scss */
     #clientsidevalidation-webform-client-form-3-errors ul {
       margin-left: 0; }
-      /* line 91, ../../../sass/layouts/contact/eco-contact.layout.scss */
+      /* line 98, ../../../sass/layouts/contact/eco-contact.layout.scss */
       #clientsidevalidation-webform-client-form-3-errors ul .error {
         font-size: 20px; } }
 
