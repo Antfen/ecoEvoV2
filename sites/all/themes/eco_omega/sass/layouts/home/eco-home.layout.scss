@@ -13,8 +13,8 @@
 	min-height: 100px;
 }
 
-.hp-box {
-	min-height: 379px;
+.hp-box, .hp-box-alt {
+	height: 700px;
 	background-position: left center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -54,9 +54,40 @@
 
 }
 
-.pane-title {
-	color: $h2Colour
+.hp-box-alt {
+	background-image: url("../../../images/img_frontpage/norlunga-mobile.jpg");
 }
+
+//Settings for Panel
+.l-content {
+
+	.panel-pane {
+		background-color: #fff;
+		border: 1px solid #000;
+		margin-top: 20px;
+	}
+
+	.panel-row-alt {
+		background-color: #ddd;
+		border: 1px solid #000;
+		margin-top: 20px;
+	}
+
+	.pane-title {
+		color: $h2Colour;
+		padding-right: 2%;
+		padding-left: 2%;	
+	}
+
+	.field--name-field-text-introduction-pod, .field--name-field-text-main-pod {
+		padding-right: 2%;
+		padding-left: 2%;	
+	}
+
+}
+
+
+
 
 @include breakpoint($tab) {
 
@@ -84,9 +115,19 @@
 
 	}
 
+
+	.hp-box-alt {
+	background-image: url("../../../images/img_frontpage/norlunga-normal.jpg");
+	}
+
+	//Settings for Panel
+	.panel-row-alt {
+	//@include clearfix;
+	}
+
 	//Settings for the Pod content type
-	.field--name-field-text-main-pod {
-		padding-left: 1.5%;
+	.l-content .panel-pane .field--name-field-text-introduction-pod {
+	clear: left;	
 	}
 
 
@@ -98,10 +139,10 @@
 	background-image: url("../../../images/img_frontpage/newquay-wide.jpg");
 	}
 
-	//Settings for the Pod content type
-	.field--name-field-text-main-pod {
-		padding-left: 0;
+	.hp-box-alt {
+	background-image: url("../../../images/img_frontpage/norlunga-wide.jpg");
 	}
+
 
 
 }

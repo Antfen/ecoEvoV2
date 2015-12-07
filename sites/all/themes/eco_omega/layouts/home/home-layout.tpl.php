@@ -26,8 +26,9 @@
 
   <div class="hp-box">
     <div class="hp-info-holder">
-        <h2>Marine migration coastal tracker</h2></div>
+        <h2>Marine migration coastal tracker</h2>
     </div>
+  </div>
 
   <div class="l-main">
     <div class="l-content" role="main">
@@ -51,6 +52,8 @@
 
     
   </div>
+
+  <div class="hp-box-alt"></div>
 
   <footer class="l-footer" role="contentinfo">
     <?php print render($page['footer']); ?>

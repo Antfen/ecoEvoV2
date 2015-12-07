@@ -579,53 +579,48 @@ body {
       color: #666;
       font-size: 12px; }
 
-/* line 87, ../../../sass/eco-omega.styles.scss */
-.field--name-field-text-introduction-pod, .field--name-field-text-main-pod {
-  padding-right: 2%;
-  padding-left: 2%; }
-
 @media (min-width: 768px) {
-  /* line 95, ../../../sass/eco-omega.styles.scss */
+  /* line 89, ../../../sass/eco-omega.styles.scss */
   #logo img {
     top: 20px;
     left: 20px; }
 
-  /* line 100, ../../../sass/eco-omega.styles.scss */
+  /* line 94, ../../../sass/eco-omega.styles.scss */
   .l-header {
     min-height: 100px; }
 
-  /* line 104, ../../../sass/eco-omega.styles.scss */
+  /* line 98, ../../../sass/eco-omega.styles.scss */
   .l-main {
     margin-top: 0; }
 
-  /* line 108, ../../../sass/eco-omega.styles.scss */
+  /* line 102, ../../../sass/eco-omega.styles.scss */
   .l-footer {
     padding: 7px 2.5%; } }
 @media (min-width: 1120px) {
-  /* line 115, ../../../sass/eco-omega.styles.scss */
+  /* line 109, ../../../sass/eco-omega.styles.scss */
   .l-header {
     min-height: 100px; }
 
-  /* line 119, ../../../sass/eco-omega.styles.scss */
+  /* line 113, ../../../sass/eco-omega.styles.scss */
   .l-main {
     margin-top: 0; }
 
-  /* line 123, ../../../sass/eco-omega.styles.scss */
+  /* line 117, ../../../sass/eco-omega.styles.scss */
   .l-footer {
     padding: 7px 2.5%; } }
-/* line 131, ../../../sass/eco-omega.styles.scss */
+/* line 125, ../../../sass/eco-omega.styles.scss */
 .l-page .pod-panel {
   text-align: center;
   padding: 0px 0px; }
 @media (min-width: 768px) {
-  /* line 137, ../../../sass/eco-omega.styles.scss */
+  /* line 131, ../../../sass/eco-omega.styles.scss */
   .l-page .pod-panel {
     padding: 0px; } }
 
 /* Site Layouts */
 /* Layouts for the Footer */
 @media (min-width: 768px) {
-  /* line 155, ../../../sass/eco-omega.styles.scss */
+  /* line 149, ../../../sass/eco-omega.styles.scss */
   .l-footer .copyright {
     width: 23.72881%;
     float: right;
@@ -634,10 +629,10 @@ body {
     clear: none; } }
 
 /* Site fixes */
-/* line 169, ../../../sass/eco-omega.styles.scss */
+/* line 163, ../../../sass/eco-omega.styles.scss */
 .l-page .more-pad-top {
   margin-top: 40px; }
-/* line 173, ../../../sass/eco-omega.styles.scss */
+/* line 167, ../../../sass/eco-omega.styles.scss */
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
@@ -655,24 +650,34 @@ body {
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-
-  /* line 23, ../../../sass/layouts/home/home.layout.scss */
-  .field--name-field-text-introduction-pod {
-    width: 40.67797%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; }
-
-  /* line 29, ../../../sass/layouts/home/home.layout.scss */
-  .field--name-field-text-main-pod {
-    width: 40.67797%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 50.84746%;
-    clear: none; } }
+    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+    .l-content .panel-pane:after {
+      content: "";
+      display: table;
+      clear: both; }
+    /* line 26, ../../../sass/layouts/home/home.layout.scss */
+    .l-content .panel-pane .pane-title {
+      width: 66.10169%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 8.47458%;
+      clear: none; }
+    /* line 32, ../../../sass/layouts/home/home.layout.scss */
+    .l-content .panel-pane .field--name-field-text-introduction-pod {
+      width: 40.67797%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 8.47458%;
+      clear: none; }
+    /* line 38, ../../../sass/layouts/home/home.layout.scss */
+    .l-content .panel-pane .field--name-field-text-main-pod {
+      width: 40.67797%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 50.84746%;
+      clear: none; } }
 @media (min-width: 1120px) {
-  /* line 44, ../../../sass/layouts/home/home.layout.scss */
+  /* line 54, ../../../sass/layouts/home/home.layout.scss */
   .l-content {
     width: 100%;
     float: right;

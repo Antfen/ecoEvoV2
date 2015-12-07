@@ -17,24 +17,34 @@
 
 	.l-content {
 		@include grid-span(12, 1); //sets it to 12 columns wide, that starts with the 1st column
+	
+
+	.panel-pane {
+		@include clearfix;
+
+		//layouts for the Pod content type
+		.pane-title {
+
+			@include grid-span(8, 2); //sets it to 8 columns wide, that starts with the 2nd column
+				
+			}
+
+		.field--name-field-text-introduction-pod {
+
+			@include grid-span(5, 2); //sets it to 5 columns wide, that starts with the 2nd column
+				
+			}
+
+		.field--name-field-text-main-pod {
+
+			@include grid-span(5, 7); //sets it to 5 columns wide, that starts with the 7th column
+				
+			}
+		//layouts for the Pod content type end
+
+		}
+
 	}
-
-	//layouts for the Pod content type
-	.field--name-field-text-introduction-pod {
-
-		@include grid-span(5, 2); //sets it to 12 columns wide, that starts with the 1st column
-			
-		}
-
-	.field--name-field-text-main-pod {
-
-		@include grid-span(5, 7); //sets it to 12 columns wide, that starts with the 1st column
-			
-		}
-	//layouts for the Pod content type end
-
-
-
 }
 
 @include breakpoint($desk) {

@@ -462,12 +462,7 @@ body {
       color: #666;
       font-size: 12px; }
 
-/* line 87, ../../../sass/eco-omega.styles.scss */
-.field--name-field-text-introduction-pod, .field--name-field-text-main-pod {
-  padding-right: 2%;
-  padding-left: 2%; }
-
-/* line 131, ../../../sass/eco-omega.styles.scss */
+/* line 125, ../../../sass/eco-omega.styles.scss */
 .l-page .pod-panel {
   text-align: center;
   padding: 0px 0px; }
@@ -475,10 +470,10 @@ body {
 /* Site Layouts */
 /* Layouts for the Footer */
 /* Site fixes */
-/* line 169, ../../../sass/eco-omega.styles.scss */
+/* line 163, ../../../sass/eco-omega.styles.scss */
 .l-page .more-pad-top {
   margin-top: 40px; }
-/* line 173, ../../../sass/eco-omega.styles.scss */
+/* line 167, ../../../sass/eco-omega.styles.scss */
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 

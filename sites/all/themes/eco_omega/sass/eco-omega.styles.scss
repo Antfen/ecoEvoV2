@@ -84,12 +84,6 @@
 }
 
 
-.field--name-field-text-introduction-pod, .field--name-field-text-main-pod {
-		padding-right: 2%;
-		padding-left: 2%;	
-}
-
-
 
 @include breakpoint($tab) {
 		#logo img {
