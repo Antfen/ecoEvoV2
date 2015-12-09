@@ -48,7 +48,7 @@
 					display: block;
 					text-transform: lowercase;
 					text-decoration: none;
-					font-size: 24px;
+					font-size: 18px;
 					color: #FFF;
 					padding: 14px 0;
 				}
@@ -56,7 +56,7 @@
 					display: block;
 					text-transform: lowercase;
 					text-decoration: none;
-					font-size: 24px;
+					font-size: 18px;
 					color: #999;
 				}
 
@@ -157,10 +157,10 @@
 		@include breakpoint($tab) {
 
 			h2.pane-title {
-			color: #fff;
+			color: #999;
 			font-size: 18px;
 			font-weight: bold;
-			//border-bottom: #fff 1px solid;
+			border-bottom: #999 1px solid;
 			}
 
 			ul.menu {
@@ -174,25 +174,25 @@
 					display: block;
 					text-decoration: none;
 					font-size: 14px;
-					color: #fff;
+					color: #999;
 					padding-bottom: 0;
 				}
 
 				li a:hover {
-					color: #999;
+					color: #666;
 				}
 			}
 			
 			.pane-menu-menu-footer {
-				@include grid-span(3, 2); //sets it to 3 columns wide, that starts with the 1st column
+				@include grid-span(3, 1); //sets it to 3 columns wide, that starts with the 1st column
 			}
 
 			.pane-menu-menu-footer-development {
-				@include grid-span(3, 5); //sets it to 3 columns wide, that starts with the 4th column
+				@include grid-span(3, 4); //sets it to 3 columns wide, that starts with the 4th column
 			}
 
 			.pane-menu-menu-footer-fine-print {
-				@include grid-span(3, 8); //sets it to 3 columns wide, that starts with the 4th column
+				@include grid-span(3, 7); //sets it to 3 columns wide, that starts with the 4th column
 			}
 
 		}

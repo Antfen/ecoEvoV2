@@ -1,10 +1,11 @@
-/* Webforms */
+
+//Webforms
 .webform-client-form {
 	padding: 25px 0px;
     margin: 0px 2% 50px;
 
 	label {
-		font-family: "Times New Roman", Times, serif;
+		font-family: $font-stack;
 		font-weight: normal;
 		font-size: 1.2em;
 		margin-bottom: 5px;
@@ -94,3 +95,46 @@
 
 	
 }
+
+
+//Views exposed filters
+
+.views-exposed-form .views-exposed-widget {
+padding: 0;
+float: none;
+
+		.description {
+			display: none;
+		}
+
+			select {
+				width: 100%;
+
+				option {
+				font-family: $font-stack;
+				}
+			}
+
+		.form-submit {
+			border: 1px solid #ccc;
+			font-size: 0.9em;
+			font-weight: normal;
+			border-radius: 2px;
+			text-align: center;
+			color: #fff;
+			display: block;
+			padding: 10px;
+			text-decoration: none;
+			background-color: #000;
+			@include transition(background-color 1s .5s, color 2s);	
+		}
+
+		.form-submit:hover {
+			color: #000; 
+			background-color: #666;
+		}
+
+}
+
+
+

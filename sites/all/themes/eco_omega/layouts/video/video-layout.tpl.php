@@ -24,10 +24,8 @@
     <?php print render($page['navigation']); ?>
   </header>
 
- <div class="video-intro">
-  <div class="video-intro-wrapper">
-    <p>lets see some action XXX</p>
-    <h2>Video</h2></div>
+  <div class="hp-box">
+  
   </div>
 
   <div class="l-main">
@@ -47,6 +45,11 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
+
+          
+
+
+
       <?php print $feed_icons; ?>
     </div>
 

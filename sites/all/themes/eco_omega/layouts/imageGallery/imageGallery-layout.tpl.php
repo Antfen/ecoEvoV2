@@ -24,10 +24,8 @@
     <?php print render($page['navigation']); ?>
   </header>
 
- <div class="image-gallery-intro">
-  <div class="image-gallery-wrapper">
-    <p>lets see some nice Images</p>
-    <h2>Images</h2></div>
+  <div class="hp-box">
+  
   </div>
 
   <div class="l-main">

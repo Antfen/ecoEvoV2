@@ -82,19 +82,15 @@
 
 }
 
-
 // Video player responsive styles
-.media-youtube-player {
-	//width: 100%;
-	//max-width: 640px;
-}
-
 .media-youtube-video {
 	height: 0;
     width: 100%;
     padding-bottom: 56.25%;
     overflow: hidden;
     position: relative;
+   /*  max-width: 640px;
+    max-height: 390px; */
 }
 
 .media-youtube-1 iframe {
@@ -104,7 +100,6 @@
     top: 0;
     left: 0;
 }
-// Video player responsive styles end
 
 
 @include breakpoint($tab) {

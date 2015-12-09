@@ -1,0 +1,42 @@
+@import "eco-omega.styles"; 
+//the following resources are already called in the eco-omega.styles.css
+//@import "compass";
+//@import "breakpoint";
+//@import "singularitygs";
+//@import "toolkit";
+
+// Globbing from within sub-folders only works with relative paths.
+//@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
+
+.l-header {
+	position: static;
+    background-image: none;
+    background-color: #000;
+}
+
+// Video player responsive styles
+.media-youtube-video {
+	height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+
+.media-youtube-1 iframe {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.l-main {
+	padding-top: 55px;
+}
+
+
+@include breakpoint($tab) {
+
+
+}

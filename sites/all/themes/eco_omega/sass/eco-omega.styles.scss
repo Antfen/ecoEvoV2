@@ -21,15 +21,8 @@
 @import "base/**/*";
 @import "components/**/*";
 
-.pane-title {
-	/* display: none;
-	padding: 0;
-	margin: 0; */
-}
-
 .l-page {
 	margin: 0 auto;
-	/* background-color: #000; */
 }
 
 .l-header {
@@ -58,7 +51,7 @@
 }
 
 .l-main {
-	width: 100%; //lets go full width and ajust the concepts page as required!
+	width: 100%; //lets go full width and ajust the page contents as required!
 }
 
 .l-footer {
@@ -69,8 +62,6 @@
 
 	.copyright {
 			@include clearfix;
-			//float: right;
-			//width: 40%;
 			text-align: right;
 			margin: 0;
 			padding-right: 0;
@@ -92,7 +83,7 @@
 		}
 
 		.l-header {
-		min-height: 100px;
+		min-height: 70px;
 		}
 
 		.l-main {
@@ -107,7 +98,7 @@
 
 @include breakpoint($desk) {
 		.l-header {
-		min-height: 100px;
+		min-height: 70px;
 		}
 
 		.l-main {

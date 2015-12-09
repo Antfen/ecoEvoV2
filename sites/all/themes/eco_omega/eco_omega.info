@@ -37,7 +37,9 @@ regions[footer] = Footer
 layout[home][stylesheets][all][] = css/layouts/home/eco-home.layout.css
 layout[contact][stylesheets][all][] = css/layouts/contact/eco-contact.layout.css
 layout[video][stylesheets][all][] = css/layouts/video/eco-video.layout.css
+layout[videoHolder][stylesheets][all][] = css/layouts/videoHolder/eco-videoHolder.layout.css
 layout[imageGallery][stylesheets][all][] = css/layouts/imageGallery/eco-imageGallery.layout.css
+layout[imageHolder][stylesheets][all][] = css/layouts/imageHolder/eco-imageHolder.layout.css
 layout[sidebar][stylesheets][all][] = css/layouts/sidebar/eco-sidebar.layout.css
 
 ; ========================================
