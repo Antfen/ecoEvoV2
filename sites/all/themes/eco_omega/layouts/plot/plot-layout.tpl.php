@@ -24,7 +24,10 @@
     <?php print render($page['navigation']); ?>
   </header>
 
-  <div class="sidebar-intro">
+  <div class="plot-intro">
+  <div class="plot-intro-wrapper">
+    <p>this is the engine</p>
+    <h2>Lets plot your observations!</h2></div>
   </div>
 
   <div class="l-main">
@@ -47,7 +50,7 @@
       <?php print $feed_icons; ?>
     </div>
 
-    <?php print render($page['sidebar_first']); ?>
+    
   </div>
 
   <footer class="l-footer" role="contentinfo">

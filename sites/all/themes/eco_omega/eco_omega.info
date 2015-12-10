@@ -40,6 +40,7 @@ layout[video][stylesheets][all][] = css/layouts/video/eco-video.layout.css
 layout[videoHolder][stylesheets][all][] = css/layouts/videoHolder/eco-videoHolder.layout.css
 layout[imageGallery][stylesheets][all][] = css/layouts/imageGallery/eco-imageGallery.layout.css
 layout[imageHolder][stylesheets][all][] = css/layouts/imageHolder/eco-imageHolder.layout.css
+layout[plot][stylesheets][all][] = css/layouts/plot/eco-plot.layout.css
 layout[sidebar][stylesheets][all][] = css/layouts/sidebar/eco-sidebar.layout.css
 
 ; ========================================

@@ -1,0 +1,194 @@
+@import "eco-omega.styles"; 
+//the following resources are already called in the eco-omega.styles.css
+//@import "compass";
+//@import "breakpoint";
+//@import "singularitygs";
+//@import "toolkit";
+
+// Globbing from within sub-folders only works with relative paths.
+//@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
+
+.l-main {
+	@include clearfix;
+
+}
+
+//Some basic form settings
+
+select.form-select {
+	width: 99% !important
+}
+
+
+//Lets position the form fields
+
+.form-item-title {
+	//@include grid-span(6, 1);
+
+		input {
+			width: 99% !important;
+		}
+}
+
+.field-name-field-plot-date {
+	//@include grid-span(6, 7);
+
+		fieldset {
+			border: 0;
+			margin: 0;
+			padding: 0;
+		}
+
+		span.fieldset-legend {
+			font-color: #000;
+			font-weight: bold;
+		}
+
+		input {
+			width: 99% !important;
+		}
+
+		.description {
+			display: none;
+		}
+
+		.date-padding {
+			padding: 0;
+		}
+
+		fieldset.date-combo .container-inline-date > .form-item {
+			margin-bottom: 0;
+		}
+
+}
+
+@include breakpoint($tab) {
+
+.l-content {
+		//@include grid-span(10, 2);
+		@include clearfix;
+		border: red 1px solid;
+
+
+		.pane-form {
+			@include grid-span(10, 2); //sets it to 10 columns wide, that starts with the 2nd column
+			border: green 1px solid;
+
+			//Some basic form settings
+
+			select.form-select {
+				width: 190px !important
+			}
+		
+
+			//Lets position the form fields
+
+			.form-item-title {
+				@include grid-span(6, 1);
+
+					input {
+						width: 200px !important;
+					}
+			}
+
+			.field-name-field-plot-date {
+				@include grid-span(6, 7);
+
+					fieldset {
+						border: 0;
+						margin: 0;
+						padding: 0;
+					}
+
+					span.fieldset-legend {
+						font-color: #000;
+						font-weight: bold;
+					}
+
+					input {
+						width: 200px !important;
+					}
+
+					.description {
+						display: none;
+					}
+
+					.date-padding {
+						padding: 0;
+					}
+
+					fieldset.date-combo .container-inline-date > .form-item {
+    					margin-bottom: 0;
+    				}
+
+			}
+
+			.field-name-field-plot-creatures-species {
+				@include grid-span(6, 1);
+				clear: left;
+			}
+
+			.field-name-field-plot-sky {
+				@include grid-span(6, 7);
+			}
+
+			.field-name-field-plot-weather {
+				@include grid-span(6, 1);
+				clear: left;
+			}
+
+			.field-name-field-plot-temperature {
+				@include grid-span(6, 7);
+			}
+
+			.field-name-field-plot-wind-force {
+				@include grid-span(6, 1);
+				clear: left;
+			}
+
+			.field-name-field-plot-wind-direction {
+				@include grid-span(6, 7);
+			}
+
+			.field-name-field-plot-tide-state {
+				@include grid-span(6, 1);
+				clear: left;
+			}
+
+			.field-name-field-plot-tide-movement {
+				@include grid-span(6, 7);
+			}
+
+			.field-name-field-plot-sea-state {
+				@include grid-span(6, 1);
+				clear: left;
+			}
+
+			.field-name-field-plot-swell {
+				@include grid-span(6, 7);
+			}
+
+			.field-name-field-plot-gender {
+				@include grid-span(6, 1);
+				clear: left;
+			}
+
+			.form-actions {
+				@include grid-span(6, 1);
+				clear: left;
+			}
+
+		}
+
+
+	}
+
+}
+
+@include breakpoint($desk) {
+
+
+	.l-content {
+		//@include grid-span(12, 1);
+	}
+}
