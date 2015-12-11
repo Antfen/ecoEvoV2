@@ -80,13 +80,13 @@ select.form-select {
 				width: 98% !important
 			}
 		
-			.form-item-title {
+			/* .form-item-title {
 				@include grid-span(6, 1);
 
 					input {
 						width: 98% !important;
 					}
-			}
+			} */
 
 			.form-item {
 				//@include grid-span(6, 1);
@@ -130,10 +130,7 @@ select.form-select {
 
 			}
 
-			.field-name-field-plot-creatures-species {
-				@include grid-span(6, 1);
-				clear: left;
-			}
+			
 
 			.field-name-field-plot-sky {
 				@include grid-span(6, 7);
@@ -175,14 +172,18 @@ select.form-select {
 				@include grid-span(6, 7);
 			}
 
-			.field-name-field-plot-gender {
+			.location-wrapper {
+				@include grid-span(10, 2);
+				clear: left;
+			}
+
+			.field-name-field-plot-creatures-species {
 				@include grid-span(6, 1);
 				clear: left;
 			}
 
-			.location-wrapper {
-				@include grid-span(10, 2);
-				clear: left;
+			.field-name-field-plot-gender {
+				@include grid-span(6, 1);
 			}
 
 			.field-name-field-plot-creatures-nickname {
