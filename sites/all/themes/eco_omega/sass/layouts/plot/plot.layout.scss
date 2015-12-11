@@ -99,7 +99,7 @@ select.form-select {
 			//Lets position the Plot form fields
 			
 			.field-name-field-plot-date {
-				@include grid-span(6, 7);
+				@include grid-span(6, 1);
 
 					fieldset {
 						border: 0;
@@ -132,13 +132,13 @@ select.form-select {
 
 			
 
-			.field-name-field-plot-sky {
+			 .field-name-field-plot-sky {
 				@include grid-span(6, 7);
 			}
 
 			.field-name-field-plot-weather {
 				@include grid-span(6, 1);
-				clear: left;
+				clear: right;
 			}
 
 			.field-name-field-plot-temperature {
@@ -147,7 +147,7 @@ select.form-select {
 
 			.field-name-field-plot-wind-force {
 				@include grid-span(6, 1);
-				clear: left;
+				clear: right;
 			}
 
 			.field-name-field-plot-wind-direction {
@@ -156,7 +156,7 @@ select.form-select {
 
 			.field-name-field-plot-tide-state {
 				@include grid-span(6, 1);
-				clear: left;
+				clear: right;
 			}
 
 			.field-name-field-plot-tide-movement {
@@ -165,7 +165,7 @@ select.form-select {
 
 			.field-name-field-plot-sea-state {
 				@include grid-span(6, 1);
-				clear: left;
+				clear: right;
 			}
 
 			.field-name-field-plot-swell {
@@ -174,32 +174,32 @@ select.form-select {
 
 			.location-wrapper {
 				@include grid-span(10, 2);
-				clear: left;
+				clear: right;
 			}
 
 			.field-name-field-plot-creatures-species {
 				@include grid-span(6, 1);
+				margin-top: 15px;
 				clear: left;
 			}
 
 			.field-name-field-plot-gender {
-				@include grid-span(6, 1);
-			}
-
-			.field-name-field-plot-creatures-nickname {
-				@include grid-span(6, 1);
-				margin-top: 15px;
-				clear: left;
-			}
-
-			.field-name-field-plot-creatures-direction {
 				@include grid-span(6, 7);
 				margin-top: 15px;
 			}
 
+			.field-name-field-plot-creatures-nickname {
+				@include grid-span(6, 1);
+				clear: right;
+			}
+
+			.field-name-field-plot-creatures-direction {
+				@include grid-span(6, 7);
+			}
+
 			.field-name-field-plot-group-name {
 				@include grid-span(6, 1);
-				clear: left;
+				clear: right;
 			}
 
 			.field-name-field-plot-how-many-in-group {
@@ -208,8 +208,8 @@ select.form-select {
 
 			.field-name-field-plot-additional-info {
 				@include grid-span(10, 2);
-				clear: left;
-			}
+				clear: right;
+			} 
 
 			
 
