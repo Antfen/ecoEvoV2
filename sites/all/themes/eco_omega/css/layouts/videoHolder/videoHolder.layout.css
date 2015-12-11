@@ -595,6 +595,11 @@ body {
   width: 100%; }
 
 /* line 57, ../../../sass/eco-omega.styles.scss */
+.l-content {
+  padding-right: 1%;
+  padding-left: 1%; }
+
+/* line 62, ../../../sass/eco-omega.styles.scss */
 .l-footer {
   width: 100%;
   padding: 2.5% 2.5%;
@@ -604,7 +609,7 @@ body {
     content: "";
     display: table;
     clear: both; }
-  /* line 63, ../../../sass/eco-omega.styles.scss */
+  /* line 68, ../../../sass/eco-omega.styles.scss */
   .l-footer .copyright {
     text-align: right;
     margin: 0;
@@ -614,53 +619,53 @@ body {
       content: "";
       display: table;
       clear: both; }
-    /* line 69, ../../../sass/eco-omega.styles.scss */
+    /* line 74, ../../../sass/eco-omega.styles.scss */
     .l-footer .copyright p {
       color: #666;
       font-size: 12px; }
 
 @media (min-width: 768px) {
-  /* line 80, ../../../sass/eco-omega.styles.scss */
+  /* line 85, ../../../sass/eco-omega.styles.scss */
   #logo img {
     top: 20px;
     left: 20px; }
 
-  /* line 85, ../../../sass/eco-omega.styles.scss */
+  /* line 90, ../../../sass/eco-omega.styles.scss */
   .l-header {
     min-height: 70px; }
 
-  /* line 89, ../../../sass/eco-omega.styles.scss */
+  /* line 94, ../../../sass/eco-omega.styles.scss */
   .l-main {
     margin-top: 0; }
 
-  /* line 93, ../../../sass/eco-omega.styles.scss */
+  /* line 98, ../../../sass/eco-omega.styles.scss */
   .l-footer {
     padding: 7px 2.5%; } }
 @media (min-width: 1120px) {
-  /* line 100, ../../../sass/eco-omega.styles.scss */
+  /* line 105, ../../../sass/eco-omega.styles.scss */
   .l-header {
     min-height: 70px; }
 
-  /* line 104, ../../../sass/eco-omega.styles.scss */
+  /* line 109, ../../../sass/eco-omega.styles.scss */
   .l-main {
     margin-top: 0; }
 
-  /* line 108, ../../../sass/eco-omega.styles.scss */
+  /* line 113, ../../../sass/eco-omega.styles.scss */
   .l-footer {
     padding: 7px 2.5%; } }
-/* line 116, ../../../sass/eco-omega.styles.scss */
+/* line 121, ../../../sass/eco-omega.styles.scss */
 .l-page .pod-panel {
   text-align: center;
   padding: 0px 0px; }
 @media (min-width: 768px) {
-  /* line 122, ../../../sass/eco-omega.styles.scss */
+  /* line 127, ../../../sass/eco-omega.styles.scss */
   .l-page .pod-panel {
     padding: 0px; } }
 
 /* Site Layouts */
 /* Layouts for the Footer */
 @media (min-width: 768px) {
-  /* line 140, ../../../sass/eco-omega.styles.scss */
+  /* line 145, ../../../sass/eco-omega.styles.scss */
   .l-footer .copyright {
     width: 23.72881%;
     float: right;
@@ -669,10 +674,10 @@ body {
     clear: none; } }
 
 /* Site fixes */
-/* line 154, ../../../sass/eco-omega.styles.scss */
+/* line 159, ../../../sass/eco-omega.styles.scss */
 .l-page .more-pad-top {
   margin-top: 40px; }
-/* line 158, ../../../sass/eco-omega.styles.scss */
+/* line 163, ../../../sass/eco-omega.styles.scss */
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 

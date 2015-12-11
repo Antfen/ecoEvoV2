@@ -477,6 +477,11 @@ body {
   width: 100%; }
 
 /* line 57, ../sass/eco-omega.styles.scss */
+.l-content {
+  padding-right: 1%;
+  padding-left: 1%; }
+
+/* line 62, ../sass/eco-omega.styles.scss */
 .l-footer {
   width: 100%;
   padding: 2.5% 2.5%;
@@ -486,7 +491,7 @@ body {
     content: "";
     display: table;
     clear: both; }
-  /* line 63, ../sass/eco-omega.styles.scss */
+  /* line 68, ../sass/eco-omega.styles.scss */
   .l-footer .copyright {
     text-align: right;
     margin: 0;
@@ -496,12 +501,12 @@ body {
       content: "";
       display: table;
       clear: both; }
-    /* line 69, ../sass/eco-omega.styles.scss */
+    /* line 74, ../sass/eco-omega.styles.scss */
     .l-footer .copyright p {
       color: #666;
       font-size: 12px; }
 
-/* line 116, ../sass/eco-omega.styles.scss */
+/* line 121, ../sass/eco-omega.styles.scss */
 .l-page .pod-panel {
   text-align: center;
   padding: 0px 0px; }
@@ -509,10 +514,10 @@ body {
 /* Site Layouts */
 /* Layouts for the Footer */
 /* Site fixes */
-/* line 154, ../sass/eco-omega.styles.scss */
+/* line 159, ../sass/eco-omega.styles.scss */
 .l-page .more-pad-top {
   margin-top: 40px; }
-/* line 158, ../sass/eco-omega.styles.scss */
+/* line 163, ../sass/eco-omega.styles.scss */
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
