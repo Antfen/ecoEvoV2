@@ -1,0 +1,81 @@
+@import "eco-omega.styles"; 
+//the following resources are already called in the eco-omega.styles.css
+//@import "compass";
+//@import "breakpoint";
+//@import "singularitygs";
+//@import "toolkit";
+
+// Globbing from within sub-folders only works with relative paths.
+//@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
+
+
+.hp-box {
+	height: 350px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	position: relative;
+	background-image: url("../../../images/img_frontpage/newquay-mobile.jpg");
+
+		.hp-info-holder {
+			/* padding: 20px 0;
+			margin: 0 15%; */
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			//background-color: #000;
+			background-image: url("../../../images/img_site_structure/hd-bg.png");
+			width: 100%;
+
+		h2 {
+			color: #f1f1f1;
+			font-size: 1.25em;
+			font-weight: normal;
+			padding: 0;
+			margin: 0;
+		}
+
+		p {
+			color: #f1f1f1;
+			font-weight: normal;
+			padding: 20px 0 0;
+			margin: 0;
+
+		}
+
+	}
+
+}
+
+.l-main {
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+
+
+
+@include breakpoint($tab) {
+
+		
+
+
+	.l-content {
+		@include grid-span(12, 1);
+
+	}
+
+	
+
+}
+
+@include breakpoint($desk) {
+
+
+
+}
+

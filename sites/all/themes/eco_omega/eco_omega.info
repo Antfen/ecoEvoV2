@@ -41,6 +41,7 @@ layout[videoHolder][stylesheets][all][] = css/layouts/videoHolder/eco-videoHolde
 layout[imageGallery][stylesheets][all][] = css/layouts/imageGallery/eco-imageGallery.layout.css
 layout[imageHolder][stylesheets][all][] = css/layouts/imageHolder/eco-imageHolder.layout.css
 layout[plot][stylesheets][all][] = css/layouts/plot/eco-plot.layout.css
+layout[tracking][stylesheets][all][] = css/layouts/tracking/eco-tracking.layout.css
 layout[sidebar][stylesheets][all][] = css/layouts/sidebar/eco-sidebar.layout.css
 
 ; ========================================
