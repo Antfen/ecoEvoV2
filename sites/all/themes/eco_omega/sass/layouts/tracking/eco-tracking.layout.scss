@@ -56,16 +56,188 @@
 	padding-bottom: 100px;
 }
 
+.view-filters {
 
+		.views-widget-filter-country {
+			margin-top: 10px;
+		}
+
+		.views-widget-filter-field_plot_date_value {
+			margin-top: 10px;
+		}
+	
+		.views-submit-button {
+			float: left;
+			width: auto;
+			margin-right: 8%;
+		}
+
+		.views-reset-button {
+			float: left;
+			width: auto;
+		}
+
+
+}
 
 
 @include breakpoint($tab) {
 
-		
+
+	.l-content {
+			@include grid-span(12, 1);
+			border: red 1px solid;
+
+			.pane-title {
+						@include grid-span(4, 1); //sets it to 4 columns wide, that starts with the 2nd column
+					}
+
+			.view {
+				@include clearfix;
+				clear: left;
+			
+
+				//Gmap view exposted filters
+			
+					.view-filters {
+						@include grid-span(12, 1); //sets it to 12 columns wide, that starts with the 1st column
+
+
+						.views-widget-filter-field_plot_creatures_species_tid {
+							@include grid-span(5, 1); 
+						}
+
+						.views-widget-filter-country {
+							@include grid-span(5, 7); 
+						}
+
+						.views-widget-filter-field_plot_date_value {
+							@include grid-span(12, 1);
+							clear: left;
+
+								#edit-field-plot-date-value-min-wrapper {
+									@include grid-span(2, 1);
+									//width: 99% !important;
+								}
+
+								#edit-field-plot-date-value-max-wrapper {
+									@include grid-span(2, 3);
+									//width: 99% !important;
+								}
+
+								input {
+								width: 100% !important;
+								}
+						}
+					
+						.views-submit-button {
+							float: left;
+							width: auto;
+							margin-right: 8px;
+							clear: left;
+
+						}
+
+						.views-reset-button {
+							float: left;
+							width: auto;
+
+						}
+
+
+					}
+
+				//Gmap container which holds the map content
+
+					.view-content {
+						@include grid-span(12, 1);
+					
+
+						
+					}
+
+				}
+
+	}
+
+	
+
+}
+
+
+@include breakpoint($tabwide) {
 
 
 	.l-content {
-		@include grid-span(12, 1);
+			@include grid-span(12, 1);
+			border: green 1px solid;
+
+			.pane-title {
+						@include grid-span(4, 2); //sets it to 4 columns wide, that starts with the 2nd column
+					}
+
+			.view {
+				@include clearfix;
+				clear: left;
+			
+
+				//Gmap view exposted filters
+			
+					.view-filters {
+						@include grid-span(2, 2); //sets it to 2 columns wide, that starts with the 2nd column
+					
+						.views-widget-filter-field_plot_creatures_species_tid {
+							float: none;
+							width: 100%;
+						}
+
+						.views-widget-filter-field_plot_date_value {
+							float: none;
+							width: 100%;
+
+								#edit-field-plot-date-value-min-wrapper {
+									float: none;
+									width: 100%;
+								}
+
+								#edit-field-plot-date-value-max-wrapper {
+									float: none;
+									width: 100%;
+									margin-left: 0;
+								}
+						}
+
+						.views-widget-filter-country {
+							float: none;
+							width: 100%;
+							margin-left: 0;
+						}
+					
+						.views-submit-button {
+							float: left;
+							width: 49%;
+							margin-right: 0;
+
+						}
+
+						.views-reset-button {
+							float: left;
+							width: 49%;
+
+						}
+
+					}
+
+				//Gmap container which holds the map content
+
+					.view-content {
+						@include grid-span(8, 4); //sets it to 8 columns wide, that starts with the 4th column
+					
+
+						
+					}
+
+				}
 
 	}
 
@@ -76,6 +248,10 @@
 @include breakpoint($desk) {
 
 
+	.l-content {
+			@include grid-span(12, 1);
+			border: orange 1px solid;
+	}
 
 }
 
