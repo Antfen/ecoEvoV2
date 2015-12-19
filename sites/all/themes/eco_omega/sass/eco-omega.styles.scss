@@ -42,8 +42,8 @@
 }
 
 #logo img {
-	width: 50px;
-	min-width: 30px;
+	width: 150px;
+	min-width: 100px;
 	top: 10px;
 	left: 10px;
 	position: absolute;
@@ -62,14 +62,47 @@
 .l-footer {
 	@include clearfix;
 	width: 100%;
-	padding: 2.5% 2.5%;
+	padding: 60px 2.5%;
 	background: #000;
+
+
+	.social-networks {
+			@include clearfix;
+			margin: 50px 0 0;
+
+	
+
+				ul {
+					margin:0;
+					padding: 0;
+					
+					li {
+						list-style: none;
+
+						a {
+							display: block;
+							text-decoration: none;
+							background-image: url("../../../images/social-networks/facebook.png");
+							background-repeat: no-repeat;
+							background-position: center;
+							height: 35px;
+							background-size: 120px;
+						}
+
+						a:hover {
+							background-image: url("../../../images/social-networks/facebook-hover.png");
+						}
+					}
+				}
+
+	}
+
 
 	.copyright {
 			@include clearfix;
-			text-align: right;
-			margin: 0;
-			padding-right: 0;
+			text-align: center;
+			margin: 50px 0 0;
+			clear: left;
 
 			p {
 				color: #666;
@@ -77,28 +110,31 @@
 			}
 
 	}
+
+
+
 }
 
 
 
 @include breakpoint($tab) {
-		#logo img {
-		top: 20px;
-		left: 20px;
-		}
+	
+	#logo img {
+	top: 20px;
+	left: 20px;
+	}
 
-		.l-header {
-		min-height: 70px;
-		}
+	.l-header {
+	min-height: 70px;
+	}
 
-		.l-main {
-		margin-top: 0;
-		}
+	.l-main {
+	margin-top: 0;
+	}
 
-		.l-footer {
-		padding: 7px 2.5%;
-		//background: #fff;
-		}
+	.l-footer {
+
+	}
 }
 
 @include breakpoint($desk) {
@@ -111,8 +147,7 @@
 		}
 
 		.l-footer {
-		padding: 7px 2.5%;
-		//background: #fff;
+
 		}
 }
 
@@ -139,22 +174,51 @@
 
 .l-footer {
 
-		@include breakpoint($tab) {
-			
+	@include breakpoint($tab) {
+
+			.social-networks {
+				
+				ul {
+					li {
+						a {
+							background-position: left;
+						}
+					}
+				}
+			}
 		
+		
+				
+			.social-networks {
+				@include grid-span(3, 1); //sets it to 3 columns wide, that starts with the 1st column
+				clear: left;
+			}
+
 			.copyright {
 				@include grid-span(3, 10); //sets it to 3 columns wide, that starts with the 10th column
+				text-align: right;
+				clear: left;
 			}
 
 
 
 		}
-	}
+
+}
 
 /* Site fixes */
 
-
 .l-page {
+
+		.no-pad-top {
+			margin-top: 0;
+			padding-top: 0;
+		}
+
+		.no-pad-bottom {
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
 
 		.more-pad-top {
 			margin-top: 40px;

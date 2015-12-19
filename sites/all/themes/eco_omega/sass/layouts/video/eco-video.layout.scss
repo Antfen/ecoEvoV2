@@ -69,16 +69,21 @@ margin-bottom: 20px;
 
 @include breakpoint($tab) {
 
-		.view-filters {
+.view-filters {
 
-		}
+}
 
-		.views-row {
-			@include float-span(3); //mixin applies right gutter to the element.
-			&:nth-child(4n+4) {		//Explicitly tell Singularity that the last item in each row should have no gutter:
-    			@include float-span(3, last);
-  			}
+.views-row {
+
+	.views-field-title { // Keep the thumbs an equal height as the grid expands and contracts
+		min-height: 40px;
+	}
+
+	@include float-span(6); //mixin applies right gutter to the element. (set to 6 Cols wide)
+	&:nth-child(2n+2) {		//Explicitly tell Singularity that the last item in each row should have no gutter: (2 items per row)
+		@include float-span(6, last); // Set to 6 Cols wide
 		}
+}
 
 
 .l-content {
@@ -91,15 +96,16 @@ margin-bottom: 20px;
 		.view {
 			@include clearfix;
 			clear: left;
+			border: red 1px solid;
 		
 
-			//Video view exposted filters
+			//Video Gallery view exposted filters
 		
 				.view-filters {
-					@include grid-span(2, 2); //sets it to 2 columns wide, that starts with the 2nd column
+					@include grid-span(2, 2); //sets it to 2 columns wide, that starts with the 1st column
 				}
 
-			//Video container which holds the view thumbs
+			//Video gallery container which holds the view thumbs
 
 				.view-content {
 					@include grid-span(8, 4); //sets it to 8 columns wide, that starts with the 4th column
@@ -115,9 +121,109 @@ margin-bottom: 20px;
 
 }
 
-@include breakpoint($desk) {
+@include breakpoint($tabwide) {
+
+.view-filters {
+		
+		}
+
+.view-content .views-row {
+
+	.views-field-title { // Keep the thumbs an equal height as the grid expands and contracts
+		min-height: 60px;
+	}
+
+	@include float-span(3); //mixin applies right gutter to the element.
+	&:nth-child(4n+4) {		//Explicitly tell Singularity that the last item in each row should have no gutter:
+		@include float-span(3, last);
+		}
+}
 
 
+.l-content {
+		@include grid-span(12, 1);
+
+		.pane-title {
+					@include grid-span(4, 2); //sets it to 4 columns wide, that starts with the 2nd column
+				}
+
+		.view {
+			@include clearfix;
+			clear: left;
+			border: green 1px solid;
+		
+
+			//Video Gallery view exposted filters
+		
+				.view-filters {
+					@include grid-span(2, 2); //sets it to 2 columns wide, that starts with the 2nd column
+				}
+
+			//Video gallery container which holds the view thumbs
+
+				.view-content {
+					@include grid-span(8, 4); //sets it to 8 columns wide, that starts with the 4th column
+				
+
+					
+				}
+
+			}
+
+		}
 
 }
 
+
+@include breakpoint($desk) {
+
+.view-filters {
+		
+		}
+
+.view-content .views-row {
+
+	.views-field-title { // Keep the thumbs an equal height as the grid expands and contracts
+		min-height: 60px;
+	}
+
+	@include float-span(3); //mixin applies right gutter to the element.
+	&:nth-child(4n+4) {		//Explicitly tell Singularity that the last item in each row should have no gutter:
+		@include float-span(3, last);
+		}
+}
+
+
+.l-content {
+		@include grid-span(12, 1);
+
+		.pane-title {
+					@include grid-span(4, 2); //sets it to 4 columns wide, that starts with the 2nd column
+				}
+
+		.view {
+			@include clearfix;
+			clear: left;
+			border: orange 1px solid;
+		
+
+			//Video Gallery view exposted filters
+		
+				.view-filters {
+					@include grid-span(2, 2); //sets it to 2 columns wide, that starts with the 2nd column
+				}
+
+			//Video gallery container which holds the view thumbs
+
+				.view-content {
+					@include grid-span(8, 4); //sets it to 8 columns wide, that starts with the 4th column
+				
+
+					
+				}
+
+			}
+
+		}
+
+}

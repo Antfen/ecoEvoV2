@@ -13,7 +13,12 @@ body {
 }
 
 .l-footer {
-	background-color: $footerBGalt
+	background-color: $footerBGalt;
+
+		h2.pane-title {
+		color: #999;
+	}
+
 }
 
 .contact-intro {

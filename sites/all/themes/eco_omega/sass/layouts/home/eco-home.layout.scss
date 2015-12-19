@@ -8,12 +8,16 @@
 // Globbing from within sub-folders only works with relative paths.
 //@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
 
-
-.l-header {
-	min-height: 100px;
+.l-content {
+    padding-right: 0;
+    padding-left: 0;
 }
 
-.hp-box, .hp-box-alt {
+.l-header {
+	//min-height: 100px;
+}
+
+.hp-box {
 	height: 700px;
 	background-position: left center;
 	background-repeat: no-repeat;
@@ -23,39 +27,20 @@
 	-o-background-size: cover;
 	text-align: center;
 	position: relative;
-	background-image: url("../../../images/img_frontpage/newquay-mobile.jpg");
-
-		.hp-info-holder {
-			/* padding: 20px 0;
-			margin: 0 15%; */
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			//background-color: #000;
-			background-image: url("../../../images/img_site_structure/hd-bg.png");
-			width: 100%;
-
-		h2 {
-			color: #f1f1f1;
-			font-size: 1.25em;
-			font-weight: normal;
-			padding: 0;
-			margin: 0;
-		}
-
-		p {
-			color: #f1f1f1;
-			font-weight: normal;
-			padding: 20px 0 0;
-			margin: 0;
-
-		}
-	}
-
+	background-image: url("../../../images/img_frontpage/newquay-tab.jpg");
 }
 
-.hp-box-alt {
-	background-image: url("../../../images/img_frontpage/norlunga-mobile.jpg");
+
+.pod-panel { //Lets create a panel-pane secific class to control the assets within the pod-panel content type
+
+	.node__title {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	img {
+		display: block;
+	}
 }
 
 //Settings for Panel
@@ -63,25 +48,27 @@
 
 	.panel-pane {
 		background-color: #fff;
-		border: 1px solid #000;
-		margin-top: 20px;
-	}
-
-	.panel-row-alt {
-		background-color: #ddd;
-		border: 1px solid #000;
-		margin-top: 20px;
+		//border: 1px solid #000;
+		margin-top: 50px;
 	}
 
 	.pane-title {
 		color: $h2Colour;
-		padding-right: 2%;
-		padding-left: 2%;	
+		padding-right: 1%;
+		padding-left: 1%;	
 	}
 
 	.field--name-field-text-introduction-pod, .field--name-field-text-main-pod {
-		padding-right: 2%;
-		padding-left: 2%;	
+		padding-right: 1%;
+		padding-left: 1%;
+	}
+
+	.field--name-field-text-introduction-pod {
+		padding-bottom: 50px;
+	}
+
+	.pod-no1 .field--name-field-text-introduction-pod {
+		padding-bottom: 0;
 	}
 
 }
@@ -92,37 +79,71 @@
 @include breakpoint($tab) {
 
 	.hp-box {
-	//min-height: 400px;
-	background-image: url("../../../images/img_frontpage/newquay-normal.jpg");
+		background-image: url("../../../images/img_frontpage/newquay-tab.jpg");
+	}
 
-			.hp-info-holder {
-				/* padding: 40px 0;
-				margin: 0 15%; */
+	.l-content {
+		@include grid-span(12, 1);
 
-			h2 {
-				//font-size: 3em;
-				//padding: 0;
-				//margin: 0;
+			.pane-title, .field--name-field-text-introduction-pod, .field--name-field-text-main-pod {//We need to reset after coming from mobile!
+			padding-right: 0;
+			padding-left: 0;
+		}
+	
+		.pod-no1 { //Lets create a panel-pane secific class to control the assets within the pod content type
+
+			.field--name-field-text-introduction-pod {
+				//@include grid-span(4, 7);
+				
 			}
 
-			p {
-				//font-size: 1.75em;
-				//padding: 0;
-				//margin: 0;
-
+			.field--name-field-image-pod {
+				//@include grid-span(4, 2);
+				
 			}
+
+			.field--name-field-text-introduction-pod {
+				padding-bottom: 0;
+			}
+
 		}
 
-	}
+		.pod-no2 { //Lets create a panel-pane secific class to control the assets within the pod content type
 
+			.field--name-field-text-introduction-pod {
+				@include grid-span(4, 7); //sets it to 4 columns wide, that starts with the 7th column
+				
+			}
 
-	.hp-box-alt {
-	background-image: url("../../../images/img_frontpage/norlunga-normal.jpg");
-	}
+			.field--name-field-image-pod {
+				@include grid-span(4, 2); //sets it to 4 columns wide, that starts with the 2nd column
+				
+			}
 
-	//Settings for Panel
-	.panel-row-alt {
-	//@include clearfix;
+			.field--name-field-text-introduction-pod {
+				padding-bottom: 0;
+			}
+
+		}
+
+		.pod-no3 { //Lets create a panel-pane secific class to control the assets within the pod content type
+
+			.field--name-field-text-introduction-pod {
+				@include grid-span(4, 2); //sets it to 4 columns wide, that starts with the 7th column
+				
+			}
+
+			.field--name-field-image-pod {
+				@include grid-span(4, 7); //sets it to 4 columns wide, that starts with the 2nd column
+				
+			}
+
+			.field--name-field-text-introduction-pod {
+				padding-bottom: 0;
+			}
+
+		}
+
 	}
 
 	//Settings for the Pod content type
@@ -133,14 +154,21 @@
 
 }
 
+
+@include breakpoint($tabwide) {
+
+	.hp-box {
+	background-image: url("../../../images/img_frontpage/newquay-tabwide.jpg");
+	}
+
+
+
+}
+
 @include breakpoint($desk) {
 
 	.hp-box {
-	background-image: url("../../../images/img_frontpage/newquay-wide.jpg");
-	}
-
-	.hp-box-alt {
-	background-image: url("../../../images/img_frontpage/norlunga-wide.jpg");
+	background-image: url("../../../images/img_frontpage/newquay-desk.jpg");
 	}
 
 
