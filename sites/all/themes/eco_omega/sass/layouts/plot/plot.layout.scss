@@ -67,12 +67,12 @@ select.form-select {
 .l-content {
 		//@include grid-span(10, 2);
 		@include clearfix;
-		border: red 1px solid;
+		//border: red 1px solid;
 
 
 		.pane-form {
 			@include grid-span(10, 2); //sets it to 10 columns wide, that starts with the 2nd column
-			border: green 1px solid;
+			//border: green 1px solid;
 
 			//Some basic form settings
 
@@ -215,9 +215,17 @@ select.form-select {
 
 			//Form buttons
 			.form-actions {
-				@include grid-span(6, 1);
+				@include grid-span(10, 1);
 				margin-top: 15px;
 				clear: left;
+
+				#edit-submit {
+					@include grid-span(2, 1);
+				}
+
+				#edit-preview {
+					@include grid-span(2, 3);
+				}
 			}
 
 		}

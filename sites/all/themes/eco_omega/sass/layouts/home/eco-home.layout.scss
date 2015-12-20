@@ -63,6 +63,11 @@
 		padding-left: 1%;
 	}
 
+	.field--name-field-image-pod {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
 	.field--name-field-text-introduction-pod {
 		padding-bottom: 50px;
 	}
@@ -85,7 +90,7 @@
 	.l-content {
 		@include grid-span(12, 1);
 
-			.pane-title, .field--name-field-text-introduction-pod, .field--name-field-text-main-pod {//We need to reset after coming from mobile!
+		.pane-title, .field--name-field-text-introduction-pod, .field--name-field-text-main-pod {//We need to reset after coming from mobile!
 			padding-right: 0;
 			padding-left: 0;
 		}

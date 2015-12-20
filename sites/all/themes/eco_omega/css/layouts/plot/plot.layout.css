@@ -322,7 +322,29 @@ body {
     body h4 {
       font-size: 2.0em; } }
 
-/* line 2, ../../../sass/components/_buttons.scss */
+/* line 3, ../../../sass/components/_buttons.scss */
+.form-actions {
+  font-weight: normal;
+  border-radius: 2px;
+  text-align: center; }
+  /* line 8, ../../../sass/components/_buttons.scss */
+  .form-actions #edit-submit, .form-actions #edit-preview {
+    color: #fff;
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    background-color: #000;
+    -moz-transition: background-color 1s 0.5s, color 2s;
+    -o-transition: background-color 1s 0.5s, color 2s;
+    -webkit-transition: background-color 1s, color 2s;
+    -webkit-transition-delay: 0.5s, 0s;
+    transition: background-color 1s 0.5s, color 2s; }
+  /* line 17, ../../../sass/components/_buttons.scss */
+  .form-actions #edit-submit:hover, .form-actions #edit-preview:hover {
+    color: #000;
+    background-color: #fff; }
+
+/* line 24, ../../../sass/components/_buttons.scss */
 .button_site {
   border: 1px solid #ccc;
   font-size: 1.5em;
@@ -330,7 +352,7 @@ body {
   font-weight: normal;
   border-radius: 2px;
   text-align: center; }
-  /* line 10, ../../../sass/components/_buttons.scss */
+  /* line 32, ../../../sass/components/_buttons.scss */
   .button_site a {
     color: #fff;
     display: block;
@@ -342,12 +364,12 @@ body {
     -webkit-transition: background-color 1s, color 2s;
     -webkit-transition-delay: 0.5s, 0s;
     transition: background-color 1s 0.5s, color 2s; }
-  /* line 19, ../../../sass/components/_buttons.scss */
+  /* line 41, ../../../sass/components/_buttons.scss */
   .button_site a:hover {
     color: #000;
     background-color: #fff; }
 
-/* line 26, ../../../sass/components/_buttons.scss */
+/* line 48, ../../../sass/components/_buttons.scss */
 .button_site_node {
   border: 1px solid #ccc;
   font-size: 1.25em;
@@ -357,7 +379,7 @@ body {
   text-align: center;
   max-width: 7em;
   margin: 0 auto; }
-  /* line 36, ../../../sass/components/_buttons.scss */
+  /* line 58, ../../../sass/components/_buttons.scss */
   .button_site_node a {
     color: #fff;
     display: block;
@@ -370,17 +392,17 @@ body {
     -webkit-transition: background-color 1s, color 2s;
     -webkit-transition-delay: 0.5s, 0s;
     transition: background-color 1s 0.5s, color 2s; }
-  /* line 46, ../../../sass/components/_buttons.scss */
+  /* line 68, ../../../sass/components/_buttons.scss */
   .button_site_node a:hover {
     color: #000;
     background-color: #666; }
 
 @media (min-width: 768px) {
-  /* line 54, ../../../sass/components/_buttons.scss */
+  /* line 76, ../../../sass/components/_buttons.scss */
   .button_site {
     margin: 0 auto;
     max-width: 12em; } }
-/* line 61, ../../../sass/components/_buttons.scss */
+/* line 83, ../../../sass/components/_buttons.scss */
 .button_site_alt {
   border: 1px solid #ccc;
   font-size: 1.5em;
@@ -388,7 +410,7 @@ body {
   font-weight: normal;
   border-radius: 2px;
   text-align: center; }
-  /* line 69, ../../../sass/components/_buttons.scss */
+  /* line 91, ../../../sass/components/_buttons.scss */
   .button_site_alt a {
     color: #fff;
     display: block;
@@ -400,13 +422,13 @@ body {
     -webkit-transition: background-color 1s, color 2s;
     -webkit-transition-delay: 0.5s, 0s;
     transition: background-color 1s 0.5s, color 2s; }
-  /* line 78, ../../../sass/components/_buttons.scss */
+  /* line 100, ../../../sass/components/_buttons.scss */
   .button_site_alt a:hover {
     color: #000;
     background-color: #fff; }
 
 @media (min-width: 768px) {
-  /* line 86, ../../../sass/components/_buttons.scss */
+  /* line 108, ../../../sass/components/_buttons.scss */
   .button_site_alt {
     margin: 0 auto;
     max-width: 12em; } }
@@ -788,198 +810,208 @@ select.form-select {
   margin-bottom: 0; }
 
 @media (min-width: 768px) {
-  /* line 67, ../../../sass/layouts/plot/plot.layout.scss */
-  .l-content {
-    border: red 1px solid; }
-    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
-    .l-content:after {
-      content: "";
-      display: table;
-      clear: both; }
-    /* line 73, ../../../sass/layouts/plot/plot.layout.scss */
-    .l-content .pane-form {
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  .l-content:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 73, ../../../sass/layouts/plot/plot.layout.scss */
+  .l-content .pane-form {
+    width: 83.05085%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
+    clear: none;
+    			/* .form-item-title {
+    				@include grid-span(6, 1);
+    
+    					input {
+    						width: 98% !important;
+    					}
+    			} */ }
+    /* line 79, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form select.form-select {
+      width: 98% !important; }
+    /* line 94, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .form-item input {
+      width: 98% !important; }
+    /* line 101, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-date {
+      width: 49.15254%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none; }
+      /* line 104, ../../../sass/layouts/plot/plot.layout.scss */
+      .l-content .pane-form .field-name-field-plot-date fieldset {
+        border: 0;
+        margin: 0;
+        padding: 0; }
+      /* line 110, ../../../sass/layouts/plot/plot.layout.scss */
+      .l-content .pane-form .field-name-field-plot-date span.fieldset-legend {
+        font-color: #000;
+        font-weight: bold; }
+      /* line 119, ../../../sass/layouts/plot/plot.layout.scss */
+      .l-content .pane-form .field-name-field-plot-date .description {
+        display: none; }
+      /* line 123, ../../../sass/layouts/plot/plot.layout.scss */
+      .l-content .pane-form .field-name-field-plot-date .date-padding {
+        padding: 0; }
+      /* line 127, ../../../sass/layouts/plot/plot.layout.scss */
+      .l-content .pane-form .field-name-field-plot-date fieldset.date-combo .container-inline-date > .form-item {
+        margin-bottom: 0; }
+    /* line 135, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-sky {
+      width: 49.15254%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; }
+    /* line 139, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-weather {
+      width: 49.15254%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      clear: right; }
+    /* line 144, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-temperature {
+      width: 49.15254%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; }
+    /* line 148, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-wind-force {
+      width: 49.15254%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      clear: right; }
+    /* line 153, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-wind-direction {
+      width: 49.15254%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; }
+    /* line 157, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-tide-state {
+      width: 49.15254%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      clear: right; }
+    /* line 162, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-tide-movement {
+      width: 49.15254%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; }
+    /* line 166, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-sea-state {
+      width: 49.15254%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      clear: right; }
+    /* line 171, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-swell {
+      width: 49.15254%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; }
+    /* line 175, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .location-wrapper {
       width: 83.05085%;
       float: left;
       margin-right: -100%;
       margin-left: 8.47458%;
       clear: none;
-      border: green 1px solid;
-      			/* .form-item-title {
-      				@include grid-span(6, 1);
-      
-      					input {
-      						width: 98% !important;
-      					}
-      			} */ }
-      /* line 79, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form select.form-select {
-        width: 98% !important; }
-      /* line 94, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .form-item input {
-        width: 98% !important; }
-      /* line 101, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-date {
-        width: 49.15254%;
+      clear: right; }
+    /* line 180, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-creatures-species {
+      width: 49.15254%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      margin-top: 15px;
+      clear: left; }
+    /* line 186, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-gender {
+      width: 49.15254%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none;
+      margin-top: 15px; }
+    /* line 191, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-creatures-nickname {
+      width: 49.15254%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      clear: right; }
+    /* line 196, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-creatures-direction {
+      width: 49.15254%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; }
+    /* line 200, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-group-name {
+      width: 49.15254%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      clear: right; }
+    /* line 205, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-how-many-in-group {
+      width: 49.15254%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; }
+    /* line 209, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .field-name-field-plot-additional-info {
+      width: 83.05085%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 8.47458%;
+      clear: none;
+      clear: right; }
+    /* line 217, ../../../sass/layouts/plot/plot.layout.scss */
+    .l-content .pane-form .form-actions {
+      width: 83.05085%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      margin-top: 15px;
+      clear: left; }
+      /* line 222, ../../../sass/layouts/plot/plot.layout.scss */
+      .l-content .pane-form .form-actions #edit-submit {
+        width: 15.25424%;
         float: left;
         margin-right: -100%;
         margin-left: 0;
         clear: none; }
-        /* line 104, ../../../sass/layouts/plot/plot.layout.scss */
-        .l-content .pane-form .field-name-field-plot-date fieldset {
-          border: 0;
-          margin: 0;
-          padding: 0; }
-        /* line 110, ../../../sass/layouts/plot/plot.layout.scss */
-        .l-content .pane-form .field-name-field-plot-date span.fieldset-legend {
-          font-color: #000;
-          font-weight: bold; }
-        /* line 119, ../../../sass/layouts/plot/plot.layout.scss */
-        .l-content .pane-form .field-name-field-plot-date .description {
-          display: none; }
-        /* line 123, ../../../sass/layouts/plot/plot.layout.scss */
-        .l-content .pane-form .field-name-field-plot-date .date-padding {
-          padding: 0; }
-        /* line 127, ../../../sass/layouts/plot/plot.layout.scss */
-        .l-content .pane-form .field-name-field-plot-date fieldset.date-combo .container-inline-date > .form-item {
-          margin-bottom: 0; }
-      /* line 135, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-sky {
-        width: 49.15254%;
-        float: right;
-        margin-left: 0;
-        margin-right: 0;
-        clear: none; }
-      /* line 139, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-weather {
-        width: 49.15254%;
+      /* line 226, ../../../sass/layouts/plot/plot.layout.scss */
+      .l-content .pane-form .form-actions #edit-preview {
+        width: 15.25424%;
         float: left;
         margin-right: -100%;
-        margin-left: 0;
-        clear: none;
-        clear: right; }
-      /* line 144, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-temperature {
-        width: 49.15254%;
-        float: right;
-        margin-left: 0;
-        margin-right: 0;
-        clear: none; }
-      /* line 148, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-wind-force {
-        width: 49.15254%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 0;
-        clear: none;
-        clear: right; }
-      /* line 153, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-wind-direction {
-        width: 49.15254%;
-        float: right;
-        margin-left: 0;
-        margin-right: 0;
-        clear: none; }
-      /* line 157, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-tide-state {
-        width: 49.15254%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 0;
-        clear: none;
-        clear: right; }
-      /* line 162, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-tide-movement {
-        width: 49.15254%;
-        float: right;
-        margin-left: 0;
-        margin-right: 0;
-        clear: none; }
-      /* line 166, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-sea-state {
-        width: 49.15254%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 0;
-        clear: none;
-        clear: right; }
-      /* line 171, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-swell {
-        width: 49.15254%;
-        float: right;
-        margin-left: 0;
-        margin-right: 0;
-        clear: none; }
-      /* line 175, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .location-wrapper {
-        width: 83.05085%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 8.47458%;
-        clear: none;
-        clear: right; }
-      /* line 180, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-creatures-species {
-        width: 49.15254%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 0;
-        clear: none;
-        margin-top: 15px;
-        clear: left; }
-      /* line 186, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-gender {
-        width: 49.15254%;
-        float: right;
-        margin-left: 0;
-        margin-right: 0;
-        clear: none;
-        margin-top: 15px; }
-      /* line 191, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-creatures-nickname {
-        width: 49.15254%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 0;
-        clear: none;
-        clear: right; }
-      /* line 196, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-creatures-direction {
-        width: 49.15254%;
-        float: right;
-        margin-left: 0;
-        margin-right: 0;
-        clear: none; }
-      /* line 200, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-group-name {
-        width: 49.15254%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 0;
-        clear: none;
-        clear: right; }
-      /* line 205, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-how-many-in-group {
-        width: 49.15254%;
-        float: right;
-        margin-left: 0;
-        margin-right: 0;
-        clear: none; }
-      /* line 209, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .field-name-field-plot-additional-info {
-        width: 83.05085%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 8.47458%;
-        clear: none;
-        clear: right; }
-      /* line 217, ../../../sass/layouts/plot/plot.layout.scss */
-      .l-content .pane-form .form-actions {
-        width: 49.15254%;
-        float: left;
-        margin-right: -100%;
-        margin-left: 0;
-        clear: none;
-        margin-top: 15px;
-        clear: left; } }
+        margin-left: 16.94915%;
+        clear: none; } }
 
 /*# sourceMappingURL=plot.layout.css.map */

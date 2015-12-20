@@ -257,7 +257,29 @@ body {
     margin-bottom: 0;
     padding-top: 5px; }
 
-/* line 2, ../../../sass/components/_buttons.scss */
+/* line 3, ../../../sass/components/_buttons.scss */
+.form-actions {
+  font-weight: normal;
+  border-radius: 2px;
+  text-align: center; }
+  /* line 8, ../../../sass/components/_buttons.scss */
+  .form-actions #edit-submit, .form-actions #edit-preview {
+    color: #fff;
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    background-color: #000;
+    -moz-transition: background-color 1s 0.5s, color 2s;
+    -o-transition: background-color 1s 0.5s, color 2s;
+    -webkit-transition: background-color 1s, color 2s;
+    -webkit-transition-delay: 0.5s, 0s;
+    transition: background-color 1s 0.5s, color 2s; }
+  /* line 17, ../../../sass/components/_buttons.scss */
+  .form-actions #edit-submit:hover, .form-actions #edit-preview:hover {
+    color: #000;
+    background-color: #fff; }
+
+/* line 24, ../../../sass/components/_buttons.scss */
 .button_site {
   border: 1px solid #ccc;
   font-size: 1.5em;
@@ -265,7 +287,7 @@ body {
   font-weight: normal;
   border-radius: 2px;
   text-align: center; }
-  /* line 10, ../../../sass/components/_buttons.scss */
+  /* line 32, ../../../sass/components/_buttons.scss */
   .button_site a {
     color: #fff;
     display: block;
@@ -277,12 +299,12 @@ body {
     -webkit-transition: background-color 1s, color 2s;
     -webkit-transition-delay: 0.5s, 0s;
     transition: background-color 1s 0.5s, color 2s; }
-  /* line 19, ../../../sass/components/_buttons.scss */
+  /* line 41, ../../../sass/components/_buttons.scss */
   .button_site a:hover {
     color: #000;
     background-color: #fff; }
 
-/* line 26, ../../../sass/components/_buttons.scss */
+/* line 48, ../../../sass/components/_buttons.scss */
 .button_site_node {
   border: 1px solid #ccc;
   font-size: 1.25em;
@@ -292,7 +314,7 @@ body {
   text-align: center;
   max-width: 7em;
   margin: 0 auto; }
-  /* line 36, ../../../sass/components/_buttons.scss */
+  /* line 58, ../../../sass/components/_buttons.scss */
   .button_site_node a {
     color: #fff;
     display: block;
@@ -305,12 +327,12 @@ body {
     -webkit-transition: background-color 1s, color 2s;
     -webkit-transition-delay: 0.5s, 0s;
     transition: background-color 1s 0.5s, color 2s; }
-  /* line 46, ../../../sass/components/_buttons.scss */
+  /* line 68, ../../../sass/components/_buttons.scss */
   .button_site_node a:hover {
     color: #000;
     background-color: #666; }
 
-/* line 61, ../../../sass/components/_buttons.scss */
+/* line 83, ../../../sass/components/_buttons.scss */
 .button_site_alt {
   border: 1px solid #ccc;
   font-size: 1.5em;
@@ -318,7 +340,7 @@ body {
   font-weight: normal;
   border-radius: 2px;
   text-align: center; }
-  /* line 69, ../../../sass/components/_buttons.scss */
+  /* line 91, ../../../sass/components/_buttons.scss */
   .button_site_alt a {
     color: #fff;
     display: block;
@@ -330,7 +352,7 @@ body {
     -webkit-transition: background-color 1s, color 2s;
     -webkit-transition-delay: 0.5s, 0s;
     transition: background-color 1s 0.5s, color 2s; }
-  /* line 78, ../../../sass/components/_buttons.scss */
+  /* line 100, ../../../sass/components/_buttons.scss */
   .button_site_alt a:hover {
     color: #000;
     background-color: #fff; }

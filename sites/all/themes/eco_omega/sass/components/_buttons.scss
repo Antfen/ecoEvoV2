@@ -1,5 +1,27 @@
+//Styles for buttons
 
-.button_site {
+.form-actions { //Button style for the Plot input form
+	font-weight: normal;
+	border-radius: 2px;
+	text-align: center;
+
+		#edit-submit, #edit-preview {
+		  color: #fff;
+		  display: block;
+		  padding: 7px;
+		  text-decoration: none;
+		  background-color: #000;
+		  @include transition(background-color 1s .5s, color 2s);
+		}
+
+		#edit-submit:hover, #edit-preview:hover {
+		  color: #000; 
+		  background-color: #fff;
+		}
+
+}
+
+.button_site { //Generic button style
 	border: 1px solid #ccc;
 	font-size: 1.5em;
 	line-height: 1.9em;
@@ -23,7 +45,7 @@
 
 }
 
-.button_site_node {
+.button_site_node { //Button style for use within nodes
 	border: 1px solid #ccc;
 	font-size: 1.25em;
 	line-height: 1.25em;
