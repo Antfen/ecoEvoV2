@@ -10,13 +10,13 @@
 
 .hp-box {
 	height: 350px;
-	background-position: left top;
+	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-image: url("../../../images/img_frontpage/image-gallery.jpg");
+	background-image: url("../../../images/img_frontpage/image-gallery-mobile.jpg");
 }
 
 .l-main {
@@ -33,6 +33,10 @@ margin-bottom: 20px;
 }
 
 @include breakpoint($tab) {
+
+.hp-box {
+	background-image: url("../../../images/img_frontpage/image-gallery-tab.jpg");
+}
 
 .view-filters {
 
@@ -83,6 +87,10 @@ margin-bottom: 20px;
 
 @include breakpoint($tabwide) {
 
+.hp-box {
+	background-image: url("../../../images/img_frontpage/image-gallery-tabwide.jpg");
+}
+
 .view-filters {
 		
 		}
@@ -131,6 +139,10 @@ margin-bottom: 20px;
 
 
 @include breakpoint($desk) {
+
+.hp-box {
+	background-image: url("../../../images/img_frontpage/image-gallery-desk.jpg");
+}
 
 .view-filters {
 		

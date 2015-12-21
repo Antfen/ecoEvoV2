@@ -776,13 +776,13 @@ body {
 /* line 11, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
 .hp-box {
   height: 350px;
-  background-position: left top;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-image: url("../../../images/img_frontpage/image-gallery.jpg"); }
+  background-image: url("../../../images/img_frontpage/image-gallery-mobile.jpg"); }
 
 /* line 22, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
 .l-main {
@@ -797,35 +797,39 @@ body {
   margin-bottom: 20px; }
 
 @media (min-width: 768px) {
-  /* line 41, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  /* line 37, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  .hp-box {
+    background-image: url("../../../images/img_frontpage/image-gallery-tab.jpg"); }
+
+  /* line 45, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
   .views-row {
     width: 49.15254%;
     clear: right;
     float: left;
     margin-left: 0;
     margin-right: 1.69492%; }
-    /* line 43, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 47, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .views-row:nth-child(2n+2) {
       width: 49.15254%;
       clear: right;
       float: right;
       margin-right: 0; }
 
-  /* line 49, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  /* line 53, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
   .l-content {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-    /* line 52, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 56, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .l-content .pane-title {
       width: 32.20339%;
       float: left;
       margin-right: -100%;
       margin-left: 8.47458%;
       clear: none; }
-    /* line 56, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 60, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .l-content .view {
       clear: left; }
       /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
@@ -833,14 +837,14 @@ body {
         content: "";
         display: table;
         clear: both; }
-      /* line 64, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+      /* line 68, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
       .l-content .view .view-filters {
         width: 15.25424%;
         float: left;
         margin-right: -100%;
         margin-left: 8.47458%;
         clear: none; }
-      /* line 70, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+      /* line 74, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
       .l-content .view .view-content {
         width: 66.10169%;
         float: left;
@@ -849,34 +853,38 @@ body {
         clear: none; } }
 @media (min-width: 1024px) {
   /* line 90, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  .hp-box {
+    background-image: url("../../../images/img_frontpage/image-gallery-tabwide.jpg"); }
+
+  /* line 98, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
   .view-content .views-row {
     width: 23.72881%;
     clear: right;
     float: left;
     margin-left: 0;
     margin-right: 1.69492%; }
-    /* line 92, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 100, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .view-content .views-row:nth-child(4n+4) {
       width: 23.72881%;
       clear: right;
       float: right;
       margin-right: 0; }
 
-  /* line 98, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  /* line 106, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
   .l-content {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-    /* line 101, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 109, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .l-content .pane-title {
       width: 32.20339%;
       float: left;
       margin-right: -100%;
       margin-left: 8.47458%;
       clear: none; }
-    /* line 105, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 113, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .l-content .view {
       clear: left; }
       /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
@@ -884,14 +892,14 @@ body {
         content: "";
         display: table;
         clear: both; }
-      /* line 113, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+      /* line 121, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
       .l-content .view .view-filters {
         width: 15.25424%;
         float: left;
         margin-right: -100%;
         margin-left: 8.47458%;
         clear: none; }
-      /* line 119, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+      /* line 127, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
       .l-content .view .view-content {
         width: 66.10169%;
         float: left;
@@ -899,35 +907,39 @@ body {
         margin-left: 25.42373%;
         clear: none; } }
 @media (min-width: 1120px) {
-  /* line 139, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  /* line 143, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  .hp-box {
+    background-image: url("../../../images/img_frontpage/image-gallery-desk.jpg"); }
+
+  /* line 151, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
   .view-content .views-row {
     width: 23.72881%;
     clear: right;
     float: left;
     margin-left: 0;
     margin-right: 1.69492%; }
-    /* line 141, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 153, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .view-content .views-row:nth-child(4n+4) {
       width: 23.72881%;
       clear: right;
       float: right;
       margin-right: 0; }
 
-  /* line 147, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+  /* line 159, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
   .l-content {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-    /* line 150, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 162, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .l-content .pane-title {
       width: 32.20339%;
       float: left;
       margin-right: -100%;
       margin-left: 8.47458%;
       clear: none; }
-    /* line 154, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+    /* line 166, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
     .l-content .view {
       clear: left; }
       /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
@@ -935,14 +947,14 @@ body {
         content: "";
         display: table;
         clear: both; }
-      /* line 162, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+      /* line 174, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
       .l-content .view .view-filters {
         width: 15.25424%;
         float: left;
         margin-right: -100%;
         margin-left: 8.47458%;
         clear: none; }
-      /* line 168, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
+      /* line 180, ../../../sass/layouts/imageGallery/eco-imageGallery.layout.scss */
       .l-content .view .view-content {
         width: 66.10169%;
         float: left;
