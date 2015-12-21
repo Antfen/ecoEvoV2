@@ -19,36 +19,7 @@
 	-o-background-size: cover;
 	text-align: center;
 	position: relative;
-	background-image: url("../../../images/img_frontpage/newquay-mobile.jpg");
-
-		.hp-info-holder {
-			/* padding: 20px 0;
-			margin: 0 15%; */
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			//background-color: #000;
-			background-image: url("../../../images/img_site_structure/hd-bg.png");
-			width: 100%;
-
-		h2 {
-			color: #f1f1f1;
-			font-size: 1.25em;
-			font-weight: normal;
-			padding: 0;
-			margin: 0;
-		}
-
-		p {
-			color: #f1f1f1;
-			font-weight: normal;
-			padding: 20px 0 0;
-			margin: 0;
-
-		}
-
-	}
-
+	background-image: url("../../../images/img_frontpage/video-mobile.jpg");
 }
 
 .l-main {
@@ -68,6 +39,10 @@ margin-bottom: 20px;
 
 
 @include breakpoint($tab) {
+
+.hp-box {
+	background-image: url("../../../images/img_frontpage/video-tab.jpg");
+}
 
 .view-filters {
 
@@ -96,7 +71,7 @@ margin-bottom: 20px;
 		.view {
 			@include clearfix;
 			clear: left;
-			border: red 1px solid;
+			//border: red 1px solid;
 		
 
 			//Video Gallery view exposted filters
@@ -123,6 +98,9 @@ margin-bottom: 20px;
 
 @include breakpoint($tabwide) {
 
+.hp-box {
+background-image: url("../../../images/img_frontpage/video-tabwide.jpg");
+}
 .view-filters {
 		
 		}
@@ -150,7 +128,7 @@ margin-bottom: 20px;
 		.view {
 			@include clearfix;
 			clear: left;
-			border: green 1px solid;
+			//border: green 1px solid;
 		
 
 			//Video Gallery view exposted filters
@@ -177,6 +155,10 @@ margin-bottom: 20px;
 
 @include breakpoint($desk) {
 
+.hp-box {
+background-image: url("../../../images/img_frontpage/video-desk.jpg");
+}
+
 .view-filters {
 		
 		}
@@ -204,7 +186,7 @@ margin-bottom: 20px;
 		.view {
 			@include clearfix;
 			clear: left;
-			border: orange 1px solid;
+			//border: orange 1px solid;
 		
 
 			//Video Gallery view exposted filters
