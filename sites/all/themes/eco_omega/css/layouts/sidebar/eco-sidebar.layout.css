@@ -874,9 +874,4 @@ body {
   .l-footer .copyright p {
     color: #fff; }
 
-@media (min-width: 768px) {
-  /* line 148, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
-  .l-footer h2.pane-title {
-    border-bottom: #fff 1px solid; } }
-
 /*# sourceMappingURL=eco-sidebar.layout.css.map */
