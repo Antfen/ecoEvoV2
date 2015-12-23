@@ -33,6 +33,14 @@ select.form-select {
 .field-name-field-plot-date {
 	//@include grid-span(6, 7);
 
+		span.fieldset-legend {
+			display:none;
+		}
+
+		fieldset.date-combo .container-inline-date .date-padding {
+			padding: 0 0 10px 0;
+		}
+
 		fieldset {
 			border: 0;
 			margin: 0;

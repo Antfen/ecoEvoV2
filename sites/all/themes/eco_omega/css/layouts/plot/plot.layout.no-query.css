@@ -622,24 +622,30 @@ select.form-select {
   width: 99% !important; }
 
 /* line 36, ../../../sass/layouts/plot/plot.layout.scss */
+.field-name-field-plot-date span.fieldset-legend {
+  display: none; }
+/* line 40, ../../../sass/layouts/plot/plot.layout.scss */
+.field-name-field-plot-date fieldset.date-combo .container-inline-date .date-padding {
+  padding: 0 0 10px 0; }
+/* line 44, ../../../sass/layouts/plot/plot.layout.scss */
 .field-name-field-plot-date fieldset {
   border: 0;
   margin: 0;
   padding: 0; }
-/* line 42, ../../../sass/layouts/plot/plot.layout.scss */
+/* line 50, ../../../sass/layouts/plot/plot.layout.scss */
 .field-name-field-plot-date span.fieldset-legend {
   font-color: #000;
   font-weight: bold; }
-/* line 47, ../../../sass/layouts/plot/plot.layout.scss */
+/* line 55, ../../../sass/layouts/plot/plot.layout.scss */
 .field-name-field-plot-date input {
   width: 99% !important; }
-/* line 51, ../../../sass/layouts/plot/plot.layout.scss */
+/* line 59, ../../../sass/layouts/plot/plot.layout.scss */
 .field-name-field-plot-date .description {
   display: none; }
-/* line 55, ../../../sass/layouts/plot/plot.layout.scss */
+/* line 63, ../../../sass/layouts/plot/plot.layout.scss */
 .field-name-field-plot-date .date-padding {
   padding: 0; }
-/* line 59, ../../../sass/layouts/plot/plot.layout.scss */
+/* line 67, ../../../sass/layouts/plot/plot.layout.scss */
 .field-name-field-plot-date fieldset.date-combo .container-inline-date > .form-item {
   margin-bottom: 0; }
 
