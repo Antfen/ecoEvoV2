@@ -773,13 +773,7 @@ body {
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
-/* line 11, ../../../sass/layouts/videoHolder/eco-videoHolder.layout.scss */
-.l-header {
-  position: static;
-  background-image: none;
-  background-color: #000; }
-
-/* line 18, ../../../sass/layouts/videoHolder/eco-videoHolder.layout.scss */
+/* line 12, ../../../sass/layouts/videoHolder/eco-videoHolder.layout.scss */
 .media-youtube-video {
   height: 0;
   width: 100%;
@@ -787,7 +781,7 @@ body {
   overflow: hidden;
   position: relative; }
 
-/* line 26, ../../../sass/layouts/videoHolder/eco-videoHolder.layout.scss */
+/* line 20, ../../../sass/layouts/videoHolder/eco-videoHolder.layout.scss */
 .media-youtube-1 iframe {
   width: 100%;
   height: 100%;
@@ -795,7 +789,7 @@ body {
   top: 0;
   left: 0; }
 
-/* line 34, ../../../sass/layouts/videoHolder/eco-videoHolder.layout.scss */
+/* line 28, ../../../sass/layouts/videoHolder/eco-videoHolder.layout.scss */
 .l-main {
   padding-top: 55px; }
 
