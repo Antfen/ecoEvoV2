@@ -835,7 +835,7 @@ h2.pane-title {
           text-decoration: none;
           background-image: url("../../../images/social-networks/facebook-alt.png");
           background-repeat: no-repeat;
-          background-position: left;
+          background-position: center;
           height: 35px;
           background-size: 120px; }
         /* line 91, ../../../sass/layouts/contact/eco-contact.layout.scss */
@@ -858,6 +858,9 @@ h2.pane-title {
     color: #000; }
   /* line 134, ../../../sass/layouts/contact/eco-contact.layout.scss */
   .l-footer ul.menu li a:hover {
-    color: #666; } }
+    color: #666; }
+  /* line 145, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  .l-footer .social-networks ul li a {
+    background-position: left; } }
 
 /*# sourceMappingURL=eco-contact.layout.css.map */

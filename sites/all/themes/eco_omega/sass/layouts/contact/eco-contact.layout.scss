@@ -83,7 +83,7 @@ h2.pane-title {
 						text-decoration: none;
 						background-image: url("../../../images/social-networks/facebook-alt.png");
 						background-repeat: no-repeat;
-						background-position: left;
+						background-position: center;
 						height: 35px;
 						background-size: 120px;
 					}
@@ -134,6 +134,21 @@ h2.pane-title {
 				li a:hover {
 					color: #666;
 				}
+		}
+
+			.social-networks {
+
+			ul {
+				
+				li {
+
+					a {
+					background-position: left;
+					}
+
+				}
+			}
+
 		}
 	}
 
