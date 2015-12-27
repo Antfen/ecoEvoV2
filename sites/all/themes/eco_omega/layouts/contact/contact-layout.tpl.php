@@ -24,11 +24,8 @@
     <?php print render($page['navigation']); ?>
   </header>
 
-  <div class="contact-intro">
-    <div class="contact-intro-wrapper">
-      <p>Any queries?</p>
-      <h2>Lets chat</h2>
-    </div>
+  <div class="hp-box">
+  
   </div>
 
   <div class="l-main">

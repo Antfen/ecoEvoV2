@@ -8,31 +8,27 @@
 // Globbing from within sub-folders only works with relative paths.
 //@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
 
-body {
-	background-color: $bodyBGalt;
+.hp-box {
+	height: 350px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	position: relative;
+	background-image: url("../../../images/img_frontpage/tracking-mobile.jpg");
 }
 
-.contact-intro {
-	padding-top: 60px;
-	text-align: center;
+.l-main {
+	background-color: $bodyBGalt;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
 
-	.contact-intro-wrapper {
-		padding: 30px 0;
-		border-top: 1px solid #999;
-		border-bottom: 1px solid #999;
-		margin: 0 5% 20px;
-
-
-		h2 {
-			color: #999;
-			font-weight: normal;
-		}
-
-		p {
-			color: #999;
-			font-weight: normal;
-		}
-	}
+h2.pane-title {
+	color: $textColourAlt;
 }
 
 #clientsidevalidation-webform-client-form-3-errors {
@@ -114,40 +110,10 @@ body {
 
 @include breakpoint($tab) {
 
-		.contact-intro {
-		padding-top: 100px;
-
-			.contact-intro-wrapper {
-				padding: 20px 0;
-				margin: 0 15% 50px 15%;
-
-
-				h1 {
-					font-size: 3em;
-				}
-
-				p {
-					font-size: 1.75em;
-				}
-			}
-	}
-
-
-	.l-content .webform-component--email {
-		clear: left;
-	}
-
-	.l-content .webform-component--notes {
-		clear: left;
-	}
-
 	#clientsidevalidation-webform-client-form-3-errors {
-		margin: 20px 12.5%;
-		float: none;
-		width: auto;
 
-			ul {
-			margin-left: 0;
+		ul {
+		margin-left: 0;
 
 			.error {
 				font-size: 20px;

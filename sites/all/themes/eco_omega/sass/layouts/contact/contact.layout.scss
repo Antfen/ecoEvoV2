@@ -17,25 +17,52 @@
 
 .l-content {
 		@include grid-span(12, 1);
+
+		.pane-title {
+			@include grid-span(10, 2); //sets it to 8 columns wide, that starts with the 2nd column
+		}
+
+		#clientsidevalidation-webform-client-form-3-errors {
+				@include grid-span(10, 2); //sets it to 6 columns wide, that starts with the 1st column
+				clear: left;
+		}
+
+		.webform-client-form-3 {
+			@include grid-span(10, 2); //sets it to 10 columns wide, that starts with the 2nd column
+			clear: left;
+		
 	
-		.webform-component--title {
-			@include grid-span(4, 1); //sets it to 4 columns wide, that starts with the 1st column
-		}
+			.webform-component--title {
+				@include grid-span(4, 1); //sets it to 4 columns wide, that starts with the 1st column
+			}
 
-		.webform-component--forename {
-			@include grid-span(4, 5); //sets it to 4 columns wide, that starts with the 5th column
-		}
+			.webform-component--forename {
+				@include grid-span(4, 5); //sets it to 4 columns wide, that starts with the 5th column
+			}
 
-		.webform-component--surname {
-			@include grid-span(4, 9); //sets it to 4 columns wide, that starts with the 9th column
-		}
+			.webform-component--surname {
+				@include grid-span(4, 9); //sets it to 4 columns wide, that starts with the 9th column
+			}
 
-		.webform-component--email {
-			@include grid-span(6, 1); //sets it to 6 columns wide, that starts with the 1st column
-		}
+			.webform-component--email {
+				@include grid-span(6, 1); //sets it to 6 columns wide, that starts with the 1st column
+				clear: left;
+			}
 
-		.webform-component--confirm-email {
-			@include grid-span(6, 7); //sets it to 6 columns wide, that starts with the 6th column
+			.webform-component--confirm-email {
+				@include grid-span(6, 7); //sets it to 6 columns wide, that starts with the 6th column
+			}
+
+			.webform-component--notes {
+				@include grid-span(12, 1); //sets it to 12 columns wide, that starts with the 1st column
+				clear: left;
+			}
+			.form-actions {
+				@include grid-span(12, 1); //sets it to 12 columns wide, that starts with the 1st column
+				clear: left;
+			}
+
+
 		}
 
 
