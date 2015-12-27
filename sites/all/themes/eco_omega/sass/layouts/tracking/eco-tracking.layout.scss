@@ -41,7 +41,7 @@
 		.views-submit-button {
 			float: left;
 			width: auto;
-			margin-right: 8%;
+			margin-right: 2%;
 		}
 
 		.views-reset-button {
@@ -63,6 +63,10 @@
 	.l-content {
 			@include grid-span(12, 1);
 			//border: red 1px solid;
+
+			.views-widget-filter-country {//resets top margin from mobile
+			margin-top: 0;
+			}
 
 			.pane-title {
 						@include grid-span(4, 1); //sets it to 4 columns wide, that starts with the 2nd column
@@ -234,6 +238,14 @@
 	.l-content {
 			@include grid-span(12, 1);
 			//border: orange 1px solid;
+
+			.view-filters {
+
+				.views-widget-filter-country {//resets top margin after Tablet(s)
+				margin-top: 10px;
+				}
+
+		}
 	}
 
 }
