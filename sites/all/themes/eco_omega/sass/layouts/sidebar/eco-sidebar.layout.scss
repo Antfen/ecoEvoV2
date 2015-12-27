@@ -20,18 +20,12 @@
 }
 
 .l-header {
-		min-height: 100px;
+		height: 49px;
 }
 
 .sidebar-intro {
-	height: 100px;
+	height: 49px;
 	background-color: #000;
-
-
-	h2.htesty {
-		color: white;
-		font-weight: normal;
-	}
 }
 
 .l-page {
@@ -103,6 +97,14 @@
 
 
 @include breakpoint($tab) {
+
+.l-header {
+	min-height: 70px;
+}
+
+.sidebar-intro {
+	height: 70px;
+}
 
 	.l-page {
 

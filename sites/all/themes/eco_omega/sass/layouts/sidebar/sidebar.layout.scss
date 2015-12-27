@@ -16,11 +16,11 @@
 @include breakpoint($tab) {
 
 	.l-region--sidebar-first {
-		@include grid-span(3, 10); //sets it to 3 columns wide, that starts with the 10th column
+		//@include grid-span(3, 10); //sets it to 3 columns wide, that starts with the 10th column
 	}
 
 	.l-content {
-		@include grid-span(9, 1); //sets it to 9 columns wide, that starts with the 1st column
+		@include grid-span(12, 1); //sets it to 9 columns wide, that starts with the 1st column
 	}
 
 
@@ -30,11 +30,11 @@
 @include breakpoint($desk) {
 
 .l-region--sidebar-first {
-		@include grid-span(3, 10);
+		//@include grid-span(3, 10);
 	}
 
 	.l-content {
-		@include grid-span(9, 1);
+		@include grid-span(12, 1);
 	}
 
 
