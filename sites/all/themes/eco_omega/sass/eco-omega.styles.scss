@@ -30,7 +30,7 @@
 	background-color: transparent;
 	width: auto;
 	padding: 0px 2.5%;
-	height: 49px;
+	height: 50px;
 	position: fixed;
 	width: 100%;
 	background-image: url("../../../images/img_site_structure/hd-bg.png");
@@ -69,8 +69,6 @@
 	.social-networks {
 			@include clearfix;
 			margin: 50px 0 0;
-
-	
 
 				ul {
 					margin:0;
@@ -118,40 +116,23 @@
 
 
 @include breakpoint($tab) {
-	
-	#logo img {
-	top: 20px;
-	left: 20px;
-	}
-
-	.l-header {
-	min-height: 70px;
-	}
 
 	.l-main {
 	margin-top: 0;
 	}
 
-	.l-footer {
+}
 
-	}
+@include breakpoint($tabwide) {
+
+
 }
 
 @include breakpoint($desk) {
-		.l-header {
-		min-height: 70px;
-		}
 
-		.l-main {
-		margin-top: 0;
-		}
-
-		.l-footer {
-
-		}
 }
 
-.l-page {
+.l-page {/* 
 
 	.pod-panel {
 		text-align: center;
@@ -164,7 +145,7 @@
 		}
 
 		
-	}
+	} */
 
 	
 }
@@ -176,33 +157,31 @@
 
 	@include breakpoint($tab) {
 
-			.social-networks {
-				
-				ul {
-					li {
-						a {
-							background-position: left;
-						}
+		.social-networks {
+			
+			ul {
+				li {
+					a {
+						background-position: left;
 					}
 				}
 			}
-		
-		
-				
-			.social-networks {
-				@include grid-span(3, 1); //sets it to 3 columns wide, that starts with the 1st column
-				clear: left;
-			}
-
-			.copyright {
-				@include grid-span(3, 10); //sets it to 3 columns wide, that starts with the 10th column
-				text-align: right;
-				clear: left;
-			}
-
-
-
 		}
+	
+	
+		.social-networks {
+			@include grid-span(3, 1); //sets it to 3 columns wide, that starts with the 1st column
+			clear: left;
+		}
+
+		.copyright {
+			@include grid-span(3, 10); //sets it to 3 columns wide, that starts with the 10th column
+			text-align: right;
+			clear: left;
+		}
+
+
+	}
 
 }
 

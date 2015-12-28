@@ -8,19 +8,25 @@
 
 	}
 .mean-container .mean-nav {
+		margin-top: 46px;//Align with height of navigation region (.l-header)
 		background: none;
 		background-image: url("../../../images/img_site_structure/hd-bg.png") !important;
 		
+		ul li:first-child a {
+			border-top: 1px solid #444;
+		}
+
 		ul li a {
 			text-align: right;
 			border-top: none;
 			text-transform: lowercase;
 		}
 
-	}
+
+}
 
 
-.l-region--navigation { // Main (top) navigation
+.l-region--navigation { //Main (top) navigation
 	width: 80%;
 	float: right;
 	position: relative;
@@ -66,7 +72,7 @@
 
 }
 
-.l-region--sidebar-first  { // Left hand navigation for the Sidebar Layout
+.l-region--sidebar-first  { //Left hand navigation for the Sidebar Layout
 
 	ul.menu {
 		border: 0px none;
@@ -150,7 +156,7 @@
 		}
 }
 
-// Layouts for the Footer Menus
+//Layouts for the Footer Menus
 
 .l-footer {
 
