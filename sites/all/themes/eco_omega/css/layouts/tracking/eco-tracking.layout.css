@@ -795,29 +795,34 @@ body {
   float: left;
   width: auto; }
 
+/* line 55, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+.view-content {
+  padding-right: 2.5%;
+  padding-left: 2.5%; }
+
 @media (min-width: 768px) {
-  /* line 58, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+  /* line 63, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
   .hp-box {
     background-image: url("../../../images/img_frontpage/tracking-tab.jpg"); }
 
-  /* line 63, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+  /* line 68, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
   .l-content {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-    /* line 67, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+    /* line 72, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
     .l-content .views-widget-filter-country {
       margin-top: 0; }
-    /* line 71, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+    /* line 76, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
     .l-content .pane-title {
       width: 32.20339%;
       float: left;
       margin-right: -100%;
       margin-left: 0;
       clear: none; }
-    /* line 75, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+    /* line 80, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
     .l-content .view {
       clear: left; }
       /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
@@ -825,28 +830,28 @@ body {
         content: "";
         display: table;
         clear: both; }
-      /* line 82, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+      /* line 87, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
       .l-content .view .view-filters {
         width: 100%;
         float: right;
         margin-left: 0;
         margin-right: 0;
         clear: none; }
-        /* line 86, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+        /* line 91, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
         .l-content .view .view-filters .views-widget-filter-field_plot_creatures_species_tid {
           width: 40.67797%;
           float: left;
           margin-right: -100%;
           margin-left: 0;
           clear: none; }
-        /* line 90, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+        /* line 95, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
         .l-content .view .view-filters .views-widget-filter-country {
           width: 40.67797%;
           float: left;
           margin-right: -100%;
           margin-left: 50.84746%;
           clear: none; }
-        /* line 94, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+        /* line 99, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
         .l-content .view .view-filters .views-widget-filter-field_plot_date_value {
           width: 100%;
           float: right;
@@ -854,60 +859,62 @@ body {
           margin-right: 0;
           clear: none;
           clear: left; }
-          /* line 98, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+          /* line 103, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
           .l-content .view .view-filters .views-widget-filter-field_plot_date_value #edit-field-plot-date-value-min-wrapper {
             width: 15.25424%;
             float: left;
             margin-right: -100%;
             margin-left: 0;
             clear: none; }
-          /* line 103, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+          /* line 108, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
           .l-content .view .view-filters .views-widget-filter-field_plot_date_value #edit-field-plot-date-value-max-wrapper {
             width: 15.25424%;
             float: left;
             margin-right: -100%;
             margin-left: 16.94915%;
             clear: none; }
-          /* line 108, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+          /* line 113, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
           .l-content .view .view-filters .views-widget-filter-field_plot_date_value input {
             width: 100% !important; }
-        /* line 113, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+        /* line 118, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
         .l-content .view .view-filters .views-submit-button {
           float: left;
           width: auto;
           margin-right: 8px;
           clear: left; }
-        /* line 121, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+        /* line 126, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
         .l-content .view .view-filters .views-reset-button {
           float: left;
           width: auto; }
-      /* line 132, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+      /* line 137, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
       .l-content .view .view-content {
         width: 100%;
         float: right;
         margin-left: 0;
         margin-right: 0;
-        clear: none; } }
+        clear: none;
+        padding-right: 2.5%;
+        padding-left: 2.5%; } }
 @media (min-width: 1024px) {
-  /* line 150, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+  /* line 157, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
   .hp-box {
     background-image: url("../../../images/img_frontpage/tracking-tabwide.jpg"); }
 
-  /* line 155, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+  /* line 162, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
   .l-content {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-    /* line 159, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+    /* line 166, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
     .l-content .pane-title {
       width: 32.20339%;
       float: left;
       margin-right: -100%;
       margin-left: 8.47458%;
       clear: none; }
-    /* line 163, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+    /* line 170, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
     .l-content .view {
       clear: left; }
       /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
@@ -915,45 +922,45 @@ body {
         content: "";
         display: table;
         clear: both; }
-      /* line 170, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+      /* line 177, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
       .l-content .view .view-filters {
         width: 15.25424%;
         float: left;
         margin-right: -100%;
         margin-left: 8.47458%;
         clear: none; }
-        /* line 173, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+        /* line 180, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
         .l-content .view .view-filters .views-widget-filter-field_plot_creatures_species_tid {
           float: none;
           width: 100%; }
-        /* line 178, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+        /* line 185, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
         .l-content .view .view-filters .views-widget-filter-field_plot_date_value {
           float: none;
           width: 100%; }
-          /* line 182, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+          /* line 189, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
           .l-content .view .view-filters .views-widget-filter-field_plot_date_value #edit-field-plot-date-value-min-wrapper {
             float: none;
             width: 100%; }
-          /* line 187, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+          /* line 194, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
           .l-content .view .view-filters .views-widget-filter-field_plot_date_value #edit-field-plot-date-value-max-wrapper {
             float: none;
             width: 100%;
             margin-left: 0; }
-        /* line 194, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+        /* line 201, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
         .l-content .view .view-filters .views-widget-filter-country {
           float: none;
           width: 100%;
           margin-left: 0; }
-        /* line 200, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+        /* line 207, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
         .l-content .view .view-filters .views-submit-button {
           float: left;
           width: 49%;
           margin-right: 0; }
-        /* line 207, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+        /* line 214, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
         .l-content .view .view-filters .views-reset-button {
           float: left;
           width: 49%; }
-      /* line 217, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+      /* line 224, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
       .l-content .view .view-content {
         width: 66.10169%;
         float: left;
@@ -961,18 +968,18 @@ body {
         margin-left: 25.42373%;
         clear: none; } }
 @media (min-width: 1120px) {
-  /* line 234, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+  /* line 241, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
   .hp-box {
     background-image: url("../../../images/img_frontpage/tracking-desk.jpg"); }
 
-  /* line 238, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+  /* line 245, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
   .l-content {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-    /* line 244, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
+    /* line 251, ../../../sass/layouts/tracking/eco-tracking.layout.scss */
     .l-content .view-filters .views-widget-filter-country {
       margin-top: 10px; } }
 

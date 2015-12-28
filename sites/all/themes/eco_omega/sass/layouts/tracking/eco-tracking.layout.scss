@@ -52,6 +52,11 @@
 
 }
 
+.view-content {
+		padding-right: 2.5%;
+		padding-left: 2.5%;
+}
+
 
 @include breakpoint($tab) {
 
@@ -131,6 +136,8 @@
 
 					.view-content {
 						@include grid-span(12, 1);
+						padding-right: 2.5%;
+						padding-left: 2.5%;
 					
 
 						
