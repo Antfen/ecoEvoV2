@@ -68,6 +68,11 @@ select.form-select {
 			margin-bottom: 0;
 		}
 
+		.form-item-field-plot-date-und-0-value-date {
+			width: 40%;
+		}
+
+
 }
 
 @include breakpoint($tab) {

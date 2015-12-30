@@ -664,5 +664,8 @@ select.form-select {
 /* line 67, ../../../sass/layouts/plot/plot.layout.scss */
 .field-name-field-plot-date fieldset.date-combo .container-inline-date > .form-item {
   margin-bottom: 0; }
+/* line 71, ../../../sass/layouts/plot/plot.layout.scss */
+.field-name-field-plot-date .form-item-field-plot-date-und-0-value-date {
+  width: 40%; }
 
 /*# sourceMappingURL=plot.layout.no-query.css.map */
