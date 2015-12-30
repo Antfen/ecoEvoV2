@@ -78,9 +78,8 @@ select.form-select {
 @include breakpoint($tab) {
 
 .l-content {
-		//@include grid-span(10, 2);
+		@include grid-span(12, 1);
 		@include clearfix;
-		//border: red 1px solid;
 
 
 		.pane-form {
@@ -92,14 +91,6 @@ select.form-select {
 			select.form-select {
 				width: 98% !important
 			}
-		
-			/* .form-item-title {
-				@include grid-span(6, 1);
-
-					input {
-						width: 98% !important;
-					}
-			} */
 
 			.form-item {
 				//@include grid-span(6, 1);
@@ -252,6 +243,6 @@ select.form-select {
 
 
 	.l-content {
-		//@include grid-span(12, 1);
+		@include grid-span(12, 1);
 	}
 }
