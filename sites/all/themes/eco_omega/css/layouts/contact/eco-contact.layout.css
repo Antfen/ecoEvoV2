@@ -772,7 +772,7 @@ body {
   -o-background-size: cover;
   text-align: center;
   position: relative;
-  background-image: url("../../../images/img_frontpage/contact-desk-1.jpg"); }
+  background-image: url("../../../images/img_frontpage/contact-mobile.jpg"); }
 
 /* line 24, ../../../sass/layouts/contact/eco-contact.layout.scss */
 .l-main {
@@ -841,21 +841,33 @@ h2.pane-title {
     color: #000; }
 
 @media (min-width: 768px) {
-  /* line 115, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  /* line 113, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  .hp-box {
+    background-image: url("../../../images/img_frontpage/contact-tab.jpg"); }
+
+  /* line 119, ../../../sass/layouts/contact/eco-contact.layout.scss */
   #clientsidevalidation-webform-client-form-3-errors ul {
     margin-left: 0; }
-    /* line 118, ../../../sass/layouts/contact/eco-contact.layout.scss */
+    /* line 122, ../../../sass/layouts/contact/eco-contact.layout.scss */
     #clientsidevalidation-webform-client-form-3-errors ul .error {
       font-size: 20px; }
 
-  /* line 130, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  /* line 134, ../../../sass/layouts/contact/eco-contact.layout.scss */
   .l-footer ul.menu li a {
     color: #000; }
-  /* line 134, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  /* line 138, ../../../sass/layouts/contact/eco-contact.layout.scss */
   .l-footer ul.menu li a:hover {
     color: #666; }
-  /* line 145, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  /* line 149, ../../../sass/layouts/contact/eco-contact.layout.scss */
   .l-footer .social-networks ul li a {
     background-position: left; } }
+@media (min-width: 1024px) {
+  /* line 163, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  .hp-box {
+    background-image: url("../../../images/img_frontpage/contact-tabwide.jpg"); } }
+@media (min-width: 1120px) {
+  /* line 171, ../../../sass/layouts/contact/eco-contact.layout.scss */
+  .hp-box {
+    background-image: url("../../../images/img_frontpage/contact-desk.jpg"); } }
 
 /*# sourceMappingURL=eco-contact.layout.css.map */
