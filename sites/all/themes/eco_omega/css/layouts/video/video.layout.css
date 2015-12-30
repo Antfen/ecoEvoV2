@@ -369,7 +369,7 @@ body {
   font-weight: normal;
   border-radius: 2px;
   text-align: center;
-  max-width: 7em;
+  max-width: 8em;
   margin: 0 auto; }
   /* line 58, ../../../sass/components/_buttons.scss */
   .button_site_node a {
@@ -758,6 +758,9 @@ body {
 .l-page .more-pad-top {
   margin-top: 40px; }
 /* line 206, ../../../sass/eco-omega.styles.scss */
+.l-page .more-pad-top {
+  margin-top-alt: 15px; }
+/* line 210, ../../../sass/eco-omega.styles.scss */
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 

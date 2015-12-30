@@ -308,7 +308,7 @@ body {
   font-weight: normal;
   border-radius: 2px;
   text-align: center;
-  max-width: 7em;
+  max-width: 8em;
   margin: 0 auto; }
   /* line 58, ../sass/components/_buttons.scss */
   .button_site_node a {
