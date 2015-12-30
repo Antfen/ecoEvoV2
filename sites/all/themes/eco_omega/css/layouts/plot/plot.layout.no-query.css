@@ -684,4 +684,27 @@ select.form-select {
 .location-wrapper input {
   width: 90% !important; }
 
+/* line 95, ../../../sass/layouts/plot/plot.layout.scss */
+.field-name-field-plot-creatures-species {
+  margin-top: 15px; }
+
+/* line 99, ../../../sass/layouts/plot/plot.layout.scss */
+.form-actions {
+  margin-top: 15px; }
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  .form-actions:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 103, ../../../sass/layouts/plot/plot.layout.scss */
+  .form-actions .form-submit {
+    float: left;
+    width: 48%;
+    margin-right: 2%; }
+  /* line 109, ../../../sass/layouts/plot/plot.layout.scss */
+  .form-actions .form-submit:nth-child(2) {
+    float: right;
+    width: 48%;
+    margin-right: 0%; }
+
 /*# sourceMappingURL=plot.layout.no-query.css.map */

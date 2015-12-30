@@ -90,8 +90,28 @@ select.form-select {
 .location-wrapper input {
 	width: 90% !important;
 }
+//ends
 
+.field-name-field-plot-creatures-species {
+	margin-top: 15px;
+}
 
+.form-actions {//lets make the buttons look nice
+	margin-top: 15px;
+	@include clearfix;
+
+		.form-submit {
+			float: left;
+			width: 48%;
+			margin-right: 2%
+		}
+
+		.form-submit:nth-child(2) {
+			float: right;
+			width: 48%;
+			margin-right: 0%;
+		}
+}
 
 @include breakpoint($tab) {
 
