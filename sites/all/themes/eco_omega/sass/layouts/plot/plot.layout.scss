@@ -23,15 +23,13 @@ select.form-select {
 //Lets position the form fields
 
 .form-item-title {
-	//@include grid-span(6, 1);
 
 		input {
 			width: 99% !important;
 		}
 }
 
-.field-name-field-plot-date {
-	//@include grid-span(6, 7);
+.field-name-field-plot-date {//lets get  control of the date field!!!
 
 		span.fieldset-legend {
 			display:none;
@@ -75,6 +73,26 @@ select.form-select {
 
 }
 
+//The following form fileds were causing rendering issues in 'mobile portrait', hence they're set to a pertentage width value
+
+.field-name-field-plot-creatures-nickname input {
+	width: 90%;
+}
+
+.field-name-field-plot-group-name input {
+	width: 90%;
+}
+
+.field-name-field-plot-how-many-in-group input {
+	width: 90%;
+}
+
+.location-wrapper input {
+	width: 90% !important;
+}
+
+
+
 @include breakpoint($tab) {
 
 .l-content {
@@ -93,7 +111,6 @@ select.form-select {
 			}
 
 			.form-item {
-				//@include grid-span(6, 1);
 
 					input {
 						width: 98% !important;
@@ -136,7 +153,7 @@ select.form-select {
 
 			
 
-			 .field-name-field-plot-sky {
+			.field-name-field-plot-sky {
 				@include grid-span(6, 7);
 			}
 
