@@ -122,7 +122,6 @@ select.form-select {
 
 		.pane-form {
 			@include grid-span(10, 2); //sets it to 10 columns wide, that starts with the 2nd column
-			//border: green 1px solid;
 
 			//Some basic form settings
 
@@ -151,10 +150,6 @@ select.form-select {
 					span.fieldset-legend {
 						font-color: #000;
 						font-weight: bold;
-					}
-
-					input {
-						//width: 200px !important;
 					}
 
 					.description {
@@ -261,11 +256,11 @@ select.form-select {
 				clear: left;
 
 				#edit-submit {
-					@include grid-span(2, 1);
+					@include grid-span(3, 1);
 				}
 
 				#edit-preview {
-					@include grid-span(2, 3);
+					@include grid-span(3, 4);
 				}
 			}
 
