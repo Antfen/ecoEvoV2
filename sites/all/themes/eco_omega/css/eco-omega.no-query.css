@@ -617,6 +617,9 @@ body {
 .l-page .more-pad-top {
   margin-top: 40px; }
 /* line 206, ../sass/eco-omega.styles.scss */
+.l-page .more-pad-top {
+  margin-top-alt: 15px; }
+/* line 210, ../sass/eco-omega.styles.scss */
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
