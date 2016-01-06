@@ -27,7 +27,7 @@
   <div class="plot-intro">
   <div class="plot-intro-wrapper">
     <p>this is the engine</p>
-    <h2>Lets plot your observations!</h2></div>
+    <h2>Let's plot your observations!</h2></div>
   </div>
 
   <div class="l-main">
