@@ -771,20 +771,37 @@ body {
   clear: both; }
 
 @media (min-width: 768px) {
-  /* line 22, ../../../sass/layouts/sidebar/sidebar.layout.scss */
-  .l-content {
-    width: 100%;
+  /* line 18, ../../../sass/layouts/sidebar/sidebar.layout.scss */
+  .l-region--sidebar-first {
+    width: 23.72881%;
     float: right;
     margin-left: 0;
     margin-right: 0;
+    clear: none;
+    padding-top: 30px; }
+
+  /* line 23, ../../../sass/layouts/sidebar/sidebar.layout.scss */
+  .l-content {
+    width: 74.57627%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
     clear: none; } }
 @media (min-width: 1120px) {
-  /* line 36, ../../../sass/layouts/sidebar/sidebar.layout.scss */
-  .l-content {
-    width: 100%;
+  /* line 33, ../../../sass/layouts/sidebar/sidebar.layout.scss */
+  .l-region--sidebar-first {
+    width: 23.72881%;
     float: right;
     margin-left: 0;
     margin-right: 0;
+    clear: none; }
+
+  /* line 37, ../../../sass/layouts/sidebar/sidebar.layout.scss */
+  .l-content {
+    width: 74.57627%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
     clear: none; } }
 
 /*# sourceMappingURL=sidebar.layout.css.map */

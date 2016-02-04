@@ -764,62 +764,58 @@ body {
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
-/* line 11, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
-.l-region--sidebar-first {
-  /* background: #ccc; */
-  background-color: green; }
-  /* line 15, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
-  .l-region--sidebar-first h2.pane-title {
-    display: block;
-    margin-left: 1%;
-    font-size: 1.75em; }
+/* line 13, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+.l-region--sidebar-first h2.pane-title {
+  display: block;
+  margin-left: 1%;
+  font-size: 1.75em; }
 
-/* line 22, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+/* line 20, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
 .l-header {
   height: 49px; }
 
-/* line 26, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+/* line 24, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
 .sidebar-intro {
   height: 49px;
   background-color: #000; }
 
-/* line 31, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+/* line 29, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
 .l-page {
   background: #fff;
   color: #999; }
-  /* line 35, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 33, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-page a {
     color: #666;
     text-decoration: underline; }
-  /* line 40, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 38, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-page a:hover {
     text-decoration: none; }
-  /* line 44, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 42, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-page h2 {
     color: #000; }
-  /* line 48, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 46, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-page h3 {
     color: #333; }
-  /* line 52, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 50, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-page h4 {
     color: #333; }
-  /* line 56, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 54, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-page p, .l-page ul, .l-page ul li {
     color: #666;
     font-size: 18px; }
-  /* line 62, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 60, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-page .specification {
     text-align: left; }
-    /* line 65, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+    /* line 63, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
     .l-page .specification .image-max-width {
       max-width: 600px;
       margin: 0 auto; }
-  /* line 72, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 70, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-page .field--name-field-project-type {
     font-size: 1.75em;
     padding-bottom: 20px; }
 
-/* line 80, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+/* line 78, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
 .media-youtube-video {
   height: 0;
   width: 100%;
@@ -829,7 +825,7 @@ body {
   /*  max-width: 640px;
    max-height: 390px; */ }
 
-/* line 90, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+/* line 88, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
 .media-youtube-1 iframe {
   width: 100%;
   height: 100%;
@@ -838,34 +834,34 @@ body {
   left: 0; }
 
 @media (min-width: 768px) {
-  /* line 101, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 99, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-header {
     min-height: 70px; }
 
-  /* line 105, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 103, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .sidebar-intro {
     height: 70px; }
 
-  /* line 111, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 109, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-page .field--name-field-project-type {
     font-size: 2.0em; } }
-/* line 119, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+/* line 117, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
 .l-content {
   padding: 0 2.5%; }
 
-/* line 123, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+/* line 121, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
 .l-footer {
   background-color: #000; }
-  /* line 126, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 124, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-footer h2.pane-title {
     display: block;
     color: #fff;
     font-size: 20px;
     border-bottom: none 0; }
-  /* line 133, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 131, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-footer ul.menu li a {
     color: #fff; }
-  /* line 139, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
+  /* line 137, ../../../sass/layouts/sidebar/eco-sidebar.layout.scss */
   .l-footer .copyright p {
     color: #fff; }
 
