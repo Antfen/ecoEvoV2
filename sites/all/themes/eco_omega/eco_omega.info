@@ -17,6 +17,7 @@ stylesheets[all][] = css/eco-omega.no-query.css
 ; Scripts
 ; ========================================
 scripts[] = js/eco-omega.behaviors.js
+;scripts[] = js/jquery.js
 
 ; ========================================
 ; Regions
