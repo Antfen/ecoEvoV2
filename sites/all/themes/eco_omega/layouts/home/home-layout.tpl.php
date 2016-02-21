@@ -28,15 +28,10 @@
   <a id="top"></a>
   <div class="hp-box">
     <div class="hp-info-holder">
-    <a href="#welcome-to-eco">Click to scroll down</a>
-
+      <div class="scroll-button">
+        <a href="#welcome-to-eco">scroll down</a>
+      </div>
     </div>
-    <style type="text/css">
-    .hp-box {position: relative;}
-    .hp-info-holder {position: absolute;
-                     bottom: 0; 
-                      }
-    </style>
   </div>
 
   <div class="l-main">
@@ -59,33 +54,12 @@
       <?php print $feed_icons; ?>
     </div>
   </div>
-
+   <div class="hp-info-holder-alt">
+      <div class="scroll-button">
+       <a href="#top" id="bottom">scroll up</a>
+      </div>
+    </div>
   <footer class="l-footer" role="contentinfo">
-  <a href="#top" id="bottom">Click to scroll up</a>
     <?php print render($page['footer']); ?>
   </footer>
 </div>
-
-       <!--  <script type="text/javascript">
-
-          (function () {
-
-             $('a[href^="#"]').on('click', function(event) {
-
-              var target = $( $(this).attr('href') );
-
-                  if( target.length ) {
-                      event.preventDefault();
-                      $('html, body').animate({
-                          scrollTop: target.offset().top
-                      }, 3000);
-                  }
-
-              });
-
-          }(jQuery));
-
-          
-
-        </script> -->
-
