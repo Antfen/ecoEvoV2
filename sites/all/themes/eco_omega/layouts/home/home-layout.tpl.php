@@ -1,4 +1,3 @@
-
 <div class="l-page">
   <header class="l-header" role="banner">
     <div class="l-branding">
@@ -26,11 +25,15 @@
   </header>
 
   <a id="top"></a>
+
   <div class="hp-box">
     <div class="hp-info-holder">
-      <div class="scroll-button">
-        <a href="#welcome-to-eco">scroll down</a>
-      </div>
+     <div class="scroll-button">
+      <a href="#welcome-to-eco">
+        <span></span>
+        scroll
+      </a>
+     </div>
     </div>
   </div>
 
@@ -55,8 +58,12 @@
     </div>
   </div>
    <div class="hp-info-holder-alt">
-      <div class="scroll-button">
-       <a href="#top" id="bottom">scroll up</a>
+      <div class="scroll-button-up">
+      <!--  <a href="#top" id="bottom">scroll up</a> -->
+       <a href="#top">
+        <span></span>
+        scroll up
+      </a>
       </div>
     </div>
   <footer class="l-footer" role="contentinfo">

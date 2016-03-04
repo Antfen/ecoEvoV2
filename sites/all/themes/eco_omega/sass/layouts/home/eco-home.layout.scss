@@ -41,27 +41,97 @@
 .hp-info-holder-alt { //holds the scroll up button
 	position: relative;
 	background-color: #000;
+	height: 70px
 }
-
+.hp-scroll { //holds the scroll up/down button
+	position: relative;
+}
 //Scroll down button
 .scroll-button {
-	font-size:10px;
-	color:#fff;
-	text-align:center;
-	margin: 0 auto;
-	display: block;
-	padding-top: 10px;
+	position: relative;
 
 		a {
-			display: block;
-			color: #fff;
-			text-decoration: none;
+		position: absolute;
+	    bottom: 20px;
+	    left: 50%;
+	    z-index: 2;
+	    display: inline-block;
+	    margin-left: -31px;
+	    -webkit-transform: translate(0, -50%);
+	    transform: translate(0, -50%);
+	    color: #fff;
+	    font-size: 12px;
+	    letter-spacing: .1em;
+	    text-decoration: none;
+	    transition: opacity .3s;
 		}
 
 		a:hover {
-			display: block;
-			color: #666;
-			text-decoration: none;
+	    color: #999;
+	    }
+
+		a span {
+		position: absolute;
+	    top: 10px;
+	    left: 50%;
+	    width: 24px;
+	    height: 24px;
+	    margin-left: -12px;
+	    border-left: 1px solid #fff;
+	    border-bottom: 1px solid #fff;
+	    -webkit-transform: rotate(-45deg);
+	    transform: rotate(-45deg);
+	    box-sizing: border-box;
+		}
+
+		a:hover span {
+	    border-left: 1px solid #999;
+	    border-bottom: 1px solid #999;
+		}
+
+}
+
+//Scroll up button
+.scroll-button-up {
+	position: relative;
+
+		a {
+		position: absolute;
+	    top: 50px;
+	    left: 50%;
+	    z-index: 2;
+	    display: inline-block;
+	    margin-left: -31px;
+	    -webkit-transform: translate(0, -50%);
+	    transform: translate(0, -50%);
+	    color: #fff;
+	    font-size: 12px;
+	    letter-spacing: .1em;
+	    text-decoration: none;
+	    transition: opacity .3s;
+		}
+
+		a:hover {
+	    color: #999;
+	    }
+
+		a span {
+		position: absolute;
+	    top: -25px;
+	    left: 50%;
+	    width: 24px;
+	    height: 24px;
+	    margin-left: -12px;
+	    border-right: 1px solid #fff;
+	    border-top: 1px solid #fff;
+	    -webkit-transform: rotate(-45deg);
+	    transform: rotate(-45deg);
+	    box-sizing: border-box;
+		}
+
+		a:hover span {
+	    border-right: 1px solid #999;
+	    border-top: 1px solid #999;
 		}
 
 }
