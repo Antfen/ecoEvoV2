@@ -201,7 +201,11 @@
 			}
 
 			.pane-menu-menu-footer-fine-print {
-				@include grid-span(3, 7); //sets it to 3 columns wide, that starts with the 4th column
+				@include grid-span(3, 7); //sets it to 3 columns wide, that starts with the 7th column
+			}
+
+			.pane-menu-menu-my-account {
+				@include grid-span(3, 10); //sets it to 3 columns wide, that starts with the 10th column
 			}
 
 		}

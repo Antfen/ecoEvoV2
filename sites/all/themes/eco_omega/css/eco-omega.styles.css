@@ -603,6 +603,13 @@ body {
     float: left;
     margin-right: -100%;
     margin-left: 50.84746%;
+    clear: none; }
+  /* line 207, ../sass/components/_navigation.scss */
+  .l-footer .pane-menu-menu-my-account {
+    width: 23.72881%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
     clear: none; } }
 
 /* line 24, ../sass/eco-omega.styles.scss */
