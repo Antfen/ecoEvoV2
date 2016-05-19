@@ -24,6 +24,7 @@ scripts[] = js/eco-omega.behaviors.js
 regions[branding] = Branding
 regions[header] = Header
 regions[navigation] = Navigation
+regions[store] = Store
 regions[highlighted] = Highlighted
 regions[help] = Help
 regions[content] = Content
@@ -41,6 +42,7 @@ layout[videoHolder][stylesheets][all][] = css/layouts/videoHolder/eco-videoHolde
 layout[imageGallery][stylesheets][all][] = css/layouts/imageGallery/eco-imageGallery.layout.css
 layout[imageHolder][stylesheets][all][] = css/layouts/imageHolder/eco-imageHolder.layout.css
 layout[plot][stylesheets][all][] = css/layouts/plot/eco-plot.layout.css
+layout[products][stylesheets][all][] = css/layouts/products/eco-products.layout.css
 layout[tracking][stylesheets][all][] = css/layouts/tracking/eco-tracking.layout.css
 layout[sidebar][stylesheets][all][] = css/layouts/sidebar/eco-sidebar.layout.css
 

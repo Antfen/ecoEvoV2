@@ -711,43 +711,44 @@ body {
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
-/* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
-.l-main:after {
-  content: "";
-  display: table;
-  clear: both; }
+/* line 11, ../../../sass/layouts/products/products.layout.scss */
+.l-main {
+  padding-top: 70px; }
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  .l-main:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 15, ../../../sass/layouts/products/products.layout.scss */
+  .l-main .l-content {
+    margin-top: 150px; }
+
+/* line 23, ../../../sass/layouts/products/products.layout.scss */
+p {
+  color: red; }
 
 @media (min-width: 768px) {
-  /* line 18, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-region--sidebar-first {
-    width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 67.79661%;
-    clear: none; }
+  /* line 30, ../../../sass/layouts/products/products.layout.scss */
+  .l-region--store {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    border: red 1px solid; }
+    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+    .l-region--store:after {
+      content: "";
+      display: table;
+      clear: both; }
 
-  /* line 22, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
+  /* line 37, ../../../sass/layouts/products/products.layout.scss */
   .l-content {
-    width: 57.62712%;
+    width: 83.05085%;
     float: left;
     margin-right: -100%;
     margin-left: 8.47458%;
-    clear: none; } }
-@media (min-width: 1120px) {
-  /* line 32, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-region--sidebar-first {
-    width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 67.79661%;
-    clear: none; }
+    clear: none;
+    border: green 1px solid; } }
 
-  /* line 36, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-content {
-    width: 57.62712%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; } }
-
-/*# sourceMappingURL=videoHolder.layout.css.map */
+/*# sourceMappingURL=products.layout.css.map */

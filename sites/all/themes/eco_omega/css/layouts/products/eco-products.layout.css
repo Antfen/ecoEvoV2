@@ -711,43 +711,30 @@ body {
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
-/* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
-.l-main:after {
-  content: "";
-  display: table;
-  clear: both; }
+/* line 15, ../../../sass/layouts/products/eco-products.layout.scss */
+.l-region--store {
+  position: reletive; }
+  /* line 19, ../../../sass/layouts/products/eco-products.layout.scss */
+  .l-region--store .pane-commerce-cart-cart {
+    float: none;
+    background-color: #eee;
+    width: auto; }
 
 @media (min-width: 768px) {
-  /* line 18, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-region--sidebar-first {
-    width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 67.79661%;
-    clear: none; }
+  /* line 38, ../../../sass/layouts/products/eco-products.layout.scss */
+  .l-region--store {
+    position: fixed;
+    z-index: 999; }
+    /* line 43, ../../../sass/layouts/products/eco-products.layout.scss */
+    .l-region--store .pane-commerce-cart-cart {
+      float: right;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+      border: none;
+      color: #666;
+      background-color: #eee;
+      width: 300px;
+      border-radius: 12px;
+      border: 1px solid #666;
+      z-index: 999; } }
 
-  /* line 22, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-content {
-    width: 57.62712%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; } }
-@media (min-width: 1120px) {
-  /* line 32, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-region--sidebar-first {
-    width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 67.79661%;
-    clear: none; }
-
-  /* line 36, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-content {
-    width: 57.62712%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; } }
-
-/*# sourceMappingURL=videoHolder.layout.css.map */
+/*# sourceMappingURL=eco-products.layout.css.map */

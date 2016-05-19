@@ -79,11 +79,6 @@ h3 {
   color: #fff;
   background-color: #999; }
 
-@media (min-width: 768px) {
-  /* line 84, ../../../sass/base/_forms.scss */
-  .l-page .webform-submit {
-    max-width: 20%; } }
-
 /* line 96, ../../../sass/base/_forms.scss */
 .views-exposed-form .views-exposed-widget {
   padding: 0;
@@ -164,42 +159,6 @@ img {
       margin-top: 1%;
       margin-bottom: 1%; }
 
-@media (min-width: 768px) {
-  /* line 58, ../../../sass/base/_slider.scss */
-  .l-page .flexslider h2 {
-    color: #ff4400;
-    margin: 0; }
-  /* line 63, ../../../sass/base/_slider.scss */
-  .l-page .flexslider h3 {
-    display: block; }
-  /* line 67, ../../../sass/base/_slider.scss */
-  .l-page .flexslider p {
-    display: block;
-    font-size: 1.25em; }
-  /* line 72, ../../../sass/base/_slider.scss */
-  .l-page .flexslider .slider-inner {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 96%;
-    margin: 0 2%;
-    padding: 1%;
-    background-image: url("../../../images/img_site_structure/hd-bg.png"); }
-
-  /* line 89, ../../../sass/base/_slider.scss */
-  .l-content .flexslider .project-description {
-    width: 40.67797%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none; }
-  /* line 93, ../../../sass/base/_slider.scss */
-  .l-content .flexslider .button_site {
-    width: 23.72881%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; } }
 /* line 3, ../../../sass/base/_typography.scss */
 body {
   font-family: "Courier New", "Courier", "monospace"; }
@@ -233,26 +192,6 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 5px; }
-  @media (min-width: 768px) {
-    /* line 50, ../../../sass/base/_typography.scss */
-    body h2 {
-      font-size: 2.25em; }
-    /* line 54, ../../../sass/base/_typography.scss */
-    body h3 {
-      font-size: 2.0em; }
-    /* line 58, ../../../sass/base/_typography.scss */
-    body h4 {
-      font-size: 1.75em; } }
-  @media (min-width: 1120px) {
-    /* line 71, ../../../sass/base/_typography.scss */
-    body h2 {
-      font-size: 2.50em; }
-    /* line 75, ../../../sass/base/_typography.scss */
-    body h3 {
-      font-size: 2.25em; }
-    /* line 79, ../../../sass/base/_typography.scss */
-    body h4 {
-      font-size: 2.0em; } }
 
 /* line 3, ../../../sass/components/_buttons.scss */
 .form-actions {
@@ -329,11 +268,6 @@ body {
     color: #000;
     background-color: #666; }
 
-@media (min-width: 768px) {
-  /* line 76, ../../../sass/components/_buttons.scss */
-  .button_site {
-    margin: 0 auto;
-    max-width: 12em; } }
 /* line 83, ../../../sass/components/_buttons.scss */
 .button_site_alt {
   border: 1px solid #ccc;
@@ -359,11 +293,6 @@ body {
     color: #000;
     background-color: #fff; }
 
-@media (min-width: 768px) {
-  /* line 108, ../../../sass/components/_buttons.scss */
-  .button_site_alt {
-    margin: 0 auto;
-    max-width: 12em; } }
 /* line 1, ../../../sass/components/_navigation.scss */
 .mean-container .mean-bar {
   float: none;
@@ -501,57 +430,6 @@ body {
   .l-footer ul.menu li a:hover {
     color: #999; }
 
-@media (min-width: 768px) {
-  /* line 165, ../../../sass/components/_navigation.scss */
-  .l-footer h2.pane-title {
-    color: #999;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 0;
-    text-align: left; }
-  /* line 176, ../../../sass/components/_navigation.scss */
-  .l-footer ul.menu li {
-    text-align: left;
-    background: none; }
-  /* line 181, ../../../sass/components/_navigation.scss */
-  .l-footer ul.menu li a {
-    display: block;
-    text-decoration: none;
-    font-size: 14px;
-    color: #999;
-    padding-bottom: 0; }
-  /* line 189, ../../../sass/components/_navigation.scss */
-  .l-footer ul.menu li a:hover {
-    color: #666; }
-  /* line 195, ../../../sass/components/_navigation.scss */
-  .l-footer .pane-menu-menu-footer {
-    width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none; }
-  /* line 199, ../../../sass/components/_navigation.scss */
-  .l-footer .pane-menu-menu-footer-development {
-    width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 25.42373%;
-    clear: none; }
-  /* line 203, ../../../sass/components/_navigation.scss */
-  .l-footer .pane-menu-menu-footer-fine-print {
-    width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 50.84746%;
-    clear: none; }
-  /* line 207, ../../../sass/components/_navigation.scss */
-  .l-footer .pane-menu-menu-my-account {
-    width: 23.72881%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; } }
-
 /* line 24, ../../../sass/eco-omega.styles.scss */
 .l-page {
   margin: 0 auto; }
@@ -647,10 +525,6 @@ body {
       color: #666;
       font-size: 12px; }
 
-@media (min-width: 768px) {
-  /* line 120, ../../../sass/eco-omega.styles.scss */
-  .l-main {
-    margin-top: 0; } }
 /* line 135, ../../../sass/eco-omega.styles.scss */
 .l-page {
          /* 
@@ -670,28 +544,6 @@ body {
 
 /* Site Layouts */
 /* Layouts for the Footer */
-@media (min-width: 768px) {
-  /* line 164, ../../../sass/eco-omega.styles.scss */
-  .l-footer .social-networks ul li a {
-    background-position: left; }
-  /* line 172, ../../../sass/eco-omega.styles.scss */
-  .l-footer .social-networks {
-    width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
-    clear: left; }
-  /* line 177, ../../../sass/eco-omega.styles.scss */
-  .l-footer .copyright {
-    width: 23.72881%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    text-align: right;
-    clear: left; } }
-
 /* Site fixes */
 /* line 192, ../../../sass/eco-omega.styles.scss */
 .l-page .no-pad-top {
@@ -711,43 +563,20 @@ body {
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
-/* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
-.l-main:after {
-  content: "";
-  display: table;
-  clear: both; }
+/* line 11, ../../../sass/layouts/products/products.layout.scss */
+.l-main {
+  padding-top: 70px; }
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  .l-main:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 15, ../../../sass/layouts/products/products.layout.scss */
+  .l-main .l-content {
+    margin-top: 150px; }
 
-@media (min-width: 768px) {
-  /* line 18, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-region--sidebar-first {
-    width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 67.79661%;
-    clear: none; }
+/* line 23, ../../../sass/layouts/products/products.layout.scss */
+p {
+  color: red; }
 
-  /* line 22, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-content {
-    width: 57.62712%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; } }
-@media (min-width: 1120px) {
-  /* line 32, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-region--sidebar-first {
-    width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 67.79661%;
-    clear: none; }
-
-  /* line 36, ../../../sass/layouts/videoHolder/videoHolder.layout.scss */
-  .l-content {
-    width: 57.62712%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; } }
-
-/*# sourceMappingURL=videoHolder.layout.css.map */
+/*# sourceMappingURL=products.layout.no-query.css.map */
