@@ -723,12 +723,8 @@ body {
   .l-main .l-content {
     margin-top: 150px; }
 
-/* line 23, ../../../sass/layouts/products/products.layout.scss */
-p {
-  color: red; }
-
 @media (min-width: 768px) {
-  /* line 30, ../../../sass/layouts/products/products.layout.scss */
+  /* line 25, ../../../sass/layouts/products/products.layout.scss */
   .l-region--store {
     width: 100%;
     float: right;
@@ -742,13 +738,52 @@ p {
       display: table;
       clear: both; }
 
-  /* line 37, ../../../sass/layouts/products/products.layout.scss */
+  /* line 32, ../../../sass/layouts/products/products.layout.scss */
   .l-content {
     width: 83.05085%;
     float: left;
     margin-right: -100%;
     margin-left: 8.47458%;
     clear: none;
-    border: green 1px solid; } }
+    padding-right: 0;
+    padding-left: 0; }
+    /* line 39, ../../../sass/layouts/products/products.layout.scss */
+    .l-content .field-field-product-image {
+      width: 49.15254%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      margin-top: 30px; }
+    /* line 44, ../../../sass/layouts/products/products.layout.scss */
+    .l-content .field-field-product-description {
+      width: 40.67797%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 50.84746%;
+      clear: none;
+      float: none;
+      margin-top: 30px; }
+    /* line 50, ../../../sass/layouts/products/products.layout.scss */
+    .l-content .commerce-product-field-commerce-price {
+      width: 40.67797%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 50.84746%;
+      clear: none;
+      float: none;
+      margin-top: 30px; }
+    /* line 56, ../../../sass/layouts/products/products.layout.scss */
+    .l-content .field--type-commerce-product-reference {
+      width: 40.67797%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 50.84746%;
+      clear: none;
+      float: none;
+      margin-top: 30px; }
+    /* line 62, ../../../sass/layouts/products/products.layout.scss */
+    .l-content .commerce-product-field-field-colour, .l-content .commerce-product-field-field-size {
+      display: none; } }
 
 /*# sourceMappingURL=products.layout.css.map */

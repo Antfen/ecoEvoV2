@@ -38,6 +38,9 @@
     .l-region--store {
     position: fixed;
     z-index: 999;
+    width: 300px;
+    right: 10px;
+
 
 
         .pane-commerce-cart-cart {
@@ -46,7 +49,7 @@
                 border: none;
                 color: #666;
                 background-color: #eee;
-                width: 300px;
+                //width: 300px;
                 border-radius: 12px;
                 border: 1px solid #666;
                 z-index: 999;

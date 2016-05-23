@@ -16,28 +16,52 @@
 			margin-top: 150px;
 		}
 
-
-
 }
 
-p {
-        color: red;
-    }
 
 @include breakpoint($tab) {
 
 
 	.l-region--store {
 		@include clearfix;
-		@include grid-span(12, 1); //sets it to 3 columns wide, that starts with the 10th column
+		@include grid-span(12, 1); //sets it to 12 columns wide, that starts with the 1st column
 		border: red 1px solid;
 	}
 	
 
 	.l-content {
 		@include grid-span(10, 2); //sets it to 10 columns wide, that starts with the 2nd column
-		border: green 1px solid;
+		padding-right: 0;
+    	padding-left: 0;
 
+
+
+			.field-field-product-image {
+				@include grid-span(6, 1); //sets it to 5 columns wide, that starts with the 1st column
+				margin-top: 30px;
+			}
+
+			.field-field-product-description {
+				@include grid-span(5, 7); //sets it to 5 columns wide, that starts with the 7th column
+				float: none;
+				margin-top: 30px;
+			}
+
+			.commerce-product-field-commerce-price {
+				@include grid-span(5, 7); //sets it to 5 columns wide, that starts with the 7th column
+				float: none;
+				margin-top: 30px;
+			}
+
+			.field--type-commerce-product-reference {
+				@include grid-span(5, 7); //sets it to 5 columns wide, that starts with the 7th column
+				float: none;
+				margin-top: 30px;
+			}
+
+			.commerce-product-field-field-colour, .commerce-product-field-field-size {
+				display: none; //these fields should be turned of via the CMS - need to find that method!
+			}
 
 		
 

@@ -724,15 +724,16 @@ body {
   /* line 38, ../../../sass/layouts/products/eco-products.layout.scss */
   .l-region--store {
     position: fixed;
-    z-index: 999; }
-    /* line 43, ../../../sass/layouts/products/eco-products.layout.scss */
+    z-index: 999;
+    width: 300px;
+    right: 10px; }
+    /* line 46, ../../../sass/layouts/products/eco-products.layout.scss */
     .l-region--store .pane-commerce-cart-cart {
       float: right;
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
       border: none;
       color: #666;
       background-color: #eee;
-      width: 300px;
       border-radius: 12px;
       border: 1px solid #666;
       z-index: 999; } }
