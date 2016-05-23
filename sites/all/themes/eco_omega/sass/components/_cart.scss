@@ -1,0 +1,56 @@
+//Styles for shopping cart
+
+.l-region--store {
+    position: reletive;
+
+
+        .pane-commerce-cart-cart {
+                float: none;
+                background-color: #eee;
+                width: auto;
+                }
+
+        .cart-contents {
+
+        }
+
+
+}
+
+
+
+
+@include breakpoint($tab) {
+
+
+    .l-region--store {
+        position: fixed;
+        z-index: 999;
+        width: 300px;
+        right: 10px;
+
+
+
+        .pane-commerce-cart-cart {
+                float: right;
+                box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+                border: none;
+                color: #666;
+                background-color: #eee;
+                border-radius: 12px;
+                border: 1px solid #666;
+                z-index: 999;
+
+                }
+
+        .cart-contents {
+
+        }
+
+
+    }
+
+
+
+
+}

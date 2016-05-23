@@ -8,16 +8,6 @@
 // Globbing from within sub-folders only works with relative paths.
 //@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
 
-.l-main {
-	@include clearfix;
-	padding-top: 70px;
-
-		.l-content {
-			margin-top: 150px;
-		}
-
-}
-
 
 @include breakpoint($tab) {
 
