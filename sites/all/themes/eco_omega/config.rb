@@ -8,7 +8,7 @@
 
 # Default to development if environment is not set.
 saved = environment
-environment = :production
+environment = :development
 if (environment.nil?)
   environment = :development
 else
