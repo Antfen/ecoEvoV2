@@ -1,0 +1,225 @@
+ //Styles for Checkout
+
+.commerce-checkout-form-checkout {
+
+    fieldset.form-wrapper span.fieldset-legend {
+        font-size: 25px;
+        font-weight: bold;
+        color: #000;
+
+    }
+
+    fieldset#edit-account.account.form-wrapper, fieldset.customer_profile_billing, fieldset.checkout-buttons {
+        margin-top: 40px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    fieldset.checkout-buttons {
+        margin-bottom: 40px;
+    }
+
+    table {
+        width:100%;
+
+        th {
+            padding: 20px 7px;
+            background-color: transparent;
+            color: #000;
+        }
+
+        tr.odd, tr.even {
+            background-color: transparent;
+        }
+
+        td {
+            padding: 20px 7px;
+            border-top: 1px #000 solid;
+            color: #000;
+        }
+
+        
+    }
+
+    .line-item-summary .line-item-total {
+        color: #000;
+    }
+
+    label, input {
+        color: #000;
+    }
+
+    .checkout-cancel {
+        color: #000;
+    }
+    .checkout-cancel:hover {
+        color: #666;
+    }
+
+}
+
+ //Styles for Review Order
+
+.commerce-checkout-form-review {
+
+    .checkout-help {
+        font-size: 18px;
+        color: #000;
+        padding-bottom: 30px;
+    }
+
+    fieldset.form-wrapper span.fieldset-legend {
+        font-size: 25px;
+        font-weight: bold;
+        color: #000;
+
+    }
+
+   fieldset.checkout-buttons {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+
+    table {
+        width:100%;
+
+        th {
+            padding: 20px 7px;
+            background-color: transparent;
+            color: #000;
+        }
+
+        tr.odd, tr.even {
+            background-color: transparent;
+        }
+
+        td {
+            padding: 20px 7px;
+            border-top: 1px #000 solid;
+            color: #000;
+        }
+
+        
+    }
+
+    .line-item-summary .line-item-total {
+        color: #000;
+    }
+
+    label, input {
+        color: #000;
+    }
+
+    .checkout-back {
+        color: #000;
+    }
+    .checkout-back:hover {
+        color: #666;
+    }
+
+}
+
+//Styles for View Orders - LIST
+
+.view-commerce-user-orders {
+    margin-bottom: 40px;
+
+    img {
+        width: auto;
+    }
+
+
+    table {
+        width:100%;
+
+        th {
+            padding: 20px 7px;
+            background-color: transparent;
+            color: #000;
+        }
+
+        tr.odd, tr.even {
+            background-color: transparent;
+        }
+
+        td {
+            padding: 20px 7px;
+            border-top: 1px #000 solid;
+            color: #000;
+        }
+
+        
+    }
+
+
+}
+
+
+//Styles for View Orders - INDIVIDUAL
+
+.entity-commerce-order {
+
+
+    table {
+        width:100%;
+
+        th {
+            padding: 20px 7px;
+            background-color: transparent;
+            color: #000;
+        }
+
+        tr.odd, tr.even {
+            background-color: transparent;
+        }
+
+        td {
+            padding: 20px 7px;
+            border-top: 1px #000 solid;
+            color: #000;
+        }
+
+        
+    }
+
+    .field--name-commerce-customer-billing {
+        color: #000;
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+
+@include breakpoint($tab) {
+
+
+    .l-region--store {
+        position: fixed;
+        z-index: 999;
+        width: 300px;
+        right: 10px;
+
+
+        .pane-commerce-cart-cart {
+            float: right;
+            box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+            border: none;
+            color: #666;
+            background-color: #eee;
+            border-radius: 12px;
+            border: 1px solid #666;
+            z-index: 999;
+        }
+
+
+    }
+
+
+
+
+}

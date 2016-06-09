@@ -56,99 +56,46 @@
 		font-size: 18px;
 		}
 
-
-	.specification { //this corrects the text align on the UKS pages with in the Sidebar layout
-		text-align: left;
-
-		.image-max-width {
-			max-width: 600px;
-			margin: 0 auto;
-
-		}
-	}
-
-	.field--name-field-project-type { //h3 style for Project Type heading
-		font-size: 1.75em;
-		padding-bottom: 20px;
-	}
-
-}
-
-// Video player responsive styles
-.media-youtube-video {
-	height: 0;
-    width: 100%;
-    padding-bottom: 56.25%;
-    overflow: hidden;
-    position: relative;
-   /*  max-width: 640px;
-    max-height: 390px; */
-}
-
-.media-youtube-1 iframe {
-	width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 
 @include breakpoint($tab) {
 
-.l-header {
-	min-height: 70px;
-}
+	.l-header {
+		min-height: 70px;
+	}
 
-.sidebar-intro {
-	height: 70px;
-}
+	.sidebar-intro {
+		height: 70px;
+	}
 
-	.l-page {
+	.l-content {
+		padding: 0 2.5%;
+	}
 
-		.field--name-field-project-type { //h3 style for Project Type heading
-		font-size: 2.0em;
+	.l-footer {
+		background-color: #000;
+
+		h2.pane-title {
+			display: block;
+			color: #fff;
+			font-size: 20px;
+			border-bottom: none 0;
+		}
+
+		ul.menu li a {
+			color: #fff;
+		}
+
+		.copyright {
+
+				p {
+					color: #fff;
+				}
+
 		}
 
 	}
 
-}
-
-.l-content {
-	padding: 0 2.5%;
-}
-
-.l-footer {
-	background-color: #000;
-
-	h2.pane-title {
-		display: block;
-		color: #fff;
-		font-size: 20px;
-		border-bottom: none 0;
-	}
-
-	ul.menu li a {
-		color: #fff;
-	}
-
-	.copyright {
-
-			p {
-				color: #fff;
-			}
-
-	}
-}
-
-.l-footer {
-
-		@include breakpoint($tab) {
-
-			h2.pane-title {
-			//border-bottom: #fff 1px solid;
-			}
-
-		}
 }
 

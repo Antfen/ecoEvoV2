@@ -1,4 +1,5 @@
-//Styles for shopping cart
+
+//Positioning of the Cart within the Shop Region 
 
 .l-region--store {
     position: reletive;
@@ -8,12 +9,56 @@
                 float: none;
                 background-color: #eee;
                 width: auto;
-                }
+        }
 
-        .cart-contents {
+
+}
+
+.cart-empty-page {
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 50px;
+}
+
+
+.view-commerce-cart-form {
+
+    table {
+        width:100%;
+
+        th {
+            padding: 20px 7px;
+            background-color: transparent;
+            color: #000;
+        }
+
+        tr.odd, tr.even {
+            background-color: transparent;
+        }
+
+        td {
+            padding: 20px 7px;
+            border-top: 1px #000 solid;
+            color: #000;
+
+                a {
+                    color: #000;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: #999;
+                    text-decoration: underline;
+                }
 
         }
 
+        
+
+    }
+
+    .line-item-summary .line-item-total {
+        color: #000;
+    }
 
 }
 

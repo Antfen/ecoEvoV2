@@ -1,27 +1,8 @@
 //Styles for buttons
 
-.form-actions { //Button style for the Plot input form
-	font-weight: normal;
-	border-radius: 2px;
-	text-align: center;
+//Generic button style
 
-		#edit-submit, #edit-preview {
-		  color: #fff;
-		  display: block;
-		  padding: 7px;
-		  text-decoration: none;
-		  background-color: #000;
-		  @include transition(background-color 1s .5s, color 2s);
-		}
-
-		#edit-submit:hover, #edit-preview:hover {
-		  color: #000; 
-		  background-color: #fff;
-		}
-
-}
-
-.button_site { //Generic button style
+.button_site { 
 	border: 1px solid #ccc;
 	font-size: 1.5em;
 	line-height: 1.9em;
@@ -45,7 +26,35 @@
 
 }
 
-.button_site_node { //Button style for use within nodes
+.button_site_alt {
+	border: 1px solid #ccc;
+	font-size: 1.5em;
+	line-height: 1.9em;
+	font-weight: normal;
+	border-radius: 2px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 12em;
+
+		a {
+		  color: #fff;
+		  display: block;
+		  padding: 10px;
+		  text-decoration: none;
+		  background-color: #000;
+		  @include transition(background-color 1s .5s, color 2s);
+		}
+
+		a:hover {
+		  color: #000; 
+		  background-color: #fff;
+		}
+
+}
+
+//Button style for use within nodes
+
+.button_site_node { 
 	border: 1px solid #ccc;
 	font-size: 1.25em;
 	line-height: 1.25em;
@@ -72,42 +81,121 @@
 
 }
 
+//Button style for the Plot input form
+
+.form-actions {
+
+		#edit-submit, #edit-preview {
+			font-weight: normal;
+			border-radius: 2px;
+			text-align: center;
+			color: #fff;
+			display: block;
+			padding: 7px;
+			text-decoration: none;
+			background-color: #000;
+			@include transition(background-color 1s .5s, color 2s);
+		}
+
+		#edit-submit:hover, #edit-preview:hover {
+			color: #000; 
+			background-color: #fff;
+		}
+
+}
+
+//Button style for the Product Display General (content type)
+
+.commerce-add-to-cart {
+
+		input.form-submit {
+			border: 1px solid #ccc;
+			font-weight: normal;
+			border-radius: 2px;
+			text-align: center;
+			color: #fff;
+			padding: 7px;
+			text-decoration: none;
+			background-color: #000;
+			@include transition(background-color 1s .5s, color 2s);
+		}
+
+		input.form-submit:hover {
+			color: #000; 
+			background-color: #fff;
+		}
+
+}
+
+//Button style for Cart
+
+.form-actions.commerce-line-item-actions {
+
+
+		#edit-submit, #edit-checkout {
+			font-weight: normal;
+			border-radius: 2px;
+			text-align: center;
+			border: 1px solid #ccc;
+			border-radius: 2px;
+			color: #fff;
+			padding: 7px;
+			text-decoration: none;
+			background-color: #000;
+			@include transition(background-color 1s .5s, color 2s);
+		}
+
+		#edit-submit:hover, #edit-checkout:hover {
+			color: #000; 
+			background-color: #666;
+		}
+
+}
+
+//Button style for Checkout & Order Review
+
+.commerce-checkout-form-checkout, .commerce-checkout-form-review {
+
+
+		#edit-continue {
+			font-weight: normal;
+			border-radius: 2px;
+			text-align: center;
+			border: 1px solid #ccc;
+			border-radius: 2px;
+			color: #fff;
+			padding: 7px;
+			text-decoration: none;
+			background-color: #000;
+			margin-right: 10px;
+			@include transition(background-color 1s .5s, color 2s);
+		}
+
+		#edit-continue:hover {
+			color: #000; 
+			background-color: #666;
+		}
+
+}
+
+
+
+
 @include breakpoint($tab) {
+
 	.button_site {
-	margin: 0 auto;
-	max-width: 12em;
+		margin: 0 auto;
+		max-width: 12em;
 	}
 
-}
-
-.button_site_alt {
-	border: 1px solid #ccc;
-	font-size: 1.5em;
-	line-height: 1.9em;
-	font-weight: normal;
-	border-radius: 2px;
-	text-align: center;
-
-		a {
-		  color: #fff;
-		  display: block;
-		  padding: 10px;
-		  text-decoration: none;
-		  background-color: #000;
-		  @include transition(background-color 1s .5s, color 2s);
-		}
-
-		a:hover {
-		  color: #000; 
-		  background-color: #fff;
-		}
-
-}
-
-@include breakpoint($tab) {
 	.button_site_alt {
-	margin: 0 auto;
-	max-width: 12em;
+		margin: 0 auto;
+		max-width: 12em;
 	}
 
+
+
+
+
 }
+
