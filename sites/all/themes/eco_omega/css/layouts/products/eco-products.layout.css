@@ -428,65 +428,39 @@ body {
     margin: 0 auto;
     max-width: 12em; } }
 /* line 4, ../../../sass/components/_cart.scss */
-.l-region--store {
-  position: reletive; }
-  /* line 8, ../../../sass/components/_cart.scss */
-  .l-region--store .pane-commerce-cart-cart {
-    float: none;
-    background-color: #eee;
-    width: auto; }
-
-/* line 17, ../../../sass/components/_cart.scss */
 .cart-empty-page {
   font-size: 18px;
   color: #000;
   padding-bottom: 50px; }
 
-/* line 26, ../../../sass/components/_cart.scss */
+/* line 13, ../../../sass/components/_cart.scss */
 .view-commerce-cart-form table {
   width: 100%; }
-  /* line 29, ../../../sass/components/_cart.scss */
+  /* line 16, ../../../sass/components/_cart.scss */
   .view-commerce-cart-form table th {
     padding: 20px 7px;
     background-color: transparent;
     color: #000; }
-  /* line 35, ../../../sass/components/_cart.scss */
+  /* line 22, ../../../sass/components/_cart.scss */
   .view-commerce-cart-form table tr.odd, .view-commerce-cart-form table tr.even {
     background-color: transparent; }
-  /* line 39, ../../../sass/components/_cart.scss */
+  /* line 26, ../../../sass/components/_cart.scss */
   .view-commerce-cart-form table td {
     padding: 20px 7px;
     border-top: 1px #000 solid;
     color: #000; }
-    /* line 44, ../../../sass/components/_cart.scss */
+    /* line 31, ../../../sass/components/_cart.scss */
     .view-commerce-cart-form table td a {
       color: #000;
       text-decoration: none; }
-    /* line 48, ../../../sass/components/_cart.scss */
+    /* line 35, ../../../sass/components/_cart.scss */
     .view-commerce-cart-form table td a:hover {
       color: #999;
       text-decoration: underline; }
-/* line 59, ../../../sass/components/_cart.scss */
+/* line 46, ../../../sass/components/_cart.scss */
 .view-commerce-cart-form .line-item-summary .line-item-total {
   color: #000; }
 
-@media (min-width: 768px) {
-  /* line 71, ../../../sass/components/_cart.scss */
-  .l-region--store {
-    position: fixed;
-    z-index: 999;
-    width: 300px;
-    right: 10px; }
-    /* line 79, ../../../sass/components/_cart.scss */
-    .l-region--store .pane-commerce-cart-cart {
-      float: right;
-      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
-      border: none;
-      color: #666;
-      background-color: #eee;
-      border-radius: 12px;
-      border: 1px solid #666;
-      z-index: 999; } }
 /* line 5, ../../../sass/components/_checkout.scss */
 .commerce-checkout-form-checkout fieldset.form-wrapper span.fieldset-legend {
   font-size: 25px;
@@ -618,23 +592,6 @@ body {
   color: #000;
   margin-bottom: 40px; }
 
-@media (min-width: 768px) {
-  /* line 201, ../../../sass/components/_checkout.scss */
-  .l-region--store {
-    position: fixed;
-    z-index: 999;
-    width: 300px;
-    right: 10px; }
-    /* line 208, ../../../sass/components/_checkout.scss */
-    .l-region--store .pane-commerce-cart-cart {
-      float: right;
-      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
-      border: none;
-      color: #666;
-      background-color: #eee;
-      border-radius: 12px;
-      border: 1px solid #666;
-      z-index: 999; } }
 /* line 1, ../../../sass/components/_navigation.scss */
 .mean-container .mean-bar {
   float: none;
@@ -823,6 +780,103 @@ body {
     margin-right: 0;
     clear: none; } }
 
+/* line 1, ../../../sass/components/_store.scss */
+.l-region--store {
+  position: relative; }
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  .l-region--store:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 5, ../../../sass/components/_store.scss */
+  .l-region--store .pane-menu-menu-cart-checkout {
+    color: #666;
+    width: 100%; }
+  /* line 11, ../../../sass/components/_store.scss */
+  .l-region--store ul.menu {
+    margin: 0;
+    padding: 0; }
+    /* line 17, ../../../sass/components/_store.scss */
+    .l-region--store ul.menu li.first {
+      float: left; }
+      /* line 20, ../../../sass/components/_store.scss */
+      .l-region--store ul.menu li.first a {
+        margin: 9px 10%; }
+    /* line 25, ../../../sass/components/_store.scss */
+    .l-region--store ul.menu li.last {
+      float: right; }
+      /* line 28, ../../../sass/components/_store.scss */
+      .l-region--store ul.menu li.last a {
+        margin: 9px 10% 9px 0; }
+    /* line 34, ../../../sass/components/_store.scss */
+    .l-region--store ul.menu li {
+      list-style: none;
+      text-align: center;
+      width: 50%; }
+      /* line 40, ../../../sass/components/_store.scss */
+      .l-region--store ul.menu li a {
+        text-decoration: none;
+        display: block;
+        background-color: #000;
+        color: #fff;
+        padding: 10px 3px;
+        border-radius: 12px; }
+      /* line 49, ../../../sass/components/_store.scss */
+      .l-region--store ul.menu li a:hover {
+        color: #666; }
+
+@media (min-width: 768px) {
+  /* line 66, ../../../sass/components/_store.scss */
+  .l-region--store {
+    position: fixed;
+    z-index: 999; }
+    /* line 70, ../../../sass/components/_store.scss */
+    .l-region--store .pane-menu-menu-cart-checkout {
+      float: right;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+      color: #666;
+      background-color: #eee;
+      z-index: 999;
+      width: 220px;
+      margin-right: 20px;
+      -moz-border-radius: 30px;
+      -webkit-border-radius: 30px;
+      border-radius: 30px;
+      -moz-box-shadow: 0px 0px 3px #000000;
+      -webkit-box-shadow: 0px 0px 3px #000000;
+      box-shadow: 0px 0px 3px #000000; }
+    /* line 86, ../../../sass/components/_store.scss */
+    .l-region--store ul.menu {
+      margin: 0;
+      padding: 0; }
+      /* line 92, ../../../sass/components/_store.scss */
+      .l-region--store ul.menu li.first {
+        float: left; }
+        /* line 95, ../../../sass/components/_store.scss */
+        .l-region--store ul.menu li.first a {
+          margin: 9px; }
+      /* line 100, ../../../sass/components/_store.scss */
+      .l-region--store ul.menu li.last {
+        float: right; }
+        /* line 103, ../../../sass/components/_store.scss */
+        .l-region--store ul.menu li.last a {
+          margin: 9px 9px 9px 0; }
+      /* line 109, ../../../sass/components/_store.scss */
+      .l-region--store ul.menu li {
+        list-style: none;
+        text-align: center; }
+        /* line 114, ../../../sass/components/_store.scss */
+        .l-region--store ul.menu li a {
+          text-decoration: none;
+          display: block;
+          background-color: #000;
+          color: #fff;
+          padding: 3px;
+          width: 96px;
+          border-radius: 12px; }
+        /* line 124, ../../../sass/components/_store.scss */
+        .l-region--store ul.menu li a:hover {
+          color: #666; } }
 /* line 24, ../../../sass/eco-omega.styles.scss */
 .l-page {
   margin: 0 auto; }
@@ -992,7 +1046,8 @@ body {
     clear: both; }
   /* line 16, ../../../sass/layouts/products/eco-products.layout.scss */
   .l-main .l-content {
-    margin-top: 40px; }
+    margin-top: 40px;
+    margin-bottom: 40px; }
 
 /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
 .panel-pane:after {

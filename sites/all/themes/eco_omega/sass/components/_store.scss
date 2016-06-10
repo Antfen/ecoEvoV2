@@ -1,0 +1,138 @@
+.l-region--store {
+        position: relative;
+        @include clearfix;
+
+        .pane-menu-menu-cart-checkout {
+                color: #666;
+                width: 100%;
+
+        }
+
+        ul.menu {
+
+            margin: 0;
+            padding: 0;
+
+
+            li.first {
+                float: left;
+
+                    a {
+                        margin: 9px 10%;
+                    }
+            }
+
+            li.last {
+                float: right;
+
+                    a {
+                        margin: 9px 10% 9px 0;
+                    }
+            }
+
+
+            li {
+                list-style: none;
+                text-align: center;
+                width: 50%;
+
+
+                    a {
+                        text-decoration: none;
+                        display: block;
+                        background-color: #000;
+                        color: #fff;
+                        padding: 10px 3px;
+                        border-radius: 12px;
+                    }
+
+                    a:hover {
+                        color: #666;
+                    }
+
+                
+
+            }
+
+
+        }
+
+    }
+
+
+@include breakpoint($tab) {
+
+
+    .l-region--store {
+        position: fixed;
+        z-index: 999;
+
+        .pane-menu-menu-cart-checkout {
+                float: right;
+                box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+                color: #666;
+                background-color: #eee;
+                z-index: 999;
+                width: 220px;
+        		margin-right: 20px;
+        		-moz-border-radius: 30px;
+				-webkit-border-radius: 30px;
+				border-radius: 30px;
+				-moz-box-shadow: 0px 0px 3px #000000;
+				-webkit-box-shadow: 0px 0px 3px #000000;
+				box-shadow: 0px 0px 3px #000000;
+        }
+
+        ul.menu {
+
+        	margin: 0;
+       		padding: 0;
+
+
+       		li.first {
+    			float: left;
+
+    				a {
+    					margin: 9px;
+    				}
+    		}
+
+    		li.last {
+    			float: right;
+
+    				a {
+    					margin: 9px 9px 9px 0;
+    				}
+    		}
+
+
+        	li {
+        		list-style: none;
+        		text-align: center;
+
+
+        			a {
+        				text-decoration: none;
+        				display: block;
+        				background-color: #000;
+        				color: #fff;
+        				padding: 3px;
+        				width: 96px;
+        				border-radius: 12px;
+        			}
+
+        			a:hover {
+        				color: #666;
+        			}
+
+        		
+
+        	}
+
+
+    	}
+
+	}
+
+
+}
