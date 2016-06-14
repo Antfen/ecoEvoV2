@@ -70,3 +70,19 @@
     <?php print render($page['footer']); ?>
   </footer>
 </div>
+
+<script type="text/javascript">
+
+  jQuery(document).ready(function() {
+    function setHeight() {
+      windowHeight = jQuery(window).innerHeight();
+      jQuery('.hp-box').css('min-height', windowHeight);
+    };
+    setHeight();
+    
+    jQuery(window).resize(function() {
+      setHeight();
+    });
+  });
+
+</script>
