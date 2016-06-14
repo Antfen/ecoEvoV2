@@ -8,6 +8,14 @@
 // Globbing from within sub-folders only works with relative paths.
 //@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
 
+@include breakpoint($mobilePortrait) {
+
+.field--type-commerce-product-reference {
+				border: green 2px solid;
+			}
+
+}
+
 
 @include breakpoint($tab) {
 
@@ -50,6 +58,12 @@
 
 			.commerce-product-field-field-colour, .commerce-product-field-field-size {
 				display: none; //these fields should be turned of via the CMS - need to find that method!
+			}
+
+
+			.field--type-commerce-product-reference {
+				@include grid-span(5, 7); //sets it to 5 columns wide, that starts with the 7th column
+				border: red 2px solid;
 			}
 
 		

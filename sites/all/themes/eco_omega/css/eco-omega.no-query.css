@@ -356,6 +356,28 @@ body {
   color: #000;
   background-color: #666; }
 
+/* line 187, ../sass/components/_buttons.scss */
+.commerce-paypal-wps-redirect-form #edit-submit {
+  font-weight: normal;
+  border-radius: 2px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  color: #fff;
+  padding: 7px;
+  text-decoration: none;
+  background-color: #000;
+  margin-right: 10px;
+  -moz-transition: background-color 1s 0.5s, color 2s;
+  -o-transition: background-color 1s 0.5s, color 2s;
+  -webkit-transition: background-color 1s, color 2s;
+  -webkit-transition-delay: 0.5s, 0s;
+  transition: background-color 1s 0.5s, color 2s; }
+/* line 201, ../sass/components/_buttons.scss */
+.commerce-paypal-wps-redirect-form #edit-continue:hover {
+  color: #000;
+  background-color: #666; }
+
 /* line 4, ../sass/components/_cart.scss */
 .cart-empty-page {
   font-size: 18px;
@@ -396,7 +418,7 @@ body {
   font-weight: bold;
   color: #000; }
 /* line 12, ../sass/components/_checkout.scss */
-.commerce-checkout-form-checkout fieldset#edit-account.account.form-wrapper, .commerce-checkout-form-checkout fieldset.customer_profile_billing, .commerce-checkout-form-checkout fieldset.checkout-buttons {
+.commerce-checkout-form-checkout fieldset#edit-account.account.form-wrapper, .commerce-checkout-form-checkout fieldset.customer_profile_shipping, .commerce-checkout-form-checkout fieldset.customer_profile_billing, .commerce-checkout-form-checkout fieldset.commerce_shipping, .commerce-checkout-form-checkout fieldset.checkout-buttons {
   margin-top: 40px;
   padding-top: 12px;
   padding-bottom: 12px; }
@@ -433,91 +455,99 @@ body {
   color: #666; }
 
 /* line 65, ../sass/components/_checkout.scss */
+.commerce-checkout-form-review img {
+  width: auto; }
+/* line 69, ../sass/components/_checkout.scss */
 .commerce-checkout-form-review .checkout-help {
   font-size: 18px;
   color: #000;
   padding-bottom: 30px; }
-/* line 71, ../sass/components/_checkout.scss */
+/* line 75, ../sass/components/_checkout.scss */
 .commerce-checkout-form-review fieldset.form-wrapper span.fieldset-legend {
   font-size: 25px;
   font-weight: bold;
   color: #000; }
-/* line 78, ../sass/components/_checkout.scss */
+/* line 82, ../sass/components/_checkout.scss */
 .commerce-checkout-form-review fieldset.checkout-buttons {
   margin-top: 40px;
   margin-bottom: 40px;
   padding-top: 12px;
   padding-bottom: 12px; }
-/* line 86, ../sass/components/_checkout.scss */
+/* line 90, ../sass/components/_checkout.scss */
 .commerce-checkout-form-review table {
   width: 100%; }
-  /* line 89, ../sass/components/_checkout.scss */
+  /* line 93, ../sass/components/_checkout.scss */
   .commerce-checkout-form-review table th {
     padding: 20px 7px;
     background-color: transparent;
     color: #000; }
-  /* line 95, ../sass/components/_checkout.scss */
+  /* line 99, ../sass/components/_checkout.scss */
   .commerce-checkout-form-review table tr.odd, .commerce-checkout-form-review table tr.even {
     background-color: transparent; }
-  /* line 99, ../sass/components/_checkout.scss */
+  /* line 103, ../sass/components/_checkout.scss */
   .commerce-checkout-form-review table td {
     padding: 20px 7px;
     border-top: 1px #000 solid;
     color: #000; }
-/* line 108, ../sass/components/_checkout.scss */
+/* line 112, ../sass/components/_checkout.scss */
 .commerce-checkout-form-review .line-item-summary .line-item-total {
   color: #000; }
-/* line 112, ../sass/components/_checkout.scss */
+/* line 116, ../sass/components/_checkout.scss */
 .commerce-checkout-form-review label, .commerce-checkout-form-review input {
   color: #000; }
-/* line 116, ../sass/components/_checkout.scss */
+/* line 120, ../sass/components/_checkout.scss */
 .commerce-checkout-form-review .checkout-back {
   color: #000; }
-/* line 119, ../sass/components/_checkout.scss */
+/* line 123, ../sass/components/_checkout.scss */
 .commerce-checkout-form-review .checkout-back:hover {
   color: #666; }
 
-/* line 127, ../sass/components/_checkout.scss */
+/* line 131, ../sass/components/_checkout.scss */
 .view-commerce-user-orders {
   margin-bottom: 40px; }
-  /* line 130, ../sass/components/_checkout.scss */
+  /* line 134, ../sass/components/_checkout.scss */
   .view-commerce-user-orders img {
     width: auto; }
-  /* line 135, ../sass/components/_checkout.scss */
+  /* line 139, ../sass/components/_checkout.scss */
   .view-commerce-user-orders table {
     width: 100%; }
-    /* line 138, ../sass/components/_checkout.scss */
+    /* line 142, ../sass/components/_checkout.scss */
     .view-commerce-user-orders table th {
       padding: 20px 7px;
       background-color: transparent;
       color: #000; }
-    /* line 144, ../sass/components/_checkout.scss */
+    /* line 148, ../sass/components/_checkout.scss */
     .view-commerce-user-orders table tr.odd, .view-commerce-user-orders table tr.even {
       background-color: transparent; }
-    /* line 148, ../sass/components/_checkout.scss */
+    /* line 152, ../sass/components/_checkout.scss */
     .view-commerce-user-orders table td {
       padding: 20px 7px;
       border-top: 1px #000 solid;
       color: #000; }
 
-/* line 166, ../sass/components/_checkout.scss */
+/* line 170, ../sass/components/_checkout.scss */
 .entity-commerce-order table {
   width: 100%; }
-  /* line 169, ../sass/components/_checkout.scss */
+  /* line 173, ../sass/components/_checkout.scss */
   .entity-commerce-order table th {
     padding: 20px 7px;
     background-color: transparent;
     color: #000; }
-  /* line 175, ../sass/components/_checkout.scss */
+  /* line 179, ../sass/components/_checkout.scss */
   .entity-commerce-order table tr.odd, .entity-commerce-order table tr.even {
     background-color: transparent; }
-  /* line 179, ../sass/components/_checkout.scss */
+  /* line 183, ../sass/components/_checkout.scss */
   .entity-commerce-order table td {
     padding: 20px 7px;
     border-top: 1px #000 solid;
     color: #000; }
-/* line 188, ../sass/components/_checkout.scss */
+/* line 192, ../sass/components/_checkout.scss */
 .entity-commerce-order .field--name-commerce-customer-billing {
+  color: #000;
+  margin-bottom: 40px; }
+
+/* line 201, ../sass/components/_checkout.scss */
+.commerce-paypal-wps-redirect-form {
   color: #000;
   margin-bottom: 40px; }
 

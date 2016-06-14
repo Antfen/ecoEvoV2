@@ -179,6 +179,32 @@
 }
 
 
+//Button style for Checkout 'Paypal redirection' page
+
+.commerce-paypal-wps-redirect-form {
+
+
+		#edit-submit {
+			font-weight: normal;
+			border-radius: 2px;
+			text-align: center;
+			border: 1px solid #ccc;
+			border-radius: 2px;
+			color: #fff;
+			padding: 7px;
+			text-decoration: none;
+			background-color: #000;
+			margin-right: 10px;
+			@include transition(background-color 1s .5s, color 2s);
+		}
+
+		#edit-continue:hover {
+			color: #000; 
+			background-color: #666;
+		}
+
+}
+
 
 
 @include breakpoint($tab) {

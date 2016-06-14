@@ -9,7 +9,7 @@
 
     }
 
-    fieldset#edit-account.account.form-wrapper, fieldset.customer_profile_billing, fieldset.checkout-buttons {
+    fieldset#edit-account.account.form-wrapper, fieldset.customer_profile_shipping, fieldset.customer_profile_billing, fieldset.commerce_shipping, fieldset.checkout-buttons {
         margin-top: 40px;
         padding-top: 12px;
         padding-bottom: 12px;
@@ -61,6 +61,10 @@
  //Styles for Review Order
 
 .commerce-checkout-form-review {
+
+    img {
+        width: auto;
+    }
 
     .checkout-help {
         font-size: 18px;
@@ -189,6 +193,37 @@
         color: #000;
         margin-bottom: 40px;
     }
+
+}
+
+//Styles for Paypal 'Payment Redirection' page
+
+.commerce-paypal-wps-redirect-form {
+        color: #000;
+        margin-bottom: 40px;
+
+}
+
+@include breakpoint($mobilePortrait) {
+
+.commerce-checkout-form-checkout  {
+
+
+                border: green 2px solid;
+
+                th, td {
+                    font-size: 10px;
+                }
+
+                .views-field-edit-quantity {
+                    display: none;
+                }
+
+                select, input {
+                    max-width: 200px;
+                }
+
+            }
 
 }
 
