@@ -211,3 +211,89 @@
 		}
 	}
 
+
+//mmenu begins here!!!
+
+
+
+.l-content {
+
+		@include breakpoint($tabwide) {
+
+			
+
+		}
+
+}
+
+//Mmenu styles for mobile devices
+
+
+.pane-system-main-menu { //hides main menu in mobile
+	display: none;
+}
+
+.mmenu-mobile-button {// Panel class to manage Mmenu mobile button
+	//@include clearfix;
+	position: relative;
+
+
+	#logo-mobile {
+	    width: 32px;
+	    height: 32px;
+	    padding: 0 4px;
+	    position: absolute;
+	    top: 8px;
+	    right: 0;
+	    cursor: pointer;
+	    text-decoration: none;
+	    font-size: 1px;
+	    //background-color: #000;
+
+	    span.mb-bar {
+	    	display: block;
+		    background-color: #fff;
+		    height: 3px;
+		    width: auto;
+		    margin-top: 5px;
+	    }
+
+
+
+	}
+
+}
+
+//Mmenu styles
+
+#mmenu_right.mmenu-nav.mm-basic {// Lets override some basic settings!
+
+	background: #000;
+
+		li a {
+					padding-top: 20px;
+					padding-bottom: 20px;
+
+		}
+	
+		.mmenu-mm-list {// Link color
+			color: #fff;
+
+		}
+
+
+}
+
+@include breakpoint($tabwide) {
+
+	.pane-system-main-menu {
+	display: block;
+	}
+
+	#logo-mobile {
+	    display: none;
+
+	}			
+
+}
+
