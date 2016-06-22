@@ -226,7 +226,7 @@
 
 }
 
-//Mmenu styles for mobile devices
+//Mmenu styles for mobile button
 
 
 .pane-system-main-menu { //hides main menu in mobile
@@ -248,7 +248,6 @@
 	    cursor: pointer;
 	    text-decoration: none;
 	    font-size: 1px;
-	    //background-color: #000;
 
 	    span.mb-bar {
 	    	display: block;
@@ -264,7 +263,7 @@
 
 }
 
-//Mmenu styles
+//Mmenu styles for Mmenu sliding panel
 
 #mmenu_right.mmenu-nav.mm-basic {// Lets override some basic settings!
 
@@ -273,11 +272,27 @@
 		li a {
 					padding-top: 20px;
 					padding-bottom: 20px;
+					padding-left: 40px;
+
+		}
+
+		.mm-list li {
+			border-top: none;
+			border-bottom: none;
 
 		}
 	
-		.mmenu-mm-list {// Link color
+		a.mmenu-mm-list {// Link color
 			color: #fff;
+
+		}
+		a.mmenu-mm-list :hover {// Link hover color
+			color: #666;
+
+		}
+
+		.mmenu-mm-list i {// Lets hide those pesky icons!
+			display: none;
 
 		}
 

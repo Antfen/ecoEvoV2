@@ -706,7 +706,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     font-size: 1px; }
-    /* line 253, ../../../sass/components/_navigation.scss */
+    /* line 252, ../../../sass/components/_navigation.scss */
     .mmenu-mobile-button #logo-mobile span.mb-bar {
       display: block;
       background-color: #fff;
@@ -714,16 +714,27 @@ body {
       width: auto;
       margin-top: 5px; }
 
-/* line 269, ../../../sass/components/_navigation.scss */
+/* line 268, ../../../sass/components/_navigation.scss */
 #mmenu_right.mmenu-nav.mm-basic {
   background: #000; }
-  /* line 273, ../../../sass/components/_navigation.scss */
+  /* line 272, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic li a {
     padding-top: 20px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    padding-left: 40px; }
   /* line 279, ../../../sass/components/_navigation.scss */
-  #mmenu_right.mmenu-nav.mm-basic .mmenu-mm-list {
+  #mmenu_right.mmenu-nav.mm-basic .mm-list li {
+    border-top: none;
+    border-bottom: none; }
+  /* line 285, ../../../sass/components/_navigation.scss */
+  #mmenu_right.mmenu-nav.mm-basic a.mmenu-mm-list {
     color: #fff; }
+  /* line 289, ../../../sass/components/_navigation.scss */
+  #mmenu_right.mmenu-nav.mm-basic a.mmenu-mm-list :hover {
+    color: #666; }
+  /* line 294, ../../../sass/components/_navigation.scss */
+  #mmenu_right.mmenu-nav.mm-basic .mmenu-mm-list i {
+    display: none; }
 
 /* line 1, ../../../sass/components/_store.scss */
 .l-region--store {
