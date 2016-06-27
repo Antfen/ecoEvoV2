@@ -79,6 +79,10 @@ h3 {
   background-color: #999;
 }
 
+form.user-login #edit-name, form.user-login #edit-pass {
+  width: 100%;
+}
+
 .views-exposed-form .views-exposed-widget {
   padding: 0;
   float: none;

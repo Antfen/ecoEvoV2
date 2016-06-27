@@ -90,6 +90,33 @@
 	
 }
 
+//Login page
+
+form.user-login {
+
+	#edit-name, #edit-pass {
+		width: 100%
+	}
+
+}
+
+@include breakpoint($tab) {
+
+		#edit-name, #edit-pass {
+		max-width: 75%;
+
+		}
+
+}
+
+@include breakpoint($tabwide) {
+
+		#edit-name, #edit-pass {
+		max-width: 50%;
+
+		}
+
+}
 
 //Views exposed filters
 
