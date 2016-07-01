@@ -25,6 +25,10 @@
       <?php print render($page['navigation']); ?>
     </header>
 
+    <div class="hp-box">
+    
+    </div>
+
     <div class="l-main">
 
       <?php print render($page['store']); ?>

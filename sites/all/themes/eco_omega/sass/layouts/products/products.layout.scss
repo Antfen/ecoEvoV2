@@ -11,7 +11,7 @@
 @include breakpoint($mobilePortrait) {
 
 .field--type-commerce-product-reference {
-				border: green 2px solid;
+				//border: green 2px solid;
 			}
 
 }
@@ -63,7 +63,7 @@
 
 			.field--type-commerce-product-reference {
 				@include grid-span(5, 7); //sets it to 5 columns wide, that starts with the 7th column
-				border: red 2px solid;
+				//border: red 2px solid;
 			}
 
 		

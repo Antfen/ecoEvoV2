@@ -8,10 +8,22 @@
 // Globbing from within sub-folders only works with relative paths.
 //@import "../../variables/**/*"; //this relative file path to the 'variables' doesn't work!!? See the import above!
 
+.hp-box {
+	height: 350px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	position: relative;
+	background-image: url("../../../images/img_frontpage/shop-mobile.jpg");
+}
 
 .l-main {
     @include clearfix;
-    padding-top: 70px;
+    padding-top: 0;
 
         .l-content {
             margin-top: 40px;
@@ -22,4 +34,28 @@
 
 .panel-pane {
 	 @include clearfix;
+}
+
+@include breakpoint($tab) {
+
+	.hp-box {
+	background-image: url("../../../images/img_frontpage/shop-tab.jpg");
+	}
+
+}
+
+@include breakpoint($tabwide) {
+
+	.hp-box {
+	background-image: url("../../../images/img_frontpage/shop-tabwide.jpg");
+	}
+
+}
+
+@include breakpoint($desk) {
+
+	.hp-box {
+	background-image: url("../../../images/img_frontpage/shop-desk.jpg");
+	}
+
 }
