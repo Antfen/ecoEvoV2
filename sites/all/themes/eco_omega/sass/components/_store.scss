@@ -1,4 +1,156 @@
+// Styles for custom Cart Block
 .l-region--store {
+        position: relative;
+        @include clearfix;
+
+        .cart-contents {
+
+                .views-table { //Lets hide the list of individual items. We only want to see the total number of items and the total cost.
+                    display: none;
+                }
+
+                .line-item-summary {
+                    margin-bottom: 0;
+                }
+
+                ul.links {
+
+                margin: 7px 0 0;
+                padding: 0;
+
+
+                li.first {
+                    float: left;
+                    margin: 0 2% 0 0;
+
+                        a {
+                            margin: 0;
+                        }
+                }
+
+                li.last {
+                    float: right;
+                    margin: 0;
+
+                        a {
+                            margin: 0;
+                        }
+                }
+
+
+                li {
+                    list-style: none;
+                    text-align: center;
+                    width: 48%;
+
+
+                        a {
+                            text-decoration: none;
+                            display: block;
+                            background-color: #000;
+                            color: #fff;
+                            padding: 10px 3px;
+                            border-radius: 12px;
+                        }
+
+                        a:hover {
+                            color: #666;
+                        }
+
+                    
+
+                }
+
+
+            }
+
+        }
+
+}
+
+
+@include breakpoint($tab) {
+    .l-region--store {
+        position: fixed;
+        z-index: 1;
+
+        .cart-contents {
+            float: right;
+            box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+            color: #666;
+            background-color: #eee;
+            z-index: 999;
+            width: 250px;
+            margin-right: 20px;
+            -moz-border-radius: 30px;
+            -webkit-border-radius: 30px;
+            border-radius: 30px;
+            -moz-box-shadow: 0px 0px 3px #000000;
+            -webkit-box-shadow: 0px 0px 3px #000000;
+            box-shadow: 0px 0px 3px #000000;
+            padding: 20px;
+        }
+
+            ul.links {
+
+                margin: 0;
+                padding: 0;
+
+
+                li.first {
+                    float: left;
+                    margin: 0 2% 0 0;
+
+                        a {
+                            margin: 0;
+                            padding: 2px
+                        }
+                }
+
+                li.last {
+                    float: right;
+                    margin: 0;
+
+                        a {
+                            margin: 0;
+                            padding: 2px
+                        }
+                }
+
+
+                li {
+                    list-style: none;
+                    text-align: center;
+                    width: 48%;
+
+
+                        a {
+                            text-decoration: none;
+                            display: block;
+                            background-color: #000;
+                            color: #fff;
+                            border-radius: 12px;
+                        }
+
+                        a:hover {
+                            color: #666;
+                        }
+
+                    
+
+                }
+
+
+            }
+
+        
+    }
+
+}
+
+
+// Styles for custom Cart Menu Block - "not in use"
+/* .l-region--store {
         position: relative;
         @include clearfix;
 
@@ -16,17 +168,19 @@
 
             li.first {
                 float: left;
+                margin: 0;
 
                     a {
-                        margin: 9px 10%;
+                        margin: 0;
                     }
             }
 
             li.last {
                 float: right;
+                margin: 0;
 
                     a {
-                        margin: 9px 10% 9px 0;
+                        margin: 0;
                     }
             }
 
@@ -136,3 +290,4 @@
 
 
 }
+ */

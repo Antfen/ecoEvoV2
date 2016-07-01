@@ -6,4 +6,3 @@
  * Eco Omega theme.
  */
 
-

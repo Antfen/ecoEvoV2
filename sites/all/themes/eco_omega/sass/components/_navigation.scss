@@ -301,11 +301,15 @@
 
 @include breakpoint($tabwide) {
 
-	.pane-system-main-menu {
+	.pane-system-main-menu { //Show the main menu on Tablets Wide or greater
 	display: block;
 	}
 
-	#logo-mobile {
+	.mmenu-mobile-button { //Hide on Tablets Wide or greater
+		display: none;
+	}
+
+	#logo-mobile { //Hide on Tablets Wide or greater
 	    display: none;
 
 	}			

@@ -31,9 +31,17 @@
 			@include grid-span(10, 2); //sets it to 10 columns wide, that starts with the 2nd column
 			clear: left;
 		
+			.webform-component--type-of-enquiry {
+				@include grid-span(6, 1); //sets it to 6 columns wide, that starts with the 1st column
+			}
+
+			.webform-component--company {
+				@include grid-span(6, 7); //sets it to 6 columns wide, that starts with the 7th column
+			}
 	
 			.webform-component--title {
 				@include grid-span(4, 1); //sets it to 4 columns wide, that starts with the 1st column
+				clear: right;
 			}
 
 			.webform-component--forename {
