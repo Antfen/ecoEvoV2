@@ -191,7 +191,7 @@ body.maintenance-page {
 
 		background-color: #000;
 
-		.l-header {
+		.l-header { /* over writes site styles */
 			position: relative;
 			background-color: none;
 			background-image: none;
@@ -204,7 +204,7 @@ body.maintenance-page {
 		}
 
 
-		h2.site-slogan, p {
+		h2.site-slogan {
 			color: #ff9900;
 		}
 
