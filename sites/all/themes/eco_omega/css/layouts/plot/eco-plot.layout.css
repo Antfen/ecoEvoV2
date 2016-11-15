@@ -1332,6 +1332,10 @@ body.maintenance-page {
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
+/* line 256, ../../../sass/eco-omega.styles.scss */
+.krumo-root img {
+  width: auto; }
+
 /* line 11, ../../../sass/layouts/plot/eco-plot.layout.scss */
 body {
   background-color: #fff; }

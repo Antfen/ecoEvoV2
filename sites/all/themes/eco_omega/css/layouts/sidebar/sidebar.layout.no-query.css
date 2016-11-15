@@ -1091,6 +1091,10 @@ body.maintenance-page {
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
+/* line 256, ../../../sass/eco-omega.styles.scss */
+.krumo-root img {
+  width: auto; }
+
 /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
 .l-main:after {
   content: "";

@@ -1332,6 +1332,10 @@ body.maintenance-page {
 .l-page .more-pad-bottom {
   margin-bottom: 20px; }
 
+/* line 256, ../../../sass/eco-omega.styles.scss */
+.krumo-root img {
+  width: auto; }
+
 @media (min-width: 768px) {
   /* line 23, ../../../sass/layouts/products/products.layout.scss */
   .l-region--store {
