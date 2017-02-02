@@ -1343,26 +1343,17 @@ body.maintenance-page {
 
 /* line 20, ../../../sass/layouts/home/eco-home.layout.scss */
 .hp-box {
+  width: auto;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   position: relative;
-  height: 800px;
-  background-image: url("../../../images/img_frontpage/newquay-tab.jpg");
-  background-size: auto 800px;
-  background-position: top center;
-  background-attachment: fixed;
-  overflow: hidden; }
+  background-image: url("../../../images/img_frontpage/newquay-tab.jpg"); }
 
 /* line 32, ../../../sass/layouts/home/eco-home.layout.scss */
-.paralogo {
-  height: 62px;
-  width: 100%;
-  background-image: url("../../../images/ecor-logo.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 50%;
-  margin-top: -31px; }
-
-/* line 43, ../../../sass/layouts/home/eco-home.layout.scss */
 .hp-info-holder {
   position: absolute;
   bottom: 0;
@@ -1370,20 +1361,20 @@ body.maintenance-page {
   width: 100%;
   padding-bottom: 10px; }
 
-/* line 51, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 40, ../../../sass/layouts/home/eco-home.layout.scss */
 .hp-info-holder-alt {
   position: relative;
   background-color: #000;
   height: 70px; }
 
-/* line 56, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 45, ../../../sass/layouts/home/eco-home.layout.scss */
 .hp-scroll {
   position: relative; }
 
-/* line 60, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 49, ../../../sass/layouts/home/eco-home.layout.scss */
 .scroll-button {
   position: relative; }
-  /* line 63, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 52, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button a {
     position: absolute;
     bottom: 20px;
@@ -1398,10 +1389,10 @@ body.maintenance-page {
     letter-spacing: .1em;
     text-decoration: none;
     transition: opacity .3s; }
-  /* line 79, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 68, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button a:hover {
     color: #999; }
-  /* line 83, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 72, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button a span {
     position: absolute;
     top: 10px;
@@ -1414,15 +1405,15 @@ body.maintenance-page {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box; }
-  /* line 97, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 86, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button a:hover span {
     border-left: 1px solid #999;
     border-bottom: 1px solid #999; }
 
-/* line 105, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 94, ../../../sass/layouts/home/eco-home.layout.scss */
 .scroll-button-up {
   position: relative; }
-  /* line 108, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 97, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button-up a {
     position: absolute;
     top: 50px;
@@ -1437,10 +1428,10 @@ body.maintenance-page {
     letter-spacing: .1em;
     text-decoration: none;
     transition: opacity .3s; }
-  /* line 124, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 113, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button-up a:hover {
     color: #999; }
-  /* line 128, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 117, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button-up a span {
     position: absolute;
     top: -25px;
@@ -1453,91 +1444,73 @@ body.maintenance-page {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box; }
-  /* line 142, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 131, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button-up a:hover span {
     border-right: 1px solid #999;
     border-top: 1px solid #999; }
 
-/* line 152, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 141, ../../../sass/layouts/home/eco-home.layout.scss */
 .pod-panel .node__title {
   margin-top: 0;
   margin-bottom: 0; }
-/* line 157, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 146, ../../../sass/layouts/home/eco-home.layout.scss */
 .pod-panel img {
   display: block; }
 
-/* line 165, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 154, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .panel-pane {
   background-color: #fff;
   margin-top: 50px; }
-/* line 170, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 159, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .pane-title {
   color: #000;
   padding-right: 5%;
   padding-left: 5%; }
-/* line 176, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 165, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .field--name-field-text-introduction-pod, .l-content .field--name-field-text-main-pod {
   padding-right: 5%;
   padding-left: 5%; }
-/* line 181, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 170, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .field--name-field-image-pod {
   max-width: 90%;
   margin: 0 auto; }
-/* line 186, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 175, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .field--name-field-text-introduction-pod {
   padding-bottom: 50px; }
-/* line 190, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 179, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .pod-no1 .field--name-field-text-introduction-pod {
   padding-bottom: 0; }
-
-/* line 200, ../../../sass/layouts/home/eco-home.layout.scss */
-.l-content .parallax {
-  background-image: url("http://staging.ecorhythm.com/sites/default/files/styles/pod-panel_breakpoints_theme_eco_omega_desk_1x/public/uploaded-images/pod-panel/dolphins-in-a-row.jpg");
-  position: relative;
-  height: 700px;
-  width: auto;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; }
-  /* line 213, ../../../sass/layouts/home/eco-home.layout.scss */
-  .l-content .parallax img {
-    display: none; }
-  /* line 217, ../../../sass/layouts/home/eco-home.layout.scss */
-  .l-content .parallax .pane-title {
-    color: #fff;
-    position: absolute;
-    height: 60px;
-    width: 100%;
-    top: 50%;
-    margin-top: -30px;
-    text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-    float: none; }
-/* line 237, ../../../sass/layouts/home/eco-home.layout.scss */
-.l-content .parallax-1 {
-  /* background-image: url("http://staging.ecorhythm.com/sites/default/files/styles/pod-panel_breakpoints_theme_eco_omega_desk_1x/public/uploaded-images/pod-panel/dolphins-in-a-row.jpg"); */
-  /* <img src="http://localhost/ecoEvo2/sites/default/files/styles/pod-panel_breakpoints_theme_eco_omega_desk_1x/public/uploaded-images/pod-panel/dolphins-in-a-row.jpg?itok=tQZZ54ow&amp;timestamp=1450371725" alt="" title=""> */ }
+/* line 185, ../../../sass/layouts/home/eco-home.layout.scss */
+.l-content .media-youtube-video {
+  height: 0;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  position: relative; }
+/* line 193, ../../../sass/layouts/home/eco-home.layout.scss */
+.l-content .media-youtube-1 iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 @media (min-width: 768px) {
   /* .hp-box {
   	background-image: url("../../../images/img_frontpage/newquay-tab.jpg");
   } */
-  /* line 258, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 211, ../../../sass/layouts/home/eco-home.layout.scss */
   .l-content {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-    /* line 261, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 214, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pane-title, .l-content .field--name-field-text-introduction-pod, .l-content .field--name-field-text-main-pod {
       padding-right: 0;
       padding-left: 0; }
-    /* line 268, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 221, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no1 .field--name-field-text-introduction-pod {
       width: 40.67797%;
       float: left;
@@ -1545,58 +1518,75 @@ body.maintenance-page {
       margin-left: 8.47458%;
       clear: none;
       padding-bottom: 0; }
-    /* line 274, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 227, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no1 .field--name-field-text-main-pod {
       width: 40.67797%;
       float: left;
       margin-right: -100%;
       margin-left: 50.84746%;
       clear: none; }
-    /* line 283, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 236, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no2 .field--name-field-text-introduction-pod {
       width: 40.67797%;
       float: left;
       margin-right: -100%;
       margin-left: 50.84746%;
       clear: none; }
-    /* line 288, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 241, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no2 .field--name-field-image-pod {
       width: 40.67797%;
       float: left;
       margin-right: -100%;
       margin-left: 8.47458%;
       clear: none; }
-    /* line 293, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 246, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no2 .field--name-field-text-introduction-pod {
       padding-bottom: 0; }
-    /* line 301, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 254, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no3 .field--name-field-text-introduction-pod {
       width: 40.67797%;
       float: left;
       margin-right: -100%;
       margin-left: 8.47458%;
       clear: none; }
-    /* line 306, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 259, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no3 .field--name-field-image-pod {
       width: 40.67797%;
       float: left;
       margin-right: -100%;
       margin-left: 50.84746%;
       clear: none; }
-    /* line 311, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 264, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no3 .field--name-field-text-introduction-pod {
       padding-bottom: 0; }
+    /* line 270, ../../../sass/layouts/home/eco-home.layout.scss */
+    .l-content .video {
+      			/* .field--name-field-image-pod {
+      				@include grid-span(5, 7); //sets it to 4 columns wide, that starts with the 2nd column
+      				
+      			}
+      
+      			.field--name-field-text-introduction-pod {
+      				padding-bottom: 0;
+      			} */ }
+      /* line 272, ../../../sass/layouts/home/eco-home.layout.scss */
+      .l-content .video .node__content {
+        width: 83.05085%;
+        float: left;
+        margin-right: -100%;
+        margin-left: 8.47458%;
+        clear: none; }
 
-  /* line 320, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 291, ../../../sass/layouts/home/eco-home.layout.scss */
   .l-content .panel-pane .field--name-field-text-introduction-pod {
     clear: left; } }
 @media (min-width: 1024px) {
-  /* .hp-box {
-  background-image: url("../../../images/img_frontpage/newquay-tabwide.jpg");
-  } */ }
+  /* line 301, ../../../sass/layouts/home/eco-home.layout.scss */
+  .hp-box {
+    background-image: url("../../../images/img_frontpage/newquay-tabwide.jpg"); } }
 @media (min-width: 1120px) {
-  /* .hp-box {
-  background-image: url("../../../images/img_frontpage/newquay-desk.jpg");
-  } */ }
+  /* line 311, ../../../sass/layouts/home/eco-home.layout.scss */
+  .hp-box {
+    background-image: url("../../../images/img_frontpage/newquay-desk.jpg"); } }
 
 /*# sourceMappingURL=eco-home.layout.css.map */
