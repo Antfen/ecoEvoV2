@@ -1481,14 +1481,14 @@ body.maintenance-page {
 .l-content .pod-no1 .field--name-field-text-introduction-pod {
   padding-bottom: 0; }
 /* line 185, ../../../sass/layouts/home/eco-home.layout.scss */
-.l-content .media-youtube-video {
+.l-content .media-youtube-video, .l-content .media-vimeo-video {
   height: 0;
   width: 100%;
   padding-bottom: 56.25%;
   overflow: hidden;
   position: relative; }
 /* line 193, ../../../sass/layouts/home/eco-home.layout.scss */
-.l-content .media-youtube-1 iframe {
+.l-content .media-youtube-1 iframe, .l-content .media-vimeo-1 iframe {
   width: 100%;
   height: 100%;
   position: absolute;
