@@ -18,16 +18,26 @@
 }
 
 .hp-box {
-	//height: 700px;
-	width: auto;
-	background-position: left center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	position: relative;
-	background-image: url("../../../images/img_frontpage/newquay-tab.jpg");
+    height: 800px;
+    background-image: url("../../../images/img_frontpage/newquay-tab.jpg");
+    background-size: auto 800px;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+	
+
+}
+
+.paralogo {
+	  height: 62px; 
+	  width: 100%;
+	  background-image: url("../../../images/ecor-logo.png");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  position: absolute;
+	  top: 50%;
+	  margin-top: -31px;
 }
 
 .hp-info-holder { //holds the scroll down button
@@ -183,13 +193,67 @@
 
 }
 
+//Parallax
+
+.l-content {
+
+	.parallax {
+		background-image: url("http://staging.ecorhythm.com/sites/default/files/styles/pod-panel_breakpoints_theme_eco_omega_desk_1x/public/uploaded-images/pod-panel/dolphins-in-a-row.jpg");
+		position: relative;
+		height: 700px;
+		width: auto;
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		//background-attachment: fixed;
+
+			img {
+				display: none;
+			}
+
+			.pane-title {
+				color: $h2ColourAlt;
+				position: absolute;
+				height: 60px;
+				width: 100%;
+				top: 50%;
+				margin-top :-30px;
+				text-align: center;
+				margin-left: 0;
+				margin-right: 0;
+				//left: 26%;
+				float: none;
+				//margin-right: 0;
+				//margin-left: 0;
+				
+			}
+
+
+		}
+
+		.parallax-1 {
+		/* background-image: url("http://staging.ecorhythm.com/sites/default/files/styles/pod-panel_breakpoints_theme_eco_omega_desk_1x/public/uploaded-images/pod-panel/dolphins-in-a-row.jpg"); */
+
+
+		/* <img src="http://localhost/ecoEvo2/sites/default/files/styles/pod-panel_breakpoints_theme_eco_omega_desk_1x/public/uploaded-images/pod-panel/dolphins-in-a-row.jpg?itok=tQZZ54ow&amp;timestamp=1450371725" alt="" title=""> */
+
+		}
+
+
+}
+
+
+
 
 
 @include breakpoint($tab) {
 
-	.hp-box {
+	/* .hp-box {
 		background-image: url("../../../images/img_frontpage/newquay-tab.jpg");
-	}
+	} */
 
 	.l-content {
 		@include grid-span(12, 1);
@@ -263,9 +327,9 @@
 
 @include breakpoint($tabwide) {
 
-	.hp-box {
+	/* .hp-box {
 	background-image: url("../../../images/img_frontpage/newquay-tabwide.jpg");
-	}
+	} */
 
 
 
@@ -273,9 +337,9 @@
 
 @include breakpoint($desk) {
 
-	.hp-box {
+	/* .hp-box {
 	background-image: url("../../../images/img_frontpage/newquay-desk.jpg");
-	}
+	} */
 
 
 

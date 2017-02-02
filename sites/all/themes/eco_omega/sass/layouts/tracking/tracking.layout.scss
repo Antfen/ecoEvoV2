@@ -16,9 +16,34 @@
 @include breakpoint($tab) {
 
 	.l-content {
+
+		.view-empty {
+		float: none;
+		}
+	
+	}
+
+	.l-content {
 		@include grid-span(12, 1); //sets it to 12 columns wide, that starts with the 1st column
 	}
 }
+
+@include breakpoint($tabwide) {
+
+	.l-content {
+
+		.view-empty {
+		@include grid-span(6, 4); //sets it to 4 columns wide, that starts with the 2nd column
+		}
+	
+
+	}
+
+	.l-content {
+		@include grid-span(12, 1); //sets it to 12 columns wide, that starts with the 1st column
+	}
+}
+
 @include breakpoint($desk) {
 
 

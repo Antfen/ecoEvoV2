@@ -28,7 +28,11 @@
     <a id="top"></a>
 
     <div class="hp-box">
+
+      <div class="paralogo"></div>
+
       <div class="hp-info-holder">
+
        <div class="scroll-button">
         <a href="#welcome-to-eco">
           <span></span>
@@ -40,6 +44,9 @@
 
     <div class="l-main">
       <div class="l-content" role="main">
+
+      <?php print (!empty($background_image_css)) ? $background_image_css : ''; ?>
+
         <?php print render($page['highlighted']); ?>
         <?php print $breadcrumb; ?>
         <a id="main-content"></a>
@@ -73,7 +80,7 @@
   </div>
 </div>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
   jQuery(document).ready(function() {
     function setHeight() {
@@ -87,4 +94,7 @@
     });
   });
 
-</script>
+</script> -->
+
+<!-- <script src="sites/all/themes/eco_omega/js/jquery-2.1.3.min.js"></script>
+<script src="sites/all/themes/eco_omega/js/parallax.js"></script> -->

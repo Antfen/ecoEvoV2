@@ -15,3 +15,9 @@ function eco_omega_commerce_cart_empty_block() {
 //function eco_omega_preprocess_node(&$vars) {
 //	kpr($vars);
 //}
+
+function eco_omega_preprocess_page(&$variables) {
+  if (!empty($variables['node']) && $variables['node']->type == 'page') {
+    $variables['show_title'] = FALSE;
+  }
+}

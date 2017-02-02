@@ -147,9 +147,18 @@
 
 	}
 
+	.view-empty {
+
+		h2 {
+			margin-top: 0;
+		}
+	}
+
 	
 
 }
+
+
 
 
 @include breakpoint($tabwide) {
