@@ -135,6 +135,17 @@
 
 }
 
+div.straplineHolder {
+
+	h1.strapline {
+		padding-right: 5%;
+		padding-left: 5%;
+		padding-top: 80px;
+		margin: 0;
+
+	}
+}
+
 
 .pod-panel { //Lets create a panel-pane secific class to control the assets within the pod-panel content type
 
@@ -154,6 +165,11 @@
 	.panel-pane {
 		background-color: #fff;
 		margin-top: 50px;
+	}
+
+	.panel-pane.pane-block-4 { 
+    	margin-top: 0;
+    	border: red 1px solid;
 	}
 
 	.pane-title {
@@ -203,6 +219,15 @@
 
 
 @include breakpoint($tab) {
+
+	div.straplineHolder {
+
+		h1.strapline {
+			padding-right: 0;
+			padding-left: 0;
+
+		}
+	}
 
 	/* .hp-box {
 		background-image: url("../../../images/img_frontpage/newquay-tab.jpg");

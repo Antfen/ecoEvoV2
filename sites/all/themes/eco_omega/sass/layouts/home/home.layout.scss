@@ -13,10 +13,27 @@
 
 }
 
+
 @include breakpoint($tab) {
+
+
+
 
 	.l-content {
 		@include grid-span(12, 1); //sets it to 12 columns wide, that starts with the 1st column
+
+	//layout for H1 held within the Home page tpl
+	div.straplineHolder {
+
+		@include clearfix;
+
+			h1.strapline {
+
+				@include grid-span(10, 2); //sets it to 8 columns wide, that starts with the 2nd column
+
+			}
+
+	}
 	
 
 	.panel-pane {

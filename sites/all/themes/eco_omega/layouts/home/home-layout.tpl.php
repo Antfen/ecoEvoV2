@@ -38,8 +38,18 @@
       </div>
     </div>
 
+    
+
     <div class="l-main">
+
       <div class="l-content" role="main">
+
+        <a id="welcome-to-eco"></a>
+
+        <div class="straplineHolder">
+          <h1 class="strapline">The Marine Migration Coastal Tracker</h1>
+        </div>
+
         <?php print render($page['highlighted']); ?>
         <?php print $breadcrumb; ?>
         <a id="main-content"></a>
