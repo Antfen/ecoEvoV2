@@ -9,10 +9,10 @@ regions[branding] = Branding
 regions[header] = Header
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
+regions[impact] = Impact
+regions[box] = Box
 regions[help] = Help
 regions[content] = Content
-regions[box] = Intro
-regions[box] = Box
 regions[footer] = Footer
 
 ; ========================================
@@ -26,3 +26,4 @@ stylesheets[all][] = css/layouts/home/home.layout.no-query.css
 ; ========================================
 ;scripts[] = js/jquery-2.1.3.min.js
 ;scripts[] = js/parallax.js
+scripts[] = js/functions.js

@@ -25,21 +25,25 @@
       <?php print render($page['navigation']); ?>
     </header>
 
-    <a id="top"></a>
 
-    <div class="hp-box">
-      <div class="hp-info-holder">
-       <div class="scroll-button">
-        <a href="#welcome-to-eco">
-          <span></span>
-          scroll
-        </a>
-       </div>
+    <div class="impact">
+
+      <a id="top"></a>
+
+      <div class="hp-box">
+        <div class="hp-info-holder">
+         <div class="scroll-button">
+          <a href="#welcome-to-eco">
+            <span></span>
+            scroll
+          </a>
+         </div>
+        </div>
       </div>
+
     </div>
 
     
-
     <div class="l-main">
 
       <div class="l-content" role="main">
@@ -83,18 +87,4 @@
   </div>
 </div>
 
-<script type="text/javascript">
 
-  jQuery(document).ready(function() {
-    function setHeight() {
-      windowHeight = jQuery(window).innerHeight();
-      jQuery('.hp-box').css('min-height', windowHeight);
-    };
-    setHeight();
-    
-    jQuery(window).resize(function() {
-      setHeight();
-    });
-  });
-
-</script>
