@@ -595,7 +595,7 @@ body {
       list-style: outside none none;
       text-align: left;
       margin: 0; }
-      /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+      /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
       .l-region--navigation .pane-system-main-menu ul.menu:after {
         content: "";
         display: table;
@@ -671,7 +671,7 @@ body {
   text-align: left;
   margin: 0;
   padding-left: 0; }
-  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
   .l-footer ul.menu:after {
     content: "";
     display: table;
@@ -746,7 +746,7 @@ body {
 /* line 2, ../../../sass/components/_store.scss */
 .l-region--store {
   position: relative; }
-  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
   .l-region--store:after {
     content: "";
     display: table;
@@ -947,7 +947,7 @@ body {
   width: 100%;
   background-image: url("../../../images/img_site_structure/hd-bg.png");
   z-index: 200; }
-  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
   .l-header:after {
     content: "";
     display: table;
@@ -981,7 +981,7 @@ body {
   width: 100%;
   padding: 60px 2.5%;
   background: #000; }
-  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
   .l-footer:after {
     content: "";
     display: table;
@@ -989,7 +989,7 @@ body {
   /* line 69, ../../../sass/eco-omega.styles.scss */
   .l-footer .social-networks {
     margin: 50px 0 0; }
-    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
     .l-footer .social-networks:after {
       content: "";
       display: table;
@@ -1018,7 +1018,7 @@ body {
     text-align: center;
     margin: 50px 0 0;
     clear: left; }
-    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
     .l-footer .copyright:after {
       content: "";
       display: table;
@@ -1098,7 +1098,7 @@ body.maintenance-page {
 .krumo-root img {
   width: auto; }
 
-/* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
 .l-main:after {
   content: "";
   display: table;

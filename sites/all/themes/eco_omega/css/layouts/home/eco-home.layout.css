@@ -691,7 +691,7 @@ body {
       list-style: outside none none;
       text-align: left;
       margin: 0; }
-      /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+      /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
       .l-region--navigation .pane-system-main-menu ul.menu:after {
         content: "";
         display: table;
@@ -767,7 +767,7 @@ body {
   text-align: left;
   margin: 0;
   padding-left: 0; }
-  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
   .l-footer ul.menu:after {
     content: "";
     display: table;
@@ -905,7 +905,7 @@ body {
 /* line 2, ../../../sass/components/_store.scss */
 .l-region--store {
   position: relative; }
-  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
   .l-region--store:after {
     content: "";
     display: table;
@@ -1162,7 +1162,7 @@ body {
   width: 100%;
   background-image: url("../../../images/img_site_structure/hd-bg.png");
   z-index: 200; }
-  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
   .l-header:after {
     content: "";
     display: table;
@@ -1196,7 +1196,7 @@ body {
   width: 100%;
   padding: 60px 2.5%;
   background: #000; }
-  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
   .l-footer:after {
     content: "";
     display: table;
@@ -1204,7 +1204,7 @@ body {
   /* line 69, ../../../sass/eco-omega.styles.scss */
   .l-footer .social-networks {
     margin: 50px 0 0; }
-    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
     .l-footer .social-networks:after {
       content: "";
       display: table;
@@ -1233,7 +1233,7 @@ body {
     text-align: center;
     margin: 50px 0 0;
     clear: left; }
-    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551@global/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
+    /* line 13, ../../../../../../../../../../../Users/anthonyfenwick/.rvm/gems/ruby-1.9.3-p551/gems/toolkit-2.7.0/stylesheets/toolkit/_clearfix.scss */
     .l-footer .copyright:after {
       content: "";
       display: table;
@@ -1344,7 +1344,8 @@ body.maintenance-page {
   padding-right: 0;
   padding-left: 0; }
 
-/* line 20, ../../../sass/layouts/home/eco-home.layout.scss */
+/*test comment*/
+/* line 21, ../../../sass/layouts/home/eco-home.layout.scss */
 .hp-box {
   width: auto;
   width: 100%;
@@ -1357,7 +1358,7 @@ body.maintenance-page {
   position: relative;
   background-image: url("../../../images/img_frontpage/newquay-tab.jpg"); }
 
-/* line 33, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 34, ../../../sass/layouts/home/eco-home.layout.scss */
 .hp-info-holder {
   position: absolute;
   bottom: 0;
@@ -1365,20 +1366,20 @@ body.maintenance-page {
   width: 100%;
   padding-bottom: 10px; }
 
-/* line 41, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 42, ../../../sass/layouts/home/eco-home.layout.scss */
 .hp-info-holder-alt {
   position: relative;
   background-color: #000;
   height: 70px; }
 
-/* line 46, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 47, ../../../sass/layouts/home/eco-home.layout.scss */
 .hp-scroll {
   position: relative; }
 
-/* line 50, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 51, ../../../sass/layouts/home/eco-home.layout.scss */
 .scroll-button {
   position: relative; }
-  /* line 53, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 54, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button a {
     position: absolute;
     bottom: 20px;
@@ -1393,10 +1394,10 @@ body.maintenance-page {
     letter-spacing: .1em;
     text-decoration: none;
     transition: opacity .3s; }
-  /* line 69, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 70, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button a:hover {
     color: #999; }
-  /* line 73, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 74, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button a span {
     position: absolute;
     top: 10px;
@@ -1409,15 +1410,15 @@ body.maintenance-page {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box; }
-  /* line 87, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 88, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button a:hover span {
     border-left: 1px solid #999;
     border-bottom: 1px solid #999; }
 
-/* line 95, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 96, ../../../sass/layouts/home/eco-home.layout.scss */
 .scroll-button-up {
   position: relative; }
-  /* line 98, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 99, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button-up a {
     position: absolute;
     top: 50px;
@@ -1432,10 +1433,10 @@ body.maintenance-page {
     letter-spacing: .1em;
     text-decoration: none;
     transition: opacity .3s; }
-  /* line 114, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 115, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button-up a:hover {
     color: #999; }
-  /* line 118, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 119, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button-up a span {
     position: absolute;
     top: -25px;
@@ -1448,61 +1449,61 @@ body.maintenance-page {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box; }
-  /* line 132, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 133, ../../../sass/layouts/home/eco-home.layout.scss */
   .scroll-button-up a:hover span {
     border-right: 1px solid #999;
     border-top: 1px solid #999; }
 
-/* line 141, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 142, ../../../sass/layouts/home/eco-home.layout.scss */
 div.straplineHolder h1.strapline {
   padding-right: 5%;
   padding-left: 5%;
   padding-top: 80px;
   margin: 0; }
 
-/* line 153, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 154, ../../../sass/layouts/home/eco-home.layout.scss */
 .pod-panel .node__title {
   margin-top: 0;
   margin-bottom: 0; }
-/* line 158, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 159, ../../../sass/layouts/home/eco-home.layout.scss */
 .pod-panel img {
   display: block; }
 
-/* line 166, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 167, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .panel-pane {
   background-color: #fff;
   margin-top: 50px; }
-/* line 171, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 172, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .panel-pane.pane-block-4 {
   margin-top: 0;
   border: red 1px solid; }
-/* line 176, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 177, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .pane-title {
   color: #000;
   padding-right: 5%;
   padding-left: 5%; }
-/* line 182, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 183, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .field--name-field-text-introduction-pod, .l-content .field--name-field-text-main-pod {
   padding-right: 5%;
   padding-left: 5%; }
-/* line 187, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 188, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .field--name-field-image-pod {
   max-width: 90%;
   margin: 0 auto; }
-/* line 192, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 193, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .field--name-field-text-introduction-pod {
   padding-bottom: 50px; }
-/* line 196, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 197, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .pod-no1 .field--name-field-text-introduction-pod {
   padding-bottom: 0; }
-/* line 202, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 203, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .media-youtube-video, .l-content .media-vimeo-video {
   height: 0;
   width: 100%;
   padding-bottom: 56.25%;
   overflow: hidden;
   position: relative; }
-/* line 210, ../../../sass/layouts/home/eco-home.layout.scss */
+/* line 211, ../../../sass/layouts/home/eco-home.layout.scss */
 .l-content .media-youtube-1 iframe, .l-content .media-vimeo-1 iframe {
   width: 100%;
   height: 100%;
@@ -1511,7 +1512,7 @@ div.straplineHolder h1.strapline {
   left: 0; }
 
 @media (min-width: 768px) {
-  /* line 226, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 227, ../../../sass/layouts/home/eco-home.layout.scss */
   div.straplineHolder h1.strapline {
     padding-right: 0;
     padding-left: 0; }
@@ -1519,18 +1520,18 @@ div.straplineHolder h1.strapline {
   /* .hp-box {
   	background-image: url("../../../images/img_frontpage/newquay-tab.jpg");
   } */
-  /* line 237, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 238, ../../../sass/layouts/home/eco-home.layout.scss */
   .l-content {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-    /* line 240, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 241, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pane-title, .l-content .field--name-field-text-introduction-pod, .l-content .field--name-field-text-main-pod {
       padding-right: 0;
       padding-left: 0; }
-    /* line 247, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 248, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no1 .field--name-field-text-introduction-pod {
       width: 40.67797%;
       float: left;
@@ -1538,48 +1539,48 @@ div.straplineHolder h1.strapline {
       margin-left: 8.47458%;
       clear: none;
       padding-bottom: 0; }
-    /* line 253, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 254, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no1 .field--name-field-text-main-pod {
       width: 40.67797%;
       float: left;
       margin-right: -100%;
       margin-left: 50.84746%;
       clear: none; }
-    /* line 262, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 263, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no2 .field--name-field-text-introduction-pod {
       width: 40.67797%;
       float: left;
       margin-right: -100%;
       margin-left: 50.84746%;
       clear: none; }
-    /* line 267, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 268, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no2 .field--name-field-image-pod {
       width: 40.67797%;
       float: left;
       margin-right: -100%;
       margin-left: 8.47458%;
       clear: none; }
-    /* line 272, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 273, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no2 .field--name-field-text-introduction-pod {
       padding-bottom: 0; }
-    /* line 280, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 281, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no3 .field--name-field-text-introduction-pod {
       width: 40.67797%;
       float: left;
       margin-right: -100%;
       margin-left: 8.47458%;
       clear: none; }
-    /* line 285, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 286, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no3 .field--name-field-image-pod {
       width: 40.67797%;
       float: left;
       margin-right: -100%;
       margin-left: 50.84746%;
       clear: none; }
-    /* line 290, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 291, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .pod-no3 .field--name-field-text-introduction-pod {
       padding-bottom: 0; }
-    /* line 296, ../../../sass/layouts/home/eco-home.layout.scss */
+    /* line 297, ../../../sass/layouts/home/eco-home.layout.scss */
     .l-content .video {
       			/* .field--name-field-image-pod {
       				@include grid-span(5, 7); //sets it to 4 columns wide, that starts with the 2nd column
@@ -1589,7 +1590,7 @@ div.straplineHolder h1.strapline {
       			.field--name-field-text-introduction-pod {
       				padding-bottom: 0;
       			} */ }
-      /* line 298, ../../../sass/layouts/home/eco-home.layout.scss */
+      /* line 299, ../../../sass/layouts/home/eco-home.layout.scss */
       .l-content .video .node__content {
         width: 83.05085%;
         float: left;
@@ -1597,15 +1598,15 @@ div.straplineHolder h1.strapline {
         margin-left: 8.47458%;
         clear: none; }
 
-  /* line 317, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 318, ../../../sass/layouts/home/eco-home.layout.scss */
   .l-content .panel-pane .field--name-field-text-introduction-pod {
     clear: left; } }
 @media (min-width: 1024px) {
-  /* line 327, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 328, ../../../sass/layouts/home/eco-home.layout.scss */
   .hp-box {
     background-image: url("../../../images/img_frontpage/newquay-tabwide.jpg"); } }
 @media (min-width: 1120px) {
-  /* line 337, ../../../sass/layouts/home/eco-home.layout.scss */
+  /* line 338, ../../../sass/layouts/home/eco-home.layout.scss */
   .hp-box {
     background-image: url("../../../images/img_frontpage/newquay-desk.jpg"); } }
 
