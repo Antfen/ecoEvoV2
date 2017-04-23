@@ -144,7 +144,7 @@ div.straplineHolder {
 		padding-left: 5%;
 		padding-top: 80px;
 		margin: 0;
-
+		text-align: center;
 	}
 }
 
@@ -169,6 +169,11 @@ div.straplineHolder {
 		margin-top: 50px;
 	}
 
+	.video {
+			margin-top: 75px;
+			//padding-bottom: 50px;
+	}
+
 	.panel-pane.pane-block-4 { 
     	margin-top: 0;
     	border: red 1px solid;
@@ -177,10 +182,17 @@ div.straplineHolder {
 	.pane-title {
 		color: $h2Colour;
 		padding-right: 5%;
-		padding-left: 5%;	
+		padding-left: 5%;
+		text-align: center;	
 	}
 
 	.field--name-field-text-introduction-pod, .field--name-field-text-main-pod {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+
+	//Media Youtube
+	.field--name-field-basic-description, .field--name-field-video-full-description {
 		padding-right: 5%;
 		padding-left: 5%;
 	}
@@ -227,7 +239,6 @@ div.straplineHolder {
 		h1.strapline {
 			padding-right: 0;
 			padding-left: 0;
-
 		}
 	}
 
@@ -239,6 +250,12 @@ div.straplineHolder {
 		@include grid-span(12, 1);
 
 		.pane-title, .field--name-field-text-introduction-pod, .field--name-field-text-main-pod {//We need to reset after coming from mobile!
+			padding-right: 0;
+			padding-left: 0;
+		}
+
+		//Media Youtube
+		.field--name-field-basic-description, .field--name-field-video-full-description {
 			padding-right: 0;
 			padding-left: 0;
 		}
@@ -294,29 +311,17 @@ div.straplineHolder {
 
 		}
 
-		.video { //Lets create a panel-pane secific class to control the assets within the pod content type
-
-			.node__content {
-				@include grid-span(10, 2); //sets it to 10 columns wide, that starts with the 2nd column
-				
-			}
-
-			/* .field--name-field-image-pod {
-				@include grid-span(5, 7); //sets it to 4 columns wide, that starts with the 2nd column
-				
-			}
-
-			.field--name-field-text-introduction-pod {
-				padding-bottom: 0;
-			} */
-
-		}
+		
 
 	}
 
 	//Settings for the Pod content type
 	.l-content .panel-pane .field--name-field-text-introduction-pod {
 	clear: left;	
+	}
+
+	.video {
+			padding-bottom: 50px;
 	}
 
 
@@ -327,6 +332,10 @@ div.straplineHolder {
 
 	.hp-box {
 	background-image: url("../../../images/img_frontpage/newquay-tabwide.jpg");
+	}
+
+	div.straplineHolder h1.strapline, .l-content .pane-title {
+	text-align: left;	
 	}
 
 
