@@ -69,11 +69,11 @@
 			}
 
 			.field--name-field-media {
-				@include grid-span(5, 2); //sets it to 5 columns wide, that starts with the 1st column
+				@include grid-span(6, 2); //sets it to 5 columns wide, that starts with the 1st column
 			}
 
 			.field--name-field-video-full-description {
-				@include grid-span(5, 7); //sets it to 5 columns wide, that starts with the 7th column
+				@include grid-span(4, 8); //sets it to 5 columns wide, that starts with the 7th column
 
 			}
 
