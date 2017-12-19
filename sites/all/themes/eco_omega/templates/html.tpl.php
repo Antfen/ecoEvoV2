@@ -49,7 +49,7 @@
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
-  <meta name="description" content="EcoRhythm is a digital agency pitched at individuals, start-ups to the more established. Using open source technologies to achieve requirements with a focus on Drupal development." />
+  <meta name="description" content="EcoRhythm The Marine Migration Coastal Tracker is a web based application for the tracking and recording of the movements of animals. This application is pitched at Research Groups, Universities, Environmental Tour Groups and Environmentally Concerned Individuals." />
   <?php print $styles; ?>
   <?php print $scripts; ?>
 </head>
