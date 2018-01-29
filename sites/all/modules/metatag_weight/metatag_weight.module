@@ -1,0 +1,33 @@
+<?php
+
+/**
+ *  Implements hook_page_alter().
+ */
+function metatag_weight_page_alter(&$page) {
+  if (module_exists('metatag')) {
+    $page['content']['metatags']['#pre_render'][] = 'metatag_weight_metatags_reorder';
+  }
+}
+
+/**
+ * Render API callback: Reorders metatags of different types.
+ *
+ * This function ensures that metatags set by path are in higher priority than
+ * others (views or panels).
+ *
+ * This function is assigned as a #pre_render callback in
+ * metatag_weight_page_alter().
+ */
+function metatag_weight_metatags_reorder($elements) {
+  $weight = 0;
+
+  foreach (element_children($elements) as $key) {
+    $elements[$key]['#weight'] = $weight++;
+  }
+
+  if (isset($elements['global'])) {
+    $elements['global']['#weight'] = $weight++;
+  }
+
+  return $elements;
+}
