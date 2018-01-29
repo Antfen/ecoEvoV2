@@ -49,7 +49,7 @@
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
-  <meta name="description" content="EcoRhythm The Marine Migration Coastal Tracker is a web based application for the tracking and recording of the movements of animals. This application is pitched at Research Groups, Universities, Environmental Tour Groups and Environmentally Concerned Individuals." />
+  <!-- <meta name="description" content="EcoRhythm The Marine Migration Coastal Tracker is a web based application for the tracking and recording of the movements of animals. This application is pitched at Research Groups, Universities, Environmental Tour Groups and Environmentally Concerned Individuals." /> -->
   <?php print $styles; ?>
   <?php print $scripts; ?>
 </head>
