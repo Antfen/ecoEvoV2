@@ -1,3 +1,6 @@
+
+<meta name="description" content="EcoRhythm is primarily designed to link people with a passion for the natural world by sharing information. With the thought; as you go about your normal activities or pursue your outdoor passions your observations of the natural world can be recorded and shared." />
+
 <div id="mm-page">
   <div class="l-page">
     <header class="l-header" role="banner">
