@@ -1,4 +1,4 @@
-
+//Mobile menu
 
 .pane-system-main-menu { //hides main menu in mobile ****
 	display: none;
@@ -35,7 +35,7 @@
 
 
 .l-region--navigation { //Main (top) navigation
-	//width: 80%;
+	width: 80%;
 	float: right;
 	position: relative;
 
@@ -221,18 +221,6 @@
 
 
 //mmenu begins here!!!
-
-
-
-.l-content {
-
-		@include breakpoint($tabwide) {
-
-			
-
-		}
-
-}
 
 //Mmenu styles for mobile button
 
