@@ -1,5 +1,91 @@
+//================================
+// TRIAL styles for CART
+//================================
 
-//Positioning of the Cart within the Shop Region 
+.pane-commerce-cart-cart {
+    position: relative;
+
+
+     .cart-contents { //set the main Cart container attributes
+        position: absolute;
+        top: 6px;
+        right: 40px;
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        margin:0;
+        //border: red 1px solid;
+        
+
+    //OK lets hide some objects we dont want to show in the CART. Hey these fields should be removed via the Cart View. We can do that later!!!
+
+                    //.views-field-quantity, // product qty
+                    .views-field-line-item-title, // desc
+                    .price, // price of item
+                    .line-item-quantity, // qty item              
+                    .line-item-total // total cost
+                        {
+                            display: none;
+                        }
+
+                    .line-item-summary-checkout {
+                            a {
+                                display:none;// hide checkout btn
+                           }
+                        }
+     
+
+        table.views-table {
+
+            width: 100%;
+
+                tr.odd {
+                    background-color: transparent;
+
+                    td.views-field-quantity {
+
+                        font-size: 12px;
+                        padding: 12px 0 0;
+                        text-align: center;
+                        color: #fff;
+                    }
+                }
+        }
+
+    //Cart btn
+
+     .line-item-summary-view-cart {
+
+                a {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                height: 32px;
+                width: 32px;
+                text-indent: -9999px;
+                text-decoration: none;
+                line-height: 0;
+                font-size: 0;
+                //border: 1px solid #fff;
+                //background: url(http://localhost/ecoEvo2/sites/default/files/shopping-bag.svg);
+                background-image: url(../../../images/icons/shopping-bag.png);
+
+                
+                }
+        }
+
+    }
+
+}
+
+//================================
+// TRIAL styles for CART end!!!
+//================================
+
+
+//Positioning of the Cart within the Shop Region.
+//NB these styles will be obselete if 'TRIAL styles for CART' are put into use!!!
 
 .cart-empty-page {
     font-size: 18px;

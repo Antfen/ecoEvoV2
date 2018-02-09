@@ -1,3 +1,11 @@
+
+
+.pane-system-main-menu { //hides main menu in mobile ****
+	display: none;
+}
+
+
+
 .mean-container .mean-bar {
 		float: none; //Stops horizontal scroll bars appearing on mobile in Chrome!
 		position: fixed;
@@ -27,7 +35,7 @@
 
 
 .l-region--navigation { //Main (top) navigation
-	width: 80%;
+	//width: 80%;
 	float: right;
 	position: relative;
 
@@ -301,16 +309,18 @@
 
 @include breakpoint($tabwide) {
 
-	.pane-system-main-menu { //Show the main menu on Tablets Wide or greater
+	.pane-system-main-menu { //Show the main menu on Tablets Wide or greater ****
 	display: block;
+	//display: none
 	}
 
 	.mmenu-mobile-button { //Hide on Tablets Wide or greater
 		display: none;
 	}
 
-	#logo-mobile { //Hide on Tablets Wide or greater
+	#logo-mobile { //Hide on Tablets Wide or greater ****
 	    display: none;
+	    //display: block;
 
 	}			
 

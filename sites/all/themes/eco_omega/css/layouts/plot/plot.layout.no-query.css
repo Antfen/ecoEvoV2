@@ -388,37 +388,84 @@ body {
   color: #000;
   background-color: #666; }
 
-/* line 4, ../../../sass/components/_cart.scss */
+/* line 5, ../../../sass/components/_cart.scss */
+.pane-commerce-cart-cart {
+  position: relative; }
+  /* line 9, ../../../sass/components/_cart.scss */
+  .pane-commerce-cart-cart .cart-contents {
+    position: absolute;
+    top: 6px;
+    right: 40px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin: 0; }
+    /* line 23, ../../../sass/components/_cart.scss */
+    .pane-commerce-cart-cart .cart-contents .views-field-line-item-title,
+    .pane-commerce-cart-cart .cart-contents .price,
+    .pane-commerce-cart-cart .cart-contents .line-item-quantity,
+    .pane-commerce-cart-cart .cart-contents .line-item-total {
+      display: none; }
+    /* line 32, ../../../sass/components/_cart.scss */
+    .pane-commerce-cart-cart .cart-contents .line-item-summary-checkout a {
+      display: none; }
+    /* line 38, ../../../sass/components/_cart.scss */
+    .pane-commerce-cart-cart .cart-contents table.views-table {
+      width: 100%; }
+      /* line 42, ../../../sass/components/_cart.scss */
+      .pane-commerce-cart-cart .cart-contents table.views-table tr.odd {
+        background-color: transparent; }
+        /* line 45, ../../../sass/components/_cart.scss */
+        .pane-commerce-cart-cart .cart-contents table.views-table tr.odd td.views-field-quantity {
+          font-size: 12px;
+          padding: 12px 0 0;
+          text-align: center;
+          color: #fff; }
+    /* line 59, ../../../sass/components/_cart.scss */
+    .pane-commerce-cart-cart .cart-contents .line-item-summary-view-cart a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      height: 32px;
+      width: 32px;
+      text-indent: -9999px;
+      text-decoration: none;
+      line-height: 0;
+      font-size: 0;
+      background-image: url(../../../images/icons/shopping-bag.png); }
+
+/* line 90, ../../../sass/components/_cart.scss */
 .cart-empty-page {
   font-size: 18px;
   color: #000;
   padding-bottom: 50px; }
 
-/* line 13, ../../../sass/components/_cart.scss */
+/* line 99, ../../../sass/components/_cart.scss */
 .view-commerce-cart-form table {
   width: 100%; }
-  /* line 16, ../../../sass/components/_cart.scss */
+  /* line 102, ../../../sass/components/_cart.scss */
   .view-commerce-cart-form table th {
     padding: 20px 7px;
     background-color: transparent;
     color: #000; }
-  /* line 22, ../../../sass/components/_cart.scss */
+  /* line 108, ../../../sass/components/_cart.scss */
   .view-commerce-cart-form table tr.odd, .view-commerce-cart-form table tr.even {
     background-color: transparent; }
-  /* line 26, ../../../sass/components/_cart.scss */
+  /* line 112, ../../../sass/components/_cart.scss */
   .view-commerce-cart-form table td {
     padding: 20px 7px;
     border-top: 1px #000 solid;
     color: #000; }
-    /* line 31, ../../../sass/components/_cart.scss */
+    /* line 117, ../../../sass/components/_cart.scss */
     .view-commerce-cart-form table td a {
       color: #000;
       text-decoration: none; }
-    /* line 35, ../../../sass/components/_cart.scss */
+    /* line 121, ../../../sass/components/_cart.scss */
     .view-commerce-cart-form table td a:hover {
       color: #999;
       text-decoration: underline; }
-/* line 46, ../../../sass/components/_cart.scss */
+/* line 132, ../../../sass/components/_cart.scss */
 .view-commerce-cart-form .line-item-summary .line-item-total {
   color: #000; }
 
@@ -561,7 +608,11 @@ body {
   color: #000;
   margin-bottom: 40px; }
 
-/* line 1, ../../../sass/components/_navigation.scss */
+/* line 3, ../../../sass/components/_navigation.scss */
+.pane-system-main-menu {
+  display: none; }
+
+/* line 9, ../../../sass/components/_navigation.scss */
 .mean-container .mean-bar {
   float: none;
   position: fixed;
@@ -570,29 +621,28 @@ body {
   right: 0;
   width: 40%; }
 
-/* line 10, ../../../sass/components/_navigation.scss */
+/* line 18, ../../../sass/components/_navigation.scss */
 .mean-container .mean-nav {
   margin-top: 46px;
   background: none;
   background-image: url("../../../images/img_site_structure/hd-bg.png") !important; }
-  /* line 15, ../../../sass/components/_navigation.scss */
+  /* line 23, ../../../sass/components/_navigation.scss */
   .mean-container .mean-nav ul li:first-child a {
     border-top: 1px solid #444; }
-  /* line 19, ../../../sass/components/_navigation.scss */
+  /* line 27, ../../../sass/components/_navigation.scss */
   .mean-container .mean-nav ul li a {
     text-align: right;
     border-top: none;
     text-transform: lowercase; }
 
-/* line 29, ../../../sass/components/_navigation.scss */
+/* line 37, ../../../sass/components/_navigation.scss */
 .l-region--navigation {
-  width: 80%;
   float: right;
   position: relative; }
-  /* line 34, ../../../sass/components/_navigation.scss */
+  /* line 42, ../../../sass/components/_navigation.scss */
   .l-region--navigation .pane-system-main-menu {
     float: right; }
-    /* line 37, ../../../sass/components/_navigation.scss */
+    /* line 45, ../../../sass/components/_navigation.scss */
     .l-region--navigation .pane-system-main-menu ul.menu {
       border: 0px none;
       list-style: outside none none;
@@ -603,16 +653,16 @@ body {
         content: "";
         display: table;
         clear: both; }
-      /* line 44, ../../../sass/components/_navigation.scss */
+      /* line 52, ../../../sass/components/_navigation.scss */
       .l-region--navigation .pane-system-main-menu ul.menu li {
         text-align: left;
         display: block;
         float: left;
         margin-right: 30px; }
-      /* line 50, ../../../sass/components/_navigation.scss */
+      /* line 58, ../../../sass/components/_navigation.scss */
       .l-region--navigation .pane-system-main-menu ul.menu li:last-child {
         margin-right: 0px; }
-      /* line 54, ../../../sass/components/_navigation.scss */
+      /* line 62, ../../../sass/components/_navigation.scss */
       .l-region--navigation .pane-system-main-menu ul.menu li a {
         display: block;
         text-transform: lowercase;
@@ -620,7 +670,7 @@ body {
         font-size: 18px;
         color: #FFF;
         padding: 14px 0; }
-      /* line 62, ../../../sass/components/_navigation.scss */
+      /* line 70, ../../../sass/components/_navigation.scss */
       .l-region--navigation .pane-system-main-menu ul.menu li a:hover {
         display: block;
         text-transform: lowercase;
@@ -628,7 +678,7 @@ body {
         font-size: 18px;
         color: #999; }
 
-/* line 77, ../../../sass/components/_navigation.scss */
+/* line 85, ../../../sass/components/_navigation.scss */
 .l-region--sidebar-first ul.menu {
   border: 0px none;
   list-style: outside none none;
@@ -637,37 +687,37 @@ body {
   padding-right: 0;
   padding-top: 1%;
   padding-bottom: 1%; }
-  /* line 86, ../../../sass/components/_navigation.scss */
+  /* line 94, ../../../sass/components/_navigation.scss */
   .l-region--sidebar-first ul.menu li {
     text-align: center;
     list-style: outside none none;
     background: #333;
     margin: 1%; }
-  /* line 93, ../../../sass/components/_navigation.scss */
+  /* line 101, ../../../sass/components/_navigation.scss */
   .l-region--sidebar-first ul.menu li:first-child {
     margin-top: 0; }
-  /* line 97, ../../../sass/components/_navigation.scss */
+  /* line 105, ../../../sass/components/_navigation.scss */
   .l-region--sidebar-first ul.menu li:last-child {
     margin-bottom: 0; }
-  /* line 101, ../../../sass/components/_navigation.scss */
+  /* line 109, ../../../sass/components/_navigation.scss */
   .l-region--sidebar-first ul.menu li a {
     display: block;
     text-decoration: none;
     font-size: 18px;
     color: #fff;
     padding: 7px 2%; }
-  /* line 110, ../../../sass/components/_navigation.scss */
+  /* line 118, ../../../sass/components/_navigation.scss */
   .l-region--sidebar-first ul.menu li a:hover {
     color: #999; }
 
-/* line 119, ../../../sass/components/_navigation.scss */
+/* line 127, ../../../sass/components/_navigation.scss */
 .l-footer h2.pane-title {
   display: block;
   color: #fff;
   font-size: 20px;
   border-bottom: none 0;
   text-align: center; }
-/* line 127, ../../../sass/components/_navigation.scss */
+/* line 135, ../../../sass/components/_navigation.scss */
 .l-footer ul.menu {
   border: 0px none;
   list-style: outside none none;
@@ -679,14 +729,14 @@ body {
     content: "";
     display: table;
     clear: both; }
-  /* line 136, ../../../sass/components/_navigation.scss */
+  /* line 144, ../../../sass/components/_navigation.scss */
   .l-footer ul.menu li {
     text-align: center;
     list-style: outside none none;
     background: #333;
     margin-top: 1%;
     margin-bottom: 1%; }
-  /* line 144, ../../../sass/components/_navigation.scss */
+  /* line 152, ../../../sass/components/_navigation.scss */
   .l-footer ul.menu li a {
     display: block;
     text-decoration: none;
@@ -694,18 +744,18 @@ body {
     color: #fff;
     padding-top: 12px;
     padding-bottom: 12px; }
-  /* line 153, ../../../sass/components/_navigation.scss */
+  /* line 161, ../../../sass/components/_navigation.scss */
   .l-footer ul.menu li a:hover {
     color: #999; }
 
-/* line 232, ../../../sass/components/_navigation.scss */
+/* line 240, ../../../sass/components/_navigation.scss */
 .pane-system-main-menu {
   display: none; }
 
-/* line 236, ../../../sass/components/_navigation.scss */
+/* line 244, ../../../sass/components/_navigation.scss */
 .mmenu-mobile-button {
   position: relative; }
-  /* line 241, ../../../sass/components/_navigation.scss */
+  /* line 249, ../../../sass/components/_navigation.scss */
   .mmenu-mobile-button #logo-mobile {
     width: 32px;
     height: 32px;
@@ -716,7 +766,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     font-size: 1px; }
-    /* line 252, ../../../sass/components/_navigation.scss */
+    /* line 260, ../../../sass/components/_navigation.scss */
     .mmenu-mobile-button #logo-mobile span.mb-bar {
       display: block;
       background-color: #fff;
@@ -724,25 +774,25 @@ body {
       width: auto;
       margin-top: 5px; }
 
-/* line 268, ../../../sass/components/_navigation.scss */
+/* line 276, ../../../sass/components/_navigation.scss */
 #mmenu_right.mmenu-nav.mm-basic {
   background: #000; }
-  /* line 272, ../../../sass/components/_navigation.scss */
+  /* line 280, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic li a {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px; }
-  /* line 279, ../../../sass/components/_navigation.scss */
+  /* line 287, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic .mm-list li {
     border-top: none;
     border-bottom: none; }
-  /* line 285, ../../../sass/components/_navigation.scss */
+  /* line 293, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic a.mmenu-mm-list {
     color: #fff; }
-  /* line 289, ../../../sass/components/_navigation.scss */
+  /* line 297, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic a.mmenu-mm-list :hover {
     color: #666; }
-  /* line 294, ../../../sass/components/_navigation.scss */
+  /* line 302, ../../../sass/components/_navigation.scss */
   #mmenu_right.mmenu-nav.mm-basic .mmenu-mm-list i {
     display: none; }
 

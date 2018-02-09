@@ -71,8 +71,8 @@
 
 @include breakpoint($tab) {
     .l-region--store {
-        position: fixed;
-        z-index: 1;
+        /* position: fixed;
+        z-index: 1; */
 
         .cart-contents {
             float: right;
