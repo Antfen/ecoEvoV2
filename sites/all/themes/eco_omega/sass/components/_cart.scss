@@ -20,8 +20,14 @@
 
     //OK lets hide some objects we dont want to show in the CART/TROLLY icon. Hey these fields should be removed via the Cart View. We can do that later!!!
 
-            //.views-field-quantity, // product qty. NB: this item shows the qty of each item within the Trolly! So there will be a line qty for each Item.
-            // I would like a total figure 'only' of all Items to be purchased to show within the Cart icon!!!
+            //(1) .views-field-quantity, // product qty. NB: this item shows the qty of each item within the Trolly! So there will be a line qty for each Item.
+            //(2) I would like a total figure 'only' of all Items to be purchased to show within the Cart icon!!!
+            //(3) The total number of Items in the Trolly are actually displayed at:
+            //(4) /admin/structure/menu/manage/navigation
+
+
+
+
             .views-field-line-item-title, // desc
             .price, // price of item
             .line-item-quantity, // qty item. 
@@ -91,6 +97,58 @@
 // TRIAL styles for CART end!!!
 //================================
 
+//================================
+// TRIAL styles for DC Ajax Add Cart
+// These styles are concerned with styling the 'DC Ajax Add Cart' TEASER within the Header Region
+// The great THING about this Module is that a 'qty total' is displayed by default... NICE!!!
+//================================
+
+.ajax-shopping-cart-teaser {
+        float: right;
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        margin: 8px 50px 0 0;
+        background-image: url(../../../images/icons/shopping-bag.png);
+        //border: red 1px solid;
+
+            .cart-product-total {// We only want to display the items qty
+                display: none;
+            }
+
+            .cart-image {// We are using our own icon!
+                display: none;
+            }
+
+            .cart-product-quantity {
+                margin-right: 0;
+                padding-bottom: 0;
+                width: 32px;
+                height: 32px;
+                text-align: center;
+                
+
+                    a.quantity {
+                        color: #fff;
+                        text-decoration: none;
+                        display: block;
+                        width: 32px;
+                        height: 32px;
+                        padding: 10px 0 0;
+                    }
+
+                    p.empty-cart {
+                        color: #fff;
+                        padding: 12px 0 0;
+                        margin: 0;
+                    }
+    }
+
+}
+
+//================================
+// TRIAL styles for DC Ajax Add Cart end!!!
+//================================
 
 //Positioning of the Cart within the Shop Region.
 //NB these styles will be obselete if 'TRIAL styles for CART' are put into use!!!
@@ -167,6 +225,12 @@
         .cart-contents { 
 
             margin: 5px 0 0;// Reduce the right margin to work in with the expanded Main Menu
+
+        }
+
+        .ajax-shopping-cart-teaser {
+            
+            margin: 8px 0 0;// Reduce the right margin to work in with the expanded Main Menu
 
         }
 
