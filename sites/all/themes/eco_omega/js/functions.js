@@ -19,3 +19,5 @@
 
   //==============================
 
+  // Let's try and rename the panel page titles using jQuery 
+
